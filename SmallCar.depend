@@ -1,0 +1,5230 @@
+# depslib dependency file v1.0
+1657632135 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\smallcar\src\startup_stm32f401xc.s
+
+1657633864 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\smallcar\src\main.c
+	"main.h"
+
+1657633858 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\smallcar\inc\main.h
+	"stm32f4xx.h"
+	"FilConfig.h"
+
+1657632135 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\smallcar\inc\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1657632135 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\smallcar\cmsis\core_cm4.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+	"mpu_armv7.h"
+
+1657632135 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\smallcar\cmsis\cmsis_version.h
+
+1657632135 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\smallcar\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1657632135 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\smallcar\cmsis\cmsis_gcc.h
+
+1657632135 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\smallcar\cmsis\mpu_armv7.h
+
+1657632135 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\smallcar\inc\system_stm32f4xx.h
+
+1657633907 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\smallcar\fil_lib\filconfig.h
+	<main.h>
+	"RCR_DevBoard_3.h"
+	"FreeRTOS.h"
+	"FreeRTOSConfig.h"
+	"task.h"
+	"queue.h"
+	"semphr.h"
+	"croutine.h"
+	"timers.h"
+	"event_groups.h"
+	"stream_buffer.h"
+	"robot_tasks.h"
+	"RCC.h"
+	"GPIO.h"
+	"TIM.h"
+	"I2C.h"
+	"USART.h"
+
+1657689650 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\smallcar\rcr\rcr_devboard_3.h
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\smallcar\fil_lib\gpio.h
+
+1657633585 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\smallcar\fil_lib\tim.h
+	"FilConfig.h"
+
+1655443229 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\smallcar\fil_lib\usart.h
+	<FilConfig.h>
+
+1657632135 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\smallcar\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1657633617 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\smallcar\ebmon.c
+	"ebmon.h"
+
+1657633617 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\smallcar\ebmon.h
+	<stdint.h>
+	<stdio.h>
+
+1658119829 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\src\startup_stm32f401xc.s
+
+1660646053 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\src\main.c
+	"main.h"
+
+1660644050 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\inc\main.h
+	"stm32f4xx.h"
+	"FilConfig.h"
+	"fonts.h"
+	"images.h"
+	"ssd1306.h"
+	"ssd1306_i2c.h"
+	"mpu9250.h"
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\inc\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\cmsis\core_cm4.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+	"mpu_armv7.h"
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\cmsis\cmsis_version.h
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\cmsis\cmsis_gcc.h
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\cmsis\mpu_armv7.h
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\inc\system_stm32f4xx.h
+
+1660551369 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\filconfig.h
+	"main.h"
+	<stdbool.h>
+	"BoardSelection.h"
+	"FreeRTOS.h"
+	"FreeRTOSConfig.h"
+	"task.h"
+	"queue.h"
+	"semphr.h"
+	"croutine.h"
+	"timers.h"
+	"event_groups.h"
+	"stream_buffer.h"
+	"Robot_tasks.h"
+	"RCC.h"
+	"GPIO.h"
+	"TIM.h"
+	"USART.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+	"ADC.h"
+	"I2C.h"
+	"EXTI.h"
+	"Matrix.h"
+	"Regulators.h"
+	"KINEMATICS.h"
+
+1659958962 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\rcr\devboard#3\rcr_devboard_3.h
+
+1660129758 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\rcc.h
+	"FilConfig.h"
+
+1660125777 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\gpio.h
+	"FilConfig.h"
+
+1660195800 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\tim.h
+	"FilConfig.h"
+
+1660126171 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\usart.h
+	"FilConfig.h"
+
+1658119829 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1658119829 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\ebmon.c
+	"ebmon.h"
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\ebmon.h
+	<stdint.h>
+	<stdio.h>
+
+1660128869 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\rcc.c
+	"RCC.h"
+
+1660640943 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\rcr\devboard#3\rcr_devboard_3_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_3.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1658985435 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\interrupts.c
+	"FilConfig.h"
+
+1660551786 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\tim.c
+	"TIM.h"
+
+1660126141 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\usart.c
+	"USART.h"
+
+1660135056 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\dma.h
+	"FilConfig.h"
+
+1660135097 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\dma_fifobuffers.h
+	"FilConfig.h"
+
+1660135895 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\adc.h
+	"FilConfig.h"
+
+1658119829 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\dma.c
+	"stm32f4xx.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+
+1660135122 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\exti.h
+	"FilConfig.h"
+
+1659592353 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\rcr\rcr_boardselection.h
+	"RCR_DevBoard_1.h"
+	"RCR_DevBoard_1_Setup.h"
+	"RCR_DevBoard_2.h"
+	"RCR_DevBoard_2_Setup.h"
+	"RCR_DevBoard_3_Setup.h"
+
+1659350171 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\exti.c
+	"EXTI.h"
+
+1658119829 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\src\dma.c
+	"stm32f4xx.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\inc\dma.h
+	"FilConfig.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\freertos.h
+	<stddef.h>
+	<stdint.h>
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+	<reent.h>
+
+1659438008 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\freertosconfig.h
+	"stm32f4xx.h"
+	<stdint.h>
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\projdefs.h
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\portmacro.h
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\mpu_wrappers.h
+
+1659339519 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\task.h
+	"list.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\list.h
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\queue.h
+	"task.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\semphr.h
+	"queue.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\croutine.h
+	"list.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\timers.h
+	"task.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\event_groups.h
+	"timers.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\stream_buffer.h
+
+1659339227 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\inc\robot_tasks.h
+	"FilConfig.h"
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\inc\rcc.h
+	"FilConfig.h"
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\inc\gpio.h
+	"FilConfig.h"
+
+1659093024 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\inc\tim.h
+	"FilConfig.h"
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\inc\usart.h
+	"FilConfig.h"
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\inc\dma_fifobuffers.h
+	"FilConfig.h"
+
+1658122683 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\inc\adc.h
+	"FilConfig.h"
+
+1658123304 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\inc\exti.h
+	"FilConfig.h"
+
+1659012090 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\src\exti.c
+	"EXTI.h"
+
+1659334670 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\src\matrix.c
+	"Matrix.h"
+
+1659334755 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\inc\matrix.h
+
+1658119829 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\src\rcc.c
+	"RCC.h"
+
+1659334914 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\src\regulators.c
+	"Regulators.h"
+
+1659334722 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\inc\regulators.h
+
+1659339123 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\src\robot_tasks.c
+	"Robot_tasks.h"
+
+1658119829 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\src\usart.c
+	"USART.h"
+
+1659340260 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\src\tim.c
+	"TIM.h"
+
+1660135604 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\robot_tasks.h
+	"FilConfig.h"
+
+1660135156 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\matrix.c
+	"Matrix.h"
+
+1660135148 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\matrix.h
+
+1660126181 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\regulators.c
+	"FilConfig.h"
+	"Regulators.h"
+
+1660126187 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\regulators.h
+	"RCR_DevBoard_3_Setup.h"
+
+1660135606 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\robot_tasks.c
+	"Robot_tasks.h"
+
+1660643635 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\i2c.h
+	"FilConfig.h"
+
+1660647424 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\i2c.c
+	"I2C.h"
+
+1655441001 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\croutine.c
+	"FreeRTOS.h"
+	"task.h"
+	"croutine.h"
+
+1655441001 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\event_groups.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"event_groups.h"
+
+1655441001 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\heap_2.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+
+1655441001 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\list.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"list.h"
+
+1659438208 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\port.c
+	"FreeRTOS.h"
+	"task.h"
+
+1655441001 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\queue.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"croutine.h"
+
+1655441001 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\stream_buffer.c
+	<stdint.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"stream_buffer.h"
+
+1660135248 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\tasks.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"stack_macros.h"
+	<stdio.h>
+	"tasks_test_access_functions.h"
+	"freertos_tasks_c_additions.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\stack_macros.h
+
+1655441001 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\freertos_lib\timers.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+
+1659445831 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\dev\dev.c
+
+1659528854 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\lv_conf.h
+	<stdint.h>
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\lvgl.h
+	"src/misc/lv_log.h"
+	"src/misc/lv_timer.h"
+	"src/misc/lv_math.h"
+	"src/misc/lv_mem.h"
+	"src/misc/lv_async.h"
+	"src/misc/lv_anim_timeline.h"
+	"src/misc/lv_printf.h"
+	"src/hal/lv_hal.h"
+	"src/core/lv_obj.h"
+	"src/core/lv_group.h"
+	"src/core/lv_indev.h"
+	"src/core/lv_refr.h"
+	"src/core/lv_disp.h"
+	"src/core/lv_theme.h"
+	"src/font/lv_font.h"
+	"src/font/lv_font_loader.h"
+	"src/font/lv_font_fmt_txt.h"
+	"src/widgets/animimg/lv_animimg.h"
+	"src/widgets/arc/lv_arc.h"
+	"src/widgets/bar/lv_bar.h"
+	"src/widgets/btn/lv_btn.h"
+	"src/widgets/btnmatrix/lv_btnmatrix.h"
+	"src/widgets/calendar/lv_calendar.h"
+	"src/widgets/canvas/lv_canvas.h"
+	"src/widgets/chart/lv_chart.h"
+	"src/widgets/checkbox/lv_checkbox.h"
+	"src/widgets/colorwheel/lv_colorwheel.h"
+	"src/widgets/dropdown/lv_dropdown.h"
+	"src/widgets/img/lv_img.h"
+	"src/widgets/imgbtn/lv_imgbtn.h"
+	"src/widgets/keyboard/lv_keyboard.h"
+	"src/widgets/label/lv_label.h"
+	"src/widgets/led/lv_led.h"
+	"src/widgets/line/lv_line.h"
+	"src/widgets/list/lv_list.h"
+	"src/widgets/menu/lv_menu.h"
+	"src/widgets/meter/lv_meter.h"
+	"src/widgets/msgbox/lv_msgbox.h"
+	"src/widgets/roller/lv_roller.h"
+	"src/widgets/slider/lv_slider.h"
+	"src/widgets/span/lv_span.h"
+	"src/widgets/spinbox/lv_spinbox.h"
+	"src/widgets/spinner/lv_spinner.h"
+	"src/widgets/switch/lv_switch.h"
+	"src/widgets/table/lv_table.h"
+	"src/widgets/tabview/lv_tabview.h"
+	"src/widgets/textarea/lv_textarea.h"
+	"src/widgets/tileview/lv_tileview.h"
+	"src/widgets/win/lv_win.h"
+	"src/others/snapshot/lv_snapshot.h"
+	"src/others/monkey/lv_monkey.h"
+	"src/others/gridnav/lv_gridnav.h"
+	"src/others/fragment/lv_fragment.h"
+	"src/others/imgfont/lv_imgfont.h"
+	"src/others/msg/lv_msg.h"
+	"src/others/ime/lv_ime_pinyin.h"
+	"src/libs/bmp/lv_bmp.h"
+	"src/libs/fsdrv/lv_fsdrv.h"
+	"src/libs/png/lv_png.h"
+	"src/libs/gif/lv_gif.h"
+	"src/libs/qrcode/lv_qrcode.h"
+	"src/libs/sjpg/lv_sjpg.h"
+	"src/libs/freetype/lv_freetype.h"
+	"src/libs/rlottie/lv_rlottie.h"
+	"src/libs/ffmpeg/lv_ffmpeg.h"
+	"src/layouts/flex/lv_flex.h"
+	"src/layouts/grid/lv_grid.h"
+	"src/draw/lv_draw.h"
+	"src/themes/lv_themes.h"
+	"src/lv_api_map.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_log.h
+	"../lv_conf_internal.h"
+	<stdint.h>
+	"lv_types.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\lv_conf_internal.h
+	<stdint.h>
+	"lv_conf_kconfig.h"
+	"lv_conf.h"
+	"../../lv_conf.h"
+	<stdint.h>
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\lv_conf_kconfig.h
+	"sdkconfig.h"
+	"esp_attr.h"
+	<nuttx/config.h>
+	<lv_rt_thread_conf.h>
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_types.h
+	<stdint.h>
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_timer.h
+	"../lv_conf_internal.h"
+	"../hal/lv_hal_tick.h"
+	<stdint.h>
+	<stdbool.h>
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\hal\lv_hal_tick.h
+	"../lv_conf_internal.h"
+	<stdint.h>
+	<stdbool.h>
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_math.h
+	"../lv_conf_internal.h"
+	<stdint.h>
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_mem.h
+	"../lv_conf_internal.h"
+	<stdint.h>
+	<stddef.h>
+	<string.h>
+	"lv_types.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_async.h
+	"lv_types.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_anim_timeline.h
+	"lv_anim.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_anim.h
+	"../lv_conf_internal.h"
+	<stdint.h>
+	<stdbool.h>
+	<stddef.h>
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_printf.h
+	<inttypes.h>
+	"../lv_conf_internal.h"
+	<stdarg.h>
+	<stddef.h>
+	"lv_types.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\hal\lv_hal.h
+	"lv_hal_disp.h"
+	"lv_hal_indev.h"
+	"lv_hal_tick.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\hal\lv_hal_disp.h
+	<stdint.h>
+	<stdbool.h>
+	"lv_hal.h"
+	"../draw/lv_draw.h"
+	"../misc/lv_color.h"
+	"../misc/lv_area.h"
+	"../misc/lv_ll.h"
+	"../misc/lv_timer.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw.h
+	"../lv_conf_internal.h"
+	"../misc/lv_style.h"
+	"../misc/lv_txt.h"
+	"lv_img_decoder.h"
+	"lv_img_cache.h"
+	"lv_draw_rect.h"
+	"lv_draw_label.h"
+	"lv_draw_img.h"
+	"lv_draw_line.h"
+	"lv_draw_triangle.h"
+	"lv_draw_arc.h"
+	"lv_draw_mask.h"
+	"lv_draw_transform.h"
+	"lv_draw_layer.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_style.h
+	<stdbool.h>
+	<stdint.h>
+	"../font/lv_font.h"
+	"lv_color.h"
+	"lv_area.h"
+	"lv_anim.h"
+	"lv_txt.h"
+	"lv_types.h"
+	"lv_assert.h"
+	"lv_bidi.h"
+	"lv_style_gen.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font.h
+	"../lv_conf_internal.h"
+	<stdint.h>
+	<stddef.h>
+	<stdbool.h>
+	"lv_symbol_def.h"
+	"../misc/lv_area.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_symbol_def.h
+	"../lv_conf_internal.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_area.h
+	"../lv_conf_internal.h"
+	<stdbool.h>
+	<stdint.h>
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_color.h
+	"../lv_conf_internal.h"
+	"lv_assert.h"
+	"lv_math.h"
+	"lv_types.h"
+	<stdint.h>
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_assert.h
+	"../lv_conf_internal.h"
+	"lv_log.h"
+	"lv_mem.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_txt.h
+	"../lv_conf_internal.h"
+	<stdbool.h>
+	<stdarg.h>
+	"lv_area.h"
+	"../font/lv_font.h"
+	"lv_printf.h"
+	"lv_types.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_bidi.h
+	"../lv_conf_internal.h"
+	<stdbool.h>
+	<stdint.h>
+	"lv_txt.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_style_gen.h
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_img_decoder.h
+	"../lv_conf_internal.h"
+	<stdint.h>
+	"lv_img_buf.h"
+	"../misc/lv_fs.h"
+	"../misc/lv_types.h"
+	"../misc/lv_area.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_img_buf.h
+	<stdbool.h>
+	"../misc/lv_color.h"
+	"../misc/lv_area.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_fs.h
+	"../lv_conf_internal.h"
+	<stdint.h>
+	<stdbool.h>
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_img_cache.h
+	"lv_img_decoder.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw_rect.h
+	"../lv_conf_internal.h"
+	"../misc/lv_color.h"
+	"../misc/lv_area.h"
+	"../misc/lv_style.h"
+	"sw/lv_draw_sw_gradient.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sw\lv_draw_sw_gradient.h
+	"lv_draw_sw_dither.h"
+	"../../misc/lv_color.h"
+	"../../misc/lv_style.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sw\lv_draw_sw_dither.h
+	"../../core/lv_obj_pos.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_obj_pos.h
+	"../misc/lv_area.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw_label.h
+	"../misc/lv_bidi.h"
+	"../misc/lv_txt.h"
+	"../misc/lv_color.h"
+	"../misc/lv_style.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw_img.h
+	"lv_img_decoder.h"
+	"lv_img_buf.h"
+	"../misc/lv_style.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw_line.h
+	"../lv_conf_internal.h"
+	"../misc/lv_color.h"
+	"../misc/lv_area.h"
+	"../misc/lv_style.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw_triangle.h
+	"lv_draw_rect.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw_arc.h
+	"../lv_conf_internal.h"
+	"../misc/lv_color.h"
+	"../misc/lv_area.h"
+	"../misc/lv_style.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw_mask.h
+	<stdbool.h>
+	"../misc/lv_area.h"
+	"../misc/lv_color.h"
+	"../misc/lv_math.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw_transform.h
+	"../lv_conf_internal.h"
+	"../misc/lv_area.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw_layer.h
+	"../lv_conf_internal.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_ll.h
+	<stdint.h>
+	<stddef.h>
+	<stdbool.h>
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\hal\lv_hal_indev.h
+	"../lv_conf_internal.h"
+	<stdbool.h>
+	<stdint.h>
+	"../misc/lv_area.h"
+	"../misc/lv_timer.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_obj.h
+	"../lv_conf_internal.h"
+	<stddef.h>
+	<stdbool.h>
+	"../misc/lv_style.h"
+	"../misc/lv_types.h"
+	"../misc/lv_area.h"
+	"../misc/lv_color.h"
+	"../misc/lv_assert.h"
+	"../hal/lv_hal.h"
+	"lv_obj_tree.h"
+	"lv_obj_pos.h"
+	"lv_obj_scroll.h"
+	"lv_obj_style.h"
+	"lv_obj_draw.h"
+	"lv_obj_class.h"
+	"lv_event.h"
+	"lv_group.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_obj_tree.h
+	<stddef.h>
+	<stdbool.h>
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_obj_scroll.h
+	"../misc/lv_area.h"
+	"../misc/lv_anim.h"
+	"../misc/lv_types.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_obj_style.h
+	<stdint.h>
+	<stdbool.h>
+	"../misc/lv_bidi.h"
+	"lv_obj_style_gen.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_obj_style_gen.h
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_obj_draw.h
+	"../draw/lv_draw.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_obj_class.h
+	<stdint.h>
+	<stdbool.h>
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_event.h
+	<stdbool.h>
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_group.h
+	"../lv_conf_internal.h"
+	<stdint.h>
+	<stdbool.h>
+	"../misc/lv_ll.h"
+	"../misc/lv_types.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_indev.h
+	"lv_obj.h"
+	"../hal/lv_hal_indev.h"
+	"lv_group.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_refr.h
+	"lv_obj.h"
+	<stdbool.h>
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_disp.h
+	"../hal/lv_hal.h"
+	"lv_obj.h"
+	"lv_theme.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_theme.h
+	"../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_loader.h
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_fmt_txt.h
+	<stdint.h>
+	<stddef.h>
+	<stdbool.h>
+	"lv_font.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\animimg\lv_animimg.h
+	"../img/lv_img.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\img\lv_img.h
+	"../../lv_conf_internal.h"
+	"../../core/lv_obj.h"
+	"../../misc/lv_fs.h"
+	"../../draw/lv_draw.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\arc\lv_arc.h
+	"../../lv_conf_internal.h"
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\bar\lv_bar.h
+	"../../lv_conf_internal.h"
+	"../../core/lv_obj.h"
+	"../../misc/lv_anim.h"
+	"../label/lv_label.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\label\lv_label.h
+	"../../lv_conf_internal.h"
+	<stdarg.h>
+	"../../core/lv_obj.h"
+	"../../font/lv_font.h"
+	"../../font/lv_symbol_def.h"
+	"../../misc/lv_txt.h"
+	"../../draw/lv_draw.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\btn\lv_btn.h
+	"../../lv_conf_internal.h"
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\btnmatrix\lv_btnmatrix.h
+	"../../lv_conf_internal.h"
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\calendar\lv_calendar.h
+	"../btnmatrix/lv_btnmatrix.h"
+	"lv_calendar_header_arrow.h"
+	"lv_calendar_header_dropdown.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\calendar\lv_calendar_header_arrow.h
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\calendar\lv_calendar_header_dropdown.h
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\canvas\lv_canvas.h
+	"../../lv_conf_internal.h"
+	"../img/lv_img.h"
+	"../../draw/lv_draw_img.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\chart\lv_chart.h
+	"../../lvgl.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\lvgl.h
+	"../lvgl.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\checkbox\lv_checkbox.h
+	"../../lv_conf_internal.h"
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\colorwheel\lv_colorwheel.h
+	"../../lvgl.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\dropdown\lv_dropdown.h
+	"../../lv_conf_internal.h"
+	"../label/lv_label.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\imgbtn\lv_imgbtn.h
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\keyboard\lv_keyboard.h
+	"../btnmatrix/lv_btnmatrix.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\led\lv_led.h
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\line\lv_line.h
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\list\lv_list.h
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\menu\lv_menu.h
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\meter\lv_meter.h
+	"../../../lvgl.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\msgbox\lv_msgbox.h
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\roller\lv_roller.h
+	"../../core/lv_obj.h"
+	"../label/lv_label.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\slider\lv_slider.h
+	"../bar/lv_bar.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\span\lv_span.h
+	"../../../lvgl.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\spinbox\lv_spinbox.h
+	"../textarea/lv_textarea.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\textarea\lv_textarea.h
+	"../label/lv_label.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\spinner\lv_spinner.h
+	"../../../lvgl.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\switch\lv_switch.h
+	"../../lv_conf_internal.h"
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\table\lv_table.h
+	"../label/lv_label.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\tabview\lv_tabview.h
+	"../../../lvgl.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\tileview\lv_tileview.h
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\widgets\win\lv_win.h
+	"../../../lvgl.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\others\snapshot\lv_snapshot.h
+	<stdint.h>
+	<stddef.h>
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\others\monkey\lv_monkey.h
+	"../../../lvgl.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\others\gridnav\lv_gridnav.h
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\others\fragment\lv_fragment.h
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\others\imgfont\lv_imgfont.h
+	"../../../lvgl.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\others\msg\lv_msg.h
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\others\ime\lv_ime_pinyin.h
+	"../../../lvgl.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\libs\bmp\lv_bmp.h
+	"../../lv_conf_internal.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\libs\fsdrv\lv_fsdrv.h
+	"../../lv_conf_internal.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\libs\png\lv_png.h
+	"../../lv_conf_internal.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\libs\gif\lv_gif.h
+	"../../../lvgl.h"
+	"gifdec.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\libs\gif\gifdec.h
+	<stdint.h>
+	"../../misc/lv_fs.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\libs\qrcode\lv_qrcode.h
+	"../../../lvgl.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\libs\sjpg\lv_sjpg.h
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\libs\freetype\lv_freetype.h
+	"../../../lvgl.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\libs\rlottie\lv_rlottie.h
+	"../../../lvgl.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\libs\ffmpeg\lv_ffmpeg.h
+	"../../../lvgl.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\layouts\flex\lv_flex.h
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\layouts\grid\lv_grid.h
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\themes\lv_themes.h
+	"default/lv_theme_default.h"
+	"mono/lv_theme_mono.h"
+	"basic/lv_theme_basic.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\themes\default\lv_theme_default.h
+	"../../core/lv_obj.h"
+	"../../core/lv_theme.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\themes\mono\lv_theme_mono.h
+	"../../core/lv_obj.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\themes\basic\lv_theme_basic.h
+	"../../core/lv_obj.h"
+	"../../core/lv_theme.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\lv_api_map.h
+	"../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_disp.c
+	"lv_disp.h"
+	"../misc/lv_math.h"
+	"../core/lv_refr.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_event.c
+	"lv_obj.h"
+	"lv_indev.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_group.c
+	<stddef.h>
+	"lv_group.h"
+	"../misc/lv_gc.h"
+	"../core/lv_obj.h"
+	"../core/lv_indev.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_gc.h
+	"../lv_conf_internal.h"
+	<stdint.h>
+	"lv_mem.h"
+	"lv_ll.h"
+	"lv_timer.h"
+	"lv_types.h"
+	"../draw/lv_img_cache.h"
+	"../draw/lv_draw_mask.h"
+	"../core/lv_obj_pos.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_indev.c
+	"lv_indev.h"
+	"lv_disp.h"
+	"lv_obj.h"
+	"lv_indev_scroll.h"
+	"lv_group.h"
+	"lv_refr.h"
+	"../hal/lv_hal_tick.h"
+	"../misc/lv_timer.h"
+	"../misc/lv_math.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_indev_scroll.h
+	"lv_obj.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_indev_scroll.c
+	"lv_indev.h"
+	"lv_indev_scroll.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_obj.c
+	"lv_obj.h"
+	"lv_indev.h"
+	"lv_refr.h"
+	"lv_group.h"
+	"lv_disp.h"
+	"lv_theme.h"
+	"../misc/lv_assert.h"
+	"../draw/lv_draw.h"
+	"../misc/lv_anim.h"
+	"../misc/lv_timer.h"
+	"../misc/lv_async.h"
+	"../misc/lv_fs.h"
+	"../misc/lv_gc.h"
+	"../misc/lv_math.h"
+	"../misc/lv_log.h"
+	"../libs/bmp/lv_bmp.h"
+	"../libs/ffmpeg/lv_ffmpeg.h"
+	"../libs/freetype/lv_freetype.h"
+	"../libs/fsdrv/lv_fsdrv.h"
+	"../libs/gif/lv_gif.h"
+	"../libs/png/lv_png.h"
+	"../libs/sjpg/lv_sjpg.h"
+	"../layouts/flex/lv_flex.h"
+	"../layouts/grid/lv_grid.h"
+	"../misc/lv_malloc_builtin.h"
+	"../hal/lv_hal.h"
+	<stdint.h>
+	<string.h>
+	"../draw/stm32_dma2d/lv_gpu_stm32_dma2d.h"
+	"../draw/swm341_dma2d/lv_gpu_swm341_dma2d.h"
+	"../draw/nxp/pxp/lv_gpu_nxp_pxp.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_malloc_builtin.h
+	"../lv_conf_internal.h"
+	"lv_mem.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\stm32_dma2d\lv_gpu_stm32_dma2d.h
+	"../../misc/lv_color.h"
+	"../../hal/lv_hal_disp.h"
+	"../sw/lv_draw_sw.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sw\lv_draw_sw.h
+	"lv_draw_sw_blend.h"
+	"../lv_draw.h"
+	"../../misc/lv_area.h"
+	"../../misc/lv_color.h"
+	"../../hal/lv_hal_disp.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sw\lv_draw_sw_blend.h
+	"../lv_draw_mask.h"
+	"../../misc/lv_color.h"
+	"../../misc/lv_area.h"
+	"../../misc/lv_style.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\swm341_dma2d\lv_gpu_swm341_dma2d.h
+	"../../misc/lv_color.h"
+	"../../hal/lv_hal_disp.h"
+	"../sw/lv_draw_sw.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\nxp\pxp\lv_gpu_nxp_pxp.h
+	"../../../lv_conf_internal.h"
+	"fsl_cache.h"
+	"fsl_pxp.h"
+	"../../../misc/lv_log.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_obj_class.c
+	"lv_obj.h"
+	"lv_theme.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_obj_draw.c
+	"lv_obj_draw.h"
+	"lv_obj.h"
+	"lv_disp.h"
+	"lv_indev.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_obj_pos.c
+	"lv_obj.h"
+	"lv_disp.h"
+	"lv_refr.h"
+	"../misc/lv_gc.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_obj_scroll.c
+	"lv_obj_scroll.h"
+	"lv_obj.h"
+	"lv_indev.h"
+	"lv_disp.h"
+	"lv_indev_scroll.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_obj_style.c
+	"lv_obj.h"
+	"lv_disp.h"
+	"../misc/lv_gc.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_obj_style_gen.c
+	"lv_obj.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_obj_tree.c
+	<stdlib.h>
+	"lv_obj.h"
+	"lv_indev.h"
+	"../misc/lv_anim.h"
+	"../misc/lv_gc.h"
+	"../misc/lv_async.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_refr.c
+	<stddef.h>
+	"lv_refr.h"
+	"lv_disp.h"
+	"../hal/lv_hal_tick.h"
+	"../hal/lv_hal_disp.h"
+	"../misc/lv_timer.h"
+	"../misc/lv_mem.h"
+	"../misc/lv_math.h"
+	"../misc/lv_gc.h"
+	"../draw/lv_draw.h"
+	"../font/lv_font_fmt_txt.h"
+	"../others/snapshot/lv_snapshot.h"
+	"../widgets/label/lv_label.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\core\lv_theme.c
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\arm2d\lv_gpu_arm2d.c
+	"lv_gpu_arm2d.h"
+	"../../core/lv_refr.h"
+	"arm_2d.h"
+	"__arm_2d_impl.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\arm2d\lv_gpu_arm2d.h
+	"../../misc/lv_color.h"
+	"../../hal/lv_hal_disp.h"
+	"../sw/lv_draw_sw.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw.c
+	"lv_draw.h"
+	"sw/lv_draw_sw.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw_arc.c
+	"lv_draw.h"
+	"lv_draw_arc.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw_img.c
+	"lv_draw_img.h"
+	"lv_img_cache.h"
+	"../hal/lv_hal_disp.h"
+	"../misc/lv_log.h"
+	"../core/lv_refr.h"
+	"../misc/lv_mem.h"
+	"../misc/lv_math.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw_label.c
+	"lv_draw.h"
+	"lv_draw_label.h"
+	"../misc/lv_math.h"
+	"../hal/lv_hal_disp.h"
+	"../core/lv_refr.h"
+	"../misc/lv_bidi.h"
+	"../misc/lv_assert.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw_layer.c
+	"lv_draw.h"
+	"lv_draw_arc.h"
+	"../core/lv_refr.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw_line.c
+	<stdbool.h>
+	"../core/lv_refr.h"
+	"../misc/lv_math.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw_mask.c
+	"lv_draw.h"
+	"../misc/lv_math.h"
+	"../misc/lv_log.h"
+	"../misc/lv_assert.h"
+	"../misc/lv_gc.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw_rect.c
+	"lv_draw.h"
+	"lv_draw_rect.h"
+	"../misc/lv_assert.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw_transform.c
+	"lv_draw.h"
+	"lv_draw_transform.h"
+	"../misc/lv_assert.h"
+	"../misc/lv_area.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_draw_triangle.c
+	"lv_draw.h"
+	"lv_draw_triangle.h"
+	"../misc/lv_math.h"
+	"../misc/lv_mem.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_img_buf.c
+	<stddef.h>
+	<string.h>
+	"lv_img_buf.h"
+	"lv_draw_img.h"
+	"../misc/lv_math.h"
+	"../misc/lv_log.h"
+	"../misc/lv_mem.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_img_cache.c
+	"../misc/lv_assert.h"
+	"lv_img_cache.h"
+	"lv_img_decoder.h"
+	"lv_draw_img.h"
+	"../hal/lv_hal_tick.h"
+	"../misc/lv_gc.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\lv_img_decoder.c
+	"lv_img_decoder.h"
+	"../misc/lv_assert.h"
+	"../draw/lv_draw_img.h"
+	"../misc/lv_ll.h"
+	"../misc/lv_gc.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\nxp\lv_gpu_nxp.c
+	"lv_gpu_nxp.h"
+	"pxp/lv_draw_pxp_blend.h"
+	"vglite/lv_draw_vglite_blend.h"
+	"vglite/lv_draw_vglite_rect.h"
+	"vglite/lv_draw_vglite_arc.h"
+	"../../core/lv_refr.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\nxp\lv_gpu_nxp.h
+	"../../lv_conf_internal.h"
+	"../sw/lv_draw_sw.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\nxp\pxp\lv_draw_pxp_blend.h
+	"../../../lv_conf_internal.h"
+	"lv_gpu_nxp_pxp.h"
+	"../../sw/lv_draw_sw.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\nxp\vglite\lv_draw_vglite_blend.h
+	"../../../lv_conf_internal.h"
+	"lv_gpu_nxp_vglite.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\nxp\vglite\lv_gpu_nxp_vglite.h
+	"../../../lv_conf_internal.h"
+	"vg_lite.h"
+	"../../sw/lv_draw_sw.h"
+	"../../../misc/lv_log.h"
+	"fsl_debug_console.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\nxp\vglite\lv_draw_vglite_rect.h
+	"../../../lv_conf_internal.h"
+	"lv_gpu_nxp_vglite.h"
+	"../../lv_draw_rect.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\nxp\vglite\lv_draw_vglite_arc.h
+	"../../../lv_conf_internal.h"
+	"lv_gpu_nxp_vglite.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\nxp\pxp\lv_draw_pxp_blend.c
+	"lv_draw_pxp_blend.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\nxp\pxp\lv_gpu_nxp_pxp.c
+	"lv_gpu_nxp_pxp.h"
+	"lv_gpu_nxp_pxp_osa.h"
+	"../../../core/lv_refr.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\nxp\pxp\lv_gpu_nxp_pxp_osa.h
+	"../../../lv_conf_internal.h"
+	"lv_gpu_nxp_pxp.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\nxp\pxp\lv_gpu_nxp_pxp_osa.c
+	"lv_gpu_nxp_pxp_osa.h"
+	"../../../misc/lv_log.h"
+	"fsl_pxp.h"
+	"FreeRTOS.h"
+	"semphr.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\nxp\vglite\lv_draw_vglite_arc.c
+	"lv_draw_vglite_arc.h"
+	"math.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\nxp\vglite\lv_draw_vglite_blend.c
+	"lv_draw_vglite_blend.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\nxp\vglite\lv_draw_vglite_rect.c
+	"lv_draw_vglite_rect.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\nxp\vglite\lv_gpu_nxp_vglite.c
+	"lv_gpu_nxp_vglite.h"
+	"../../../core/lv_refr.h"
+	"lv_draw_vglite_blend.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl.c
+	"../../lv_conf_internal.h"
+	"lv_draw_sdl.h"
+	"lv_draw_sdl_utils.h"
+	"lv_draw_sdl_texture_cache.h"
+	"lv_draw_sdl_layer.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl.h
+	"../../lv_conf_internal.h"
+	"../lv_draw.h"
+	"../../core/lv_disp.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_utils.h
+	"../../lv_conf_internal.h"
+	"lv_draw_sdl.h"
+	"../../misc/lv_color.h"
+	"../../misc/lv_area.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_texture_cache.h
+	"../../lv_conf_internal.h"
+	"lv_draw_sdl.h"
+	"lv_draw_sdl_priv.h"
+	"../../draw/lv_img_decoder.h"
+	"../../misc/lv_area.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_priv.h
+	"../../lv_conf_internal.h"
+	"../lv_draw.h"
+	"../../misc/lv_lru.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_lru.h
+	"../lv_conf_internal.h"
+	"lv_types.h"
+	<stdint.h>
+	<stddef.h>
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_layer.h
+	"lv_draw_sdl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_arc.c
+	"../../lv_conf_internal.h"
+	"lv_draw_sdl.h"
+	"lv_draw_sdl_utils.h"
+	"lv_draw_sdl_texture_cache.h"
+	"lv_draw_sdl_composite.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_composite.h
+	"../../lv_conf_internal.h"
+	"lv_draw_sdl.h"
+	"../../misc/lv_area.h"
+	"../../misc/lv_color.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_bg.c
+	"../../lv_conf_internal.h"
+	"../lv_draw_rect.h"
+	"../lv_draw_img.h"
+	"../lv_draw_label.h"
+	"../lv_draw_mask.h"
+	"../../core/lv_refr.h"
+	"lv_draw_sdl_utils.h"
+	"lv_draw_sdl_texture_cache.h"
+	"lv_draw_sdl_composite.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_composite.c
+	"../../lv_conf_internal.h"
+	"../../misc/lv_gc.h"
+	"../../core/lv_refr.h"
+	"lv_draw_sdl_composite.h"
+	"lv_draw_sdl_utils.h"
+	"lv_draw_sdl_priv.h"
+	"lv_draw_sdl_texture_cache.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_img.c
+	"../../lv_conf_internal.h"
+	"../lv_draw_img.h"
+	"../lv_img_cache.h"
+	"../lv_draw_mask.h"
+	"../../misc/lv_lru.h"
+	"../../misc/lv_gc.h"
+	"lv_draw_sdl_img.h"
+	"lv_draw_sdl_utils.h"
+	"lv_draw_sdl_texture_cache.h"
+	"lv_draw_sdl_composite.h"
+	"lv_draw_sdl_rect.h"
+	"lv_draw_sdl_layer.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_img.h
+	"../../lv_conf_internal.h"
+	"../lv_draw.h"
+	"lv_draw_sdl_texture_cache.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_rect.h
+	"../../lv_conf_internal.h"
+	"../lv_draw.h"
+	"lv_draw_sdl_texture_cache.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_label.c
+	"../../lv_conf_internal.h"
+	"../lv_draw_label.h"
+	"../../misc/lv_utils.h"
+	"lv_draw_sdl_utils.h"
+	"lv_draw_sdl_texture_cache.h"
+	"lv_draw_sdl_composite.h"
+	"lv_draw_sdl_layer.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_utils.h
+	<stdint.h>
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_layer.c
+	"../../lv_conf_internal.h"
+	"../../core/lv_refr.h"
+	"lv_draw_sdl.h"
+	"lv_draw_sdl_priv.h"
+	"lv_draw_sdl_composite.h"
+	"lv_draw_sdl_utils.h"
+	"lv_draw_sdl_layer.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_line.c
+	"../../lv_conf_internal.h"
+	"lv_draw_sdl.h"
+	"lv_draw_sdl_utils.h"
+	"lv_draw_sdl_texture_cache.h"
+	"lv_draw_sdl_composite.h"
+	"lv_draw_sdl_mask.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_mask.h
+	"../../lv_conf_internal.h"
+	"lv_draw_sdl.h"
+	"../../misc/lv_area.h"
+	"../../misc/lv_color.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_mask.c
+	"../../lv_conf_internal.h"
+	"../../misc/lv_gc.h"
+	"lv_draw_sdl_mask.h"
+	"lv_draw_sdl_utils.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_polygon.c
+	"../../lv_conf_internal.h"
+	"lv_draw_sdl.h"
+	"lv_draw_sdl_utils.h"
+	"lv_draw_sdl_texture_cache.h"
+	"lv_draw_sdl_composite.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_rect.c
+	"../../lv_conf_internal.h"
+	"../lv_draw_rect.h"
+	"../lv_draw_img.h"
+	"../lv_draw_label.h"
+	"../lv_draw_mask.h"
+	"../../core/lv_refr.h"
+	"lv_draw_sdl_utils.h"
+	"lv_draw_sdl_texture_cache.h"
+	"lv_draw_sdl_composite.h"
+	"lv_draw_sdl_mask.h"
+	"lv_draw_sdl_stack_blur.h"
+	"lv_draw_sdl_layer.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_stack_blur.h
+	"../../lv_conf_internal.h"
+	"../../misc/lv_color.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_stack_blur.c
+	"lv_draw_sdl_stack_blur.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_texture_cache.c
+	"../../lv_conf_internal.h"
+	"lv_draw_sdl_texture_cache.h"
+	"lv_draw_sdl_utils.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sdl\lv_draw_sdl_utils.c
+	"../../lv_conf_internal.h"
+	"lv_draw_sdl_utils.h"
+	"../lv_draw.h"
+	"../lv_draw_label.h"
+	"../../core/lv_refr.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\stm32_dma2d\lv_gpu_stm32_dma2d.c
+	"lv_gpu_stm32_dma2d.h"
+	"../../core/lv_refr.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sw\lv_draw_sw.c
+	"../lv_draw.h"
+	"lv_draw_sw.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sw\lv_draw_sw_arc.c
+	"lv_draw_sw.h"
+	"../../misc/lv_math.h"
+	"../../misc/lv_log.h"
+	"../../misc/lv_mem.h"
+	"../lv_draw.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sw\lv_draw_sw_blend.c
+	"lv_draw_sw.h"
+	"../../misc/lv_math.h"
+	"../../hal/lv_hal_disp.h"
+	"../../core/lv_refr.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sw\lv_draw_sw_dither.c
+	"lv_draw_sw_dither.h"
+	"lv_draw_sw_gradient.h"
+	"../../misc/lv_color.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sw\lv_draw_sw_gradient.c
+	"lv_draw_sw_gradient.h"
+	"../../misc/lv_gc.h"
+	"../../misc/lv_types.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sw\lv_draw_sw_img.c
+	"lv_draw_sw.h"
+	"../lv_img_cache.h"
+	"../../hal/lv_hal_disp.h"
+	"../../misc/lv_log.h"
+	"../../core/lv_refr.h"
+	"../../misc/lv_mem.h"
+	"../../misc/lv_math.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sw\lv_draw_sw_layer.c
+	"lv_draw_sw.h"
+	"../../hal/lv_hal_disp.h"
+	"../../misc/lv_area.h"
+	"../../core/lv_refr.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sw\lv_draw_sw_letter.c
+	"lv_draw_sw.h"
+	"../../hal/lv_hal_disp.h"
+	"../../misc/lv_math.h"
+	"../../misc/lv_assert.h"
+	"../../misc/lv_area.h"
+	"../../misc/lv_style.h"
+	"../../font/lv_font.h"
+	"../../core/lv_refr.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sw\lv_draw_sw_line.c
+	<stdbool.h>
+	"lv_draw_sw.h"
+	"../../misc/lv_math.h"
+	"../../core/lv_refr.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sw\lv_draw_sw_polygon.c
+	"lv_draw_sw.h"
+	"../../misc/lv_math.h"
+	"../../misc/lv_mem.h"
+	"../../misc/lv_area.h"
+	"../../misc/lv_color.h"
+	"../lv_draw_rect.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sw\lv_draw_sw_rect.c
+	"lv_draw_sw.h"
+	"../../misc/lv_math.h"
+	"../../misc/lv_txt_ap.h"
+	"../../core/lv_refr.h"
+	"../../misc/lv_assert.h"
+	"lv_draw_sw_dither.h"
+
+1659503482 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\misc\lv_txt_ap.h
+	<stddef.h>
+	"lv_txt.h"
+	"../draw/lv_draw.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\draw\sw\lv_draw_sw_transform.c
+	"lv_draw_sw.h"
+	"../../misc/lv_assert.h"
+	"../../misc/lv_area.h"
+	"../../core/lv_refr.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font.c
+	"lv_font.h"
+	"../misc/lv_utils.h"
+	"../misc/lv_log.h"
+	"../misc/lv_assert.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_dejavu_16_persian_hebrew.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_fmt_txt.c
+	"lv_font.h"
+	"lv_font_fmt_txt.h"
+	"../misc/lv_assert.h"
+	"../misc/lv_types.h"
+	"../misc/lv_gc.h"
+	"../misc/lv_log.h"
+	"../misc/lv_utils.h"
+	"../misc/lv_mem.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_loader.c
+	<stdint.h>
+	<stdbool.h>
+	"../lvgl.h"
+	"../misc/lv_fs.h"
+	"lv_font_loader.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_10.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_12.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_12_subpx.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_14.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_16.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_18.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_20.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_22.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_24.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_26.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_28.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_28_compressed.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_30.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_32.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_34.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_36.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_38.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_40.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_42.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_44.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_46.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_48.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_montserrat_8.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_simsun_16_cjk.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_unscii_16.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\font\lv_font_unscii_8.c
+	"lvgl.h"
+	"../../lvgl.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\layouts\flex\lv_flex.c
+	"lv_flex.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\layouts\grid\lv_grid.c
+	"lv_grid.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\libs\bmp\lv_bmp.c
+	"../../../lvgl.h"
+	<string.h>
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\libs\ffmpeg\lv_ffmpeg.c
+	"lv_ffmpeg.h"
+	<libavcodec/avcodec.h>
+	<libavformat/avformat.h>
+	<libavutil/imgutils.h>
+	<libavutil/samplefmt.h>
+	<libavutil/timestamp.h>
+	<libswscale/swscale.h>
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\libs\freetype\lv_freetype.c
+	"lv_freetype.h"
+	"ft2build.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\libs\fsdrv\lv_fs_fatfs.c
+	"../../../lvgl.h"
+	"ff.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\libs\fsdrv\lv_fs_posix.c
+	"../../../lvgl.h"
+	<fcntl.h>
+	<stdio.h>
+	<dirent.h>
+	<unistd.h>
+	<windows.h>
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\libs\fsdrv\lv_fs_stdio.c
+	"../../../lvgl.h"
+	<stdio.h>
+	<dirent.h>
+	<unistd.h>
+	<windows.h>
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\libs\fsdrv\lv_fs_win32.c
+	"../../../lvgl.h"
+	<windows.h>
+	<stdio.h>
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\hal\lv_hal_disp.c
+	<stdint.h>
+	<stddef.h>
+	"lv_hal.h"
+	"../misc/lv_mem.h"
+	"../misc/lv_gc.h"
+	"../misc/lv_assert.h"
+	"../core/lv_obj.h"
+	"../core/lv_refr.h"
+	"../core/lv_theme.h"
+	"../draw/sdl/lv_draw_sdl.h"
+	"../draw/sw/lv_draw_sw.h"
+	"../draw/sdl/lv_draw_sdl.h"
+	"../draw/stm32_dma2d/lv_gpu_stm32_dma2d.h"
+	"../draw/swm341_dma2d/lv_gpu_swm341_dma2d.h"
+	"../draw/arm2d/lv_gpu_arm2d.h"
+	"../draw/nxp/lv_gpu_nxp.h"
+	"../themes/default/lv_theme_default.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\hal\lv_hal_indev.c
+	"../misc/lv_assert.h"
+	"../hal/lv_hal_indev.h"
+	"../core/lv_indev.h"
+	"../misc/lv_mem.h"
+	"../misc/lv_gc.h"
+	"lv_hal_disp.h"
+
+1659503482 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\lvgl\src\hal\lv_hal_tick.c
+	"lv_hal_tick.h"
+	<stddef.h>
+
+1660551774 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\fil_lib\adc.c
+	"ADC.h"
+
+1660552596 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\rcr\boardselection.h
+	"MinimalKit.h"
+	"RCR_DevBoard_1.h"
+	"RCR_DevBoard_1_Setup.h"
+	"RCR_DevBoard_2.h"
+	"RCR_DevBoard_2_Setup.h"
+	"RCR_DevBoard_3_Setup.h"
+
+1660285666 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\ssd1306\fonts.h
+	"stm32f4xx.h"
+	"string.h"
+
+1660285183 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\ssd1306\images.h
+	"stdint.h"
+
+1660284235 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\ssd1306\ssd1306.h
+	"main.h"
+	"main.h"
+	"stdlib.h"
+	"string.h"
+
+1660283303 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\ssd1306\ssd1306_i2c.h
+	"main.h"
+
+1660285712 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\ssd1306\fonts.c
+	"fonts.h"
+
+1660285171 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\ssd1306\images.c
+	"images.h"
+
+1660283275 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\ssd1306\ssd1306.c
+	"ssd1306.h"
+
+1660281551 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\ssd1306\ssd1306_i2c.c
+	"ssd1306_i2c.h"
+
+1660542270 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\mpu9250\mpu9250.c
+	"mpu9250.h"
+
+1660541998 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\mpu9250\mpu9250.h
+	"main.h"
+
+1660285712 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\external\ssd1306\fonts.c
+	"fonts.h"
+
+1660285666 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\external\ssd1306\fonts.h
+	"stm32f4xx.h"
+	"string.h"
+
+1660285171 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\external\ssd1306\images.c
+	"images.h"
+
+1660285183 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\external\ssd1306\images.h
+	"stdint.h"
+
+1660644069 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\external\ssd1306\ssd1306.c
+	"ssd1306.h"
+
+1660644021 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\external\ssd1306\ssd1306.h
+	"main.h"
+	"main.h"
+	"stdlib.h"
+	"string.h"
+
+1660548240 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\rcr\minimalkit.h
+
+1660551659 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\external\ssd1306\ssd1306_i2c.h
+	"main.h"
+	"ssd1306.h"
+
+1660551974 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\external\ssd1306\ssd1306_i2c.c
+	"ssd1306_i2c.h"
+
+1660647534 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\external\mpu9250\mpu9250.c
+	"mpu9250.h"
+
+1660646325 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car\external\mpu9250\mpu9250.h
+	"main.h"
+	"BoardSelection.h"
+	"stdbool.h"
+
+1658119829 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\src\startup_stm32f401xc.s
+
+1660716708 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\external\ssd1306\fonts.c
+	"fonts.h"
+
+1660716683 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\external\ssd1306\fonts.h
+	"stm32f4xx.h"
+	"string.h"
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\inc\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\cmsis\core_cm4.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+	"mpu_armv7.h"
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\cmsis\cmsis_version.h
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\cmsis\cmsis_gcc.h
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\cmsis\mpu_armv7.h
+
+1658119829 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\inc\system_stm32f4xx.h
+
+1660716637 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\external\ssd1306\images.c
+	"images.h"
+
+1660716609 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\external\ssd1306\images.h
+	"stdint.h"
+
+1660713334 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\external\ssd1306\ssd1306.c
+	"ssd1306.h"
+
+1660713366 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\external\ssd1306\ssd1306.h
+	"main.h"
+	"main.h"
+	"stdlib.h"
+	"string.h"
+
+1660731797 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\inc\main.h
+	"stm32f4xx.h"
+	"FilConfig.h"
+	"fonts.h"
+	"images.h"
+	"ssd1306.h"
+	"ssd1306_i2c.h"
+	"mpu9250.h"
+
+1660713226 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\filconfig.h
+	"main.h"
+	<stdbool.h>
+	"BoardSelection.h"
+	"FreeRTOS.h"
+	"FreeRTOSConfig.h"
+	"task.h"
+	"queue.h"
+	"semphr.h"
+	"croutine.h"
+	"timers.h"
+	"event_groups.h"
+	"stream_buffer.h"
+	"Robot_tasks.h"
+	"RCC.h"
+	"GPIO.h"
+	"TIM.h"
+	"USART.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+	"ADC.h"
+	"I2C.h"
+	"EXTI.h"
+	"Matrix.h"
+	"Regulators.h"
+	"KINEMATICS.h"
+
+1660808602 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\rcr\boardselection.h
+	"MinimalKit.h"
+	"MaxPins.h"
+	"MaxKit.h"
+	"MaxSetup.h"
+	"RCR_DevBoard_1_Setup.h"
+	"RCR_DevBoard_2_Setup.h"
+	"RCR_DevBoard_3_Setup.h"
+
+1660548240 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\rcr\minimalkit.h
+
+1660715328 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\rcr\maxkit\maxpins.h
+
+1660714017 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\rcr\maxkit.h
+	"FilConfig.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1660716535 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\rcr\maxkit\maxsetup.h
+	"MaxKit.h"
+	"MaxPins.h"
+	"FilConfig.h"
+
+1660821388 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\rcr\devboard#3\rcr_devboard_3_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_3.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1659958962 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\rcr\devboard#3\rcr_devboard_3.h
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\freertos.h
+	<stddef.h>
+	<stdint.h>
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+	<reent.h>
+
+1659438008 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\freertosconfig.h
+	"stm32f4xx.h"
+	<stdint.h>
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\projdefs.h
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\portmacro.h
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\mpu_wrappers.h
+
+1659339519 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\task.h
+	"list.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\list.h
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\queue.h
+	"task.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\semphr.h
+	"queue.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\croutine.h
+	"list.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\timers.h
+	"task.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\event_groups.h
+	"timers.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\stream_buffer.h
+
+1660135604 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\robot_tasks.h
+	"FilConfig.h"
+
+1660734232 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\rcc.h
+	"FilConfig.h"
+
+1660715472 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\gpio.h
+	"FilConfig.h"
+
+1660831636 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\tim.h
+	"FilConfig.h"
+
+1660126171 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\usart.h
+	"FilConfig.h"
+
+1660135056 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\dma.h
+	"FilConfig.h"
+
+1660135097 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\dma_fifobuffers.h
+	"FilConfig.h"
+
+1660733997 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\adc.h
+	"FilConfig.h"
+
+1660715516 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\i2c.h
+	"FilConfig.h"
+
+1660135122 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\exti.h
+	"FilConfig.h"
+
+1660135148 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\matrix.h
+
+1660831616 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\regulators.h
+	"BoardSelection.h"
+
+1660551659 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\external\ssd1306\ssd1306_i2c.h
+	"main.h"
+	"ssd1306.h"
+
+1660646325 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\external\mpu9250\mpu9250.h
+	"main.h"
+	"BoardSelection.h"
+	"stdbool.h"
+
+1655441001 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\croutine.c
+	"FreeRTOS.h"
+	"task.h"
+	"croutine.h"
+
+1655441001 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\event_groups.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"event_groups.h"
+
+1655441001 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\heap_2.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+
+1655441001 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\list.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"list.h"
+
+1659438208 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\port.c
+	"FreeRTOS.h"
+	"task.h"
+
+1655441001 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\queue.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"croutine.h"
+
+1655441001 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\stream_buffer.c
+	<stdint.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"stream_buffer.h"
+
+1660135248 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\tasks.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"stack_macros.h"
+	<stdio.h>
+	"tasks_test_access_functions.h"
+	"freertos_tasks_c_additions.h"
+
+1655441001 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\stack_macros.h
+
+1655441001 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\freertos_lib\timers.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+
+1660647534 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\external\mpu9250\mpu9250.c
+	"mpu9250.h"
+
+1660551974 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\external\ssd1306\ssd1306_i2c.c
+	"ssd1306_i2c.h"
+
+1660733909 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\adc.c
+	"ADC.h"
+
+1658119829 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\dma.c
+	"stm32f4xx.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+
+1659350171 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\exti.c
+	"EXTI.h"
+
+1660647424 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\i2c.c
+	"I2C.h"
+
+1660135156 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\matrix.c
+	"Matrix.h"
+
+1660128869 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\rcc.c
+	"RCC.h"
+
+1660831618 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\regulators.c
+	"FilConfig.h"
+	"Regulators.h"
+
+1660135606 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\robot_tasks.c
+	"Robot_tasks.h"
+
+1660832000 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\tim.c
+	"TIM.h"
+
+1660126141 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\fil_lib\usart.c
+	"USART.h"
+
+1659445831 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\dev\dev.c
+
+1658119829 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1660724084 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\rcr\minkit\minimalkit.h
+	"FilConfig.h"
+
+1660802000 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\rcr\maxkit\maxkit.h
+	"FilConfig.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1660734804 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\rcr\devboard#2\rcr_devboard_2_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_2.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1660731256 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\rcr\devboard#2\rcr_devboard_2.h
+
+1660831970 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car Ч копи€\src\main.c
+	"main.h"
+
+1658119830 source:c:\users\caska\desktop\projects\small-car Ч копи€\src\startup_stm32f401xc.s
+
+1660647536 source:c:\users\caska\desktop\projects\small-car Ч копи€\external\mpu9250\mpu9250.c
+	"mpu9250.h"
+
+1660646326 c:\users\caska\desktop\projects\small-car Ч копи€\external\mpu9250\mpu9250.h
+	"main.h"
+	"BoardSelection.h"
+	"stdbool.h"
+
+1661373686 c:\users\caska\desktop\projects\small-car Ч копи€\inc\main.h
+	"stm32f4xx.h"
+	"FilConfig.h"
+
+1658119830 c:\users\caska\desktop\projects\small-car Ч копи€\inc\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1658119830 c:\users\caska\desktop\projects\small-car Ч копи€\cmsis\core_cm4.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+	"mpu_armv7.h"
+
+1658119830 c:\users\caska\desktop\projects\small-car Ч копи€\cmsis\cmsis_version.h
+
+1658119830 c:\users\caska\desktop\projects\small-car Ч копи€\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1658119830 c:\users\caska\desktop\projects\small-car Ч копи€\cmsis\cmsis_gcc.h
+
+1658119830 c:\users\caska\desktop\projects\small-car Ч копи€\cmsis\mpu_armv7.h
+
+1658119830 c:\users\caska\desktop\projects\small-car Ч копи€\inc\system_stm32f4xx.h
+
+1661373901 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\filconfig.h
+	"main.h"
+	<stdbool.h>
+	"BoardSelection.h"
+	"FreeRTOS.h"
+	"FreeRTOSConfig.h"
+	"task.h"
+	"queue.h"
+	"semphr.h"
+	"croutine.h"
+	"timers.h"
+	"event_groups.h"
+	"stream_buffer.h"
+	"Robot_tasks.h"
+	"RCC.h"
+	"GPIO.h"
+	"TIM.h"
+	"USART.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+	"ADC.h"
+	"I2C.h"
+	"EXTI.h"
+	"Matrix.h"
+	"Regulators.h"
+	"KINEMATICS.h"
+
+1661203085 c:\users\caska\desktop\projects\small-car Ч копи€\rcr\boardselection.h
+	"MinimalKit.h"
+	"MaxPins.h"
+	"MaxKit.h"
+	"MaxSetup.h"
+	"RCR_DevBoard_1_Setup.h"
+	"RCR_DevBoard_2_Setup.h"
+	"RCR_DevBoard_3_Setup.h"
+
+1661239449 c:\users\caska\desktop\projects\small-car Ч копи€\rcr\minkit\minimalkit.h
+	"FilConfig.h"
+
+1661185976 c:\users\caska\desktop\projects\small-car Ч копи€\rcr\maxkit\maxpins.h
+
+1661111069 c:\users\caska\desktop\projects\small-car Ч копи€\rcr\maxkit\maxkit.h
+	"FilConfig.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1660716536 c:\users\caska\desktop\projects\small-car Ч копи€\rcr\maxkit\maxsetup.h
+	"MaxKit.h"
+	"MaxPins.h"
+	"FilConfig.h"
+
+1660734806 c:\users\caska\desktop\projects\small-car Ч копи€\rcr\devboard#2\rcr_devboard_2_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_2.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1660731258 c:\users\caska\desktop\projects\small-car Ч копи€\rcr\devboard#2\rcr_devboard_2.h
+
+1661241810 c:\users\caska\desktop\projects\small-car Ч копи€\rcr\devboard#3\rcr_devboard_3_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_3.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1661183905 c:\users\caska\desktop\projects\small-car Ч копи€\rcr\devboard#3\rcr_devboard_3.h
+
+1655441002 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\freertos.h
+	<stddef.h>
+	<stdint.h>
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+	<reent.h>
+
+1659438010 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\freertosconfig.h
+	"stm32f4xx.h"
+	<stdint.h>
+
+1655441002 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\projdefs.h
+
+1655441002 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1655441002 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1655441002 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\portmacro.h
+
+1655441002 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\mpu_wrappers.h
+
+1659339520 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\task.h
+	"list.h"
+
+1655441002 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\list.h
+
+1655441002 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\queue.h
+	"task.h"
+
+1655441002 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\semphr.h
+	"queue.h"
+
+1655441002 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\croutine.h
+	"list.h"
+
+1655441002 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\timers.h
+	"task.h"
+
+1655441002 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\event_groups.h
+	"timers.h"
+
+1655441002 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\stream_buffer.h
+
+1660135606 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\robot_tasks.h
+	"FilConfig.h"
+
+1660734234 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\rcc.h
+	"FilConfig.h"
+
+1661196664 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\gpio.h
+	"FilConfig.h"
+
+1660831638 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\tim.h
+	"FilConfig.h"
+
+1661260531 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\usart.h
+	"FilConfig.h"
+
+1660135058 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\dma.h
+	"FilConfig.h"
+
+1660135098 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\dma_fifobuffers.h
+	"FilConfig.h"
+
+1661369406 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\adc.h
+	"FilConfig.h"
+
+1661266445 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\i2c.h
+	"FilConfig.h"
+
+1660135124 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\exti.h
+	"FilConfig.h"
+
+1660135150 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\matrix.h
+
+1660831618 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\regulators.h
+	"BoardSelection.h"
+
+1660716684 c:\users\caska\desktop\projects\small-car Ч копи€\external\ssd1306\fonts.h
+	"stm32f4xx.h"
+	"string.h"
+
+1660716610 c:\users\caska\desktop\projects\small-car Ч копи€\external\ssd1306\images.h
+	"stdint.h"
+
+1660713368 c:\users\caska\desktop\projects\small-car Ч копи€\external\ssd1306\ssd1306.h
+	"main.h"
+	"main.h"
+	"stdlib.h"
+	"string.h"
+
+1660551660 c:\users\caska\desktop\projects\small-car Ч копи€\external\ssd1306\ssd1306_i2c.h
+	"main.h"
+	"ssd1306.h"
+
+1660716710 source:c:\users\caska\desktop\projects\small-car Ч копи€\external\ssd1306\fonts.c
+	"fonts.h"
+
+1660716638 source:c:\users\caska\desktop\projects\small-car Ч копи€\external\ssd1306\images.c
+	"images.h"
+
+1660713336 source:c:\users\caska\desktop\projects\small-car Ч копи€\external\ssd1306\ssd1306.c
+	"ssd1306.h"
+
+1660551976 source:c:\users\caska\desktop\projects\small-car Ч копи€\external\ssd1306\ssd1306_i2c.c
+	"ssd1306_i2c.h"
+
+1661241631 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\adc.c
+	"ADC.h"
+
+1658119830 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\dma.c
+	"stm32f4xx.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+
+1659350172 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\exti.c
+	"EXTI.h"
+
+1655441002 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\croutine.c
+	"FreeRTOS.h"
+	"task.h"
+	"croutine.h"
+
+1655441002 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\event_groups.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"event_groups.h"
+
+1655441002 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\heap_2.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+
+1655441002 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\list.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"list.h"
+
+1659438210 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\port.c
+	"FreeRTOS.h"
+	"task.h"
+
+1655441002 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\queue.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"croutine.h"
+
+1655441002 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\stream_buffer.c
+	<stdint.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"stream_buffer.h"
+
+1660135250 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\tasks.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"stack_macros.h"
+	<stdio.h>
+	"tasks_test_access_functions.h"
+	"freertos_tasks_c_additions.h"
+
+1655441002 c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\stack_macros.h
+
+1655441002 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\freertos_lib\timers.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+
+1660647426 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\i2c.c
+	"I2C.h"
+
+1660135158 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\matrix.c
+	"Matrix.h"
+
+1660128870 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\rcc.c
+	"RCC.h"
+
+1660831620 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\regulators.c
+	"FilConfig.h"
+	"Regulators.h"
+
+1660135608 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\robot_tasks.c
+	"Robot_tasks.h"
+
+1661450630 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\tim.c
+	"TIM.h"
+
+1660126142 source:c:\users\caska\desktop\projects\small-car Ч копи€\fil_lib\usart.c
+	"USART.h"
+
+1659445832 source:c:\users\caska\desktop\projects\small-car Ч копи€\dev\dev.c
+
+1658119830 source:c:\users\caska\desktop\projects\small-car Ч копи€\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1661450657 source:c:\users\caska\desktop\projects\small-car Ч копи€\src\main.c
+	"main.h"
+
+1658119830 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\src\startup_stm32f401xc.s
+
+1665122297 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\adc.c
+	"ADC.h"
+
+1665123084 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\adc.h
+	"FilConfig.h"
+
+1662976936 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\filconfig.h
+	"main.h"
+	<stdbool.h>
+	"BoardSelection.h"
+	"FreeRTOS.h"
+	"FreeRTOSConfig.h"
+	"task.h"
+	"queue.h"
+	"semphr.h"
+	"croutine.h"
+	"timers.h"
+	"event_groups.h"
+	"stream_buffer.h"
+	"Robot_tasks.h"
+	"RCC.h"
+	"GPIO.h"
+	"TIM.h"
+	"USART.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+	"ADC.h"
+	"I2C.h"
+	"EXTI.h"
+	"Matrix.h"
+	"Regulators.h"
+	"KINEMATICS.h"
+	"RTC.h"
+	"fonts.h"
+	"images.h"
+	"ssd1306_i2c.h"
+	"ssd1306.h"
+	"mpu9250.h"
+	"ModBus_conf.h"
+
+1662975916 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\inc\main.h
+	"stm32f4xx.h"
+	"FilConfig.h"
+
+1658119830 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\inc\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1658119830 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\cmsis\core_cm4.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+	"mpu_armv7.h"
+
+1658119830 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\cmsis\cmsis_version.h
+
+1658119830 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1658119830 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\cmsis\cmsis_gcc.h
+
+1658119830 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\cmsis\mpu_armv7.h
+
+1658119830 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\inc\system_stm32f4xx.h
+
+1664976552 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\rcr\boardselection.h
+	"MinimalKit.h"
+	"MaxPins.h"
+	"MaxKit.h"
+	"MaxSetup.h"
+	"RCR_DevBoard_1_Setup.h"
+	"RCR_DevBoard_2_Setup.h"
+	"RCR_DevBoard_3_Setup.h"
+	"Pins.h"
+	"Setup.h"
+	"dev.h"
+	"dev_ws.h"
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\rcr\minkit\minimalkit.h
+	"FilConfig.h"
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\rcr\maxkit\maxpins.h
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\rcr\maxkit\maxkit.h
+	"FilConfig.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\rcr\maxkit\maxsetup.h
+	"MaxKit.h"
+	"MaxPins.h"
+	"FilConfig.h"
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\rcr\devboard#2\rcr_devboard_2_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_2.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\rcr\devboard#2\rcr_devboard_2.h
+
+1665117724 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\rcr\devboard#3\rcr_devboard_3_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_3.h"
+
+1664807648 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\rcr\devboard#3\rcr_devboard_3.h
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\freertos.h
+	<stddef.h>
+	<stdint.h>
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+	<reent.h>
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\freertosconfig.h
+	"stm32f4xx.h"
+	<stdint.h>
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\projdefs.h
+
+1655441002 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1655441002 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1662007099 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\portmacro.h
+
+1655441002 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\mpu_wrappers.h
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\task.h
+	"list.h"
+
+1662007217 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\list.h
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\queue.h
+	"task.h"
+
+1662007218 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\semphr.h
+	"queue.h"
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\croutine.h
+	"list.h"
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\timers.h
+	"task.h"
+
+1662007217 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\event_groups.h
+	"timers.h"
+
+1662007218 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\stream_buffer.h
+
+1662128890 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\robot_tasks.h
+	"FilConfig.h"
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\rcc.h
+	"FilConfig.h"
+
+1662354294 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\gpio.h
+	"FilConfig.h"
+
+1662446560 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\tim.h
+	"FilConfig.h"
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\usart.h
+	"FilConfig.h"
+
+1660135058 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\dma.h
+	"FilConfig.h"
+
+1665121954 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\dma_fifobuffers.h
+	"FilConfig.h"
+
+1662807946 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\i2c.h
+	"FilConfig.h"
+
+1660135124 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\exti.h
+	"FilConfig.h"
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\matrix.h
+
+1663058255 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\regulators.h
+	"BoardSelection.h"
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\rtc.h
+	"FilConfig.h"
+
+1658119830 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\dma.c
+	"stm32f4xx.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+
+1659350172 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\exti.c
+	"EXTI.h"
+
+1662129113 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\croutine.c
+	"FreeRTOS.h"
+	"task.h"
+	"croutine.h"
+
+1662129113 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\event_groups.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"event_groups.h"
+
+1662129113 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\heap_2.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+
+1662129113 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\list.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"list.h"
+
+1662129113 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\port.c
+	"FreeRTOS.h"
+	"task.h"
+
+1662007100 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\queue.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"croutine.h"
+
+1662129113 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\stream_buffer.c
+	<stdint.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"stream_buffer.h"
+
+1662129113 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\tasks.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"stack_macros.h"
+	<stdio.h>
+	"tasks_test_access_functions.h"
+	"freertos_tasks_c_additions.h"
+
+1655441002 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\stack_macros.h
+
+1662129113 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\timers.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+
+1662808682 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\i2c.c
+	"I2C.h"
+
+1662129113 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\matrix.c
+	"Matrix.h"
+
+1660128870 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\rcc.c
+	"RCC.h"
+
+1663058308 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\regulators.c
+	"FilConfig.h"
+	"Regulators.h"
+
+1660135608 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\robot_tasks.c
+	"Robot_tasks.h"
+
+1665125093 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\tim.c
+	"TIM.h"
+
+1660126142 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\usart.c
+	"USART.h"
+
+1665125230 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\src\main.c
+	"main.h"
+
+1664807738 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\dev\dev.c
+	"dev.h"
+
+1658119830 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1662129113 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\rtc.c
+	"RTC.h"
+
+1662799561 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\external\mpu9250\mpu9250.c
+	"mpu9250.h"
+
+1662728273 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\external\mpu9250\mpu9250.h
+	"FilConfig.h"
+	<math.h>
+	"stdbool.h"
+
+1665119914 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\dev\dev.h
+	<stdbool.h>
+	"FilConfig.h"
+
+1663071741 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\dev_examples\dev_ws.h
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\external\ssd1306\fonts.h
+	"stm32f4xx.h"
+	"string.h"
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\external\ssd1306\images.h
+	"FilConfig.h"
+	"stdint.h"
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\external\ssd1306\ssd1306_i2c.h
+	"FilConfig.h"
+	"ssd1306.h"
+
+1662129113 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\external\ssd1306\ssd1306.h
+	"FilConfig.h"
+	"stdlib.h"
+	"string.h"
+
+1662129113 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\external\ssd1306\fonts.c
+	"fonts.h"
+
+1662129113 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\external\ssd1306\images.c
+	"images.h"
+
+1662129113 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\external\ssd1306\ssd1306.c
+	"ssd1306.h"
+
+1662129113 source:c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\external\ssd1306\ssd1306_i2c.c
+	"ssd1306_i2c.h"
+
+1662007476 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\fil_lib\freertos_lib\robot_tasks.h
+	"BoardSelection.h"
+	"FilConfig.h"
+
+1665120964 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\rcr\devboard#4\pins.h
+
+1665125055 c:\users\caska\desktop\projects\rcr\4. rcr_smallcar\small-car1\rcr\devboard#4\setup.h
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\src\startup_stm32f401xc.s
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\external\mpu9250\mpu9250.c
+	"mpu9250.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\external\mpu9250\mpu9250.h
+	"FilConfig.h"
+	<math.h>
+	"stdbool.h"
+
+1665841181 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\filconfig.h
+	"main.h"
+	<stdbool.h>
+	"BoardSelection.h"
+	"FreeRTOS.h"
+	"FreeRTOSConfig.h"
+	"task.h"
+	"queue.h"
+	"semphr.h"
+	"croutine.h"
+	"timers.h"
+	"event_groups.h"
+	"stream_buffer.h"
+	"Robot_tasks.h"
+	"RCC.h"
+	"GPIO.h"
+	"TIM.h"
+	"USART.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+	"ADC.h"
+	"I2C.h"
+	"EXTI.h"
+	"RTC.h"
+
+1665739797 c:\users\caska\desktop\projects\embitz\small_car\inc\main.h
+	"stm32f4xx.h"
+	"FilConfig.h"
+	"External_Manager.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\inc\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\cmsis\core_cm4.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+	"mpu_armv7.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\cmsis\cmsis_version.h
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\cmsis\cmsis_gcc.h
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\cmsis\mpu_armv7.h
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\inc\system_stm32f4xx.h
+
+1667472654 c:\users\caska\desktop\projects\embitz\small_car\rcr\boardselection.h
+	"MinimalKit.h"
+	"MaxPins.h"
+	"MaxKit.h"
+	"MaxSetup.h"
+	"RCR_DevBoard_1_Setup.h"
+	"RCR_DevBoard_2_Setup.h"
+	"RCR_DevBoard_3_Setup.h"
+	"Pins.h"
+	"Setup.h"
+	"dev.h"
+	"dev_ws.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\rcr\minkit\minimalkit.h
+	"FilConfig.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\rcr\maxkit\maxpins.h
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\rcr\maxkit\maxkit.h
+	"FilConfig.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\rcr\maxkit\maxsetup.h
+	"MaxKit.h"
+	"MaxPins.h"
+	"FilConfig.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\rcr\devboard#2\rcr_devboard_2_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_2.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\rcr\devboard#2\rcr_devboard_2.h
+
+1667472654 c:\users\caska\desktop\projects\embitz\small_car\rcr\devboard#3\rcr_devboard_3_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_3.h"
+
+1665997816 c:\users\caska\desktop\projects\embitz\small_car\rcr\devboard#3\rcr_devboard_3.h
+
+1665827796 c:\users\caska\desktop\projects\embitz\small_car\rcr\devboard#4\pins.h
+
+1666172834 c:\users\caska\desktop\projects\embitz\small_car\rcr\devboard#4\setup.h
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\dev\dev.h
+	<stdbool.h>
+	"FilConfig.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\dev_examples\dev_ws.h
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\freertos.h
+	<stddef.h>
+	<stdint.h>
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+	<reent.h>
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\freertosconfig.h
+	"stm32f4xx.h"
+	<stdint.h>
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\projdefs.h
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\portmacro.h
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\mpu_wrappers.h
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\task.h
+	"list.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\list.h
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\queue.h
+	"task.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\semphr.h
+	"queue.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\croutine.h
+	"list.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\timers.h
+	"task.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\event_groups.h
+	"timers.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\stream_buffer.h
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\robot_tasks.h
+	"FilConfig.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\rcc.h
+	"FilConfig.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\gpio.h
+	"FilConfig.h"
+
+1665738588 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\tim.h
+	"FilConfig.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\usart.h
+	"FilConfig.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\dma.h
+	"FilConfig.h"
+
+1665637861 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\dma_fifobuffers.h
+	"FilConfig.h"
+
+1665642737 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\adc.h
+	"FilConfig.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\i2c.h
+	"FilConfig.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\exti.h
+	"FilConfig.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\matrix.h
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\regulators.h
+	"BoardSelection.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\rtc.h
+	"FilConfig.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\external\ssd1306\fonts.h
+	"stm32f4xx.h"
+	"string.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\external\ssd1306\images.h
+	"FilConfig.h"
+	"stdint.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\external\ssd1306\ssd1306_i2c.h
+	"FilConfig.h"
+	"ssd1306.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\external\ssd1306\ssd1306.h
+	"FilConfig.h"
+	"stdlib.h"
+	"string.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\external\ssd1306\fonts.c
+	"fonts.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\external\ssd1306\images.c
+	"images.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\external\ssd1306\ssd1306.c
+	"ssd1306.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\external\ssd1306\ssd1306_i2c.c
+	"ssd1306_i2c.h"
+
+1665738375 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\adc.c
+	"ADC.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\dma.c
+	"stm32f4xx.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\exti.c
+	"EXTI.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\croutine.c
+	"FreeRTOS.h"
+	"task.h"
+	"croutine.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\event_groups.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"event_groups.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\heap_2.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\list.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"list.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\port.c
+	"FreeRTOS.h"
+	"task.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\queue.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"croutine.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\stream_buffer.c
+	<stdint.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"stream_buffer.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\tasks.c
+	<stdlib.h>
+	<string.h>
+	"FreeRTOS.h"
+	"task.h"
+	"timers.h"
+	"stack_macros.h"
+	<stdio.h>
+	"tasks_test_access_functions.h"
+	"freertos_tasks_c_additions.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\stack_macros.h
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\freertos_lib\timers.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+	"timers.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\i2c.c
+	"I2C.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\matrix.c
+	"Matrix.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\rcc.c
+	"RCC.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\regulators.c
+	"FilConfig.h"
+	"Regulators.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\rtc.c
+	"RTC.h"
+
+1665738541 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\tim.c
+	"TIM.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\usart.c
+	"USART.h"
+
+1667472674 source:c:\users\caska\desktop\projects\embitz\small_car\src\main.c
+	"main.h"
+
+1665739408 source:c:\users\caska\desktop\projects\embitz\small_car\dev\dev.c
+	"dev.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\external\matrix\matrix.c
+	"Matrix.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\external\matrix\matrix.h
+
+1667472241 source:c:\users\caska\desktop\projects\embitz\small_car\external\modbus\ascii\modbus_ascii.c
+	"ModBus_conf.h"
+
+1666342105 c:\users\caska\desktop\projects\embitz\small_car\external\modbus\modbus_conf.h
+	<stdlib.h>
+	"FilConfig.h"
+	"BoardSelection.h"
+	"ModBus_ASCII.h"
+
+1665746200 c:\users\caska\desktop\projects\embitz\small_car\external\external_manager.h
+	"BoardSelection.h"
+	"fonts.h"
+	"images.h"
+	"ssd1306_i2c.h"
+	"ssd1306.h"
+	"mpu9250.h"
+	"ModBus_conf.h"
+	"Matrix.h"
+	"Regulators.h"
+	"KINEMATICS.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\external\regulators\regulators.h
+	"BoardSelection.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\inc\rcc.h
+	"FilConfig.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\inc\gpio.h
+	"FilConfig.h"
+
+1666175779 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\inc\tim.h
+	"FilConfig.h"
+
+1665835408 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\inc\usart.h
+	"FilConfig.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\inc\dma.h
+	"FilConfig.h"
+
+1666157238 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\inc\dma_fifobuffers.h
+	"FilConfig.h"
+
+1666157552 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\inc\adc.h
+	"FilConfig.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\inc\i2c.h
+	"FilConfig.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\inc\exti.h
+	"FilConfig.h"
+
+1665465012 c:\users\caska\desktop\projects\embitz\small_car\fil_lib\inc\rtc.h
+	"FilConfig.h"
+
+1666341767 c:\users\caska\desktop\projects\embitz\small_car\external\modbus\ascii\modbus_ascii.h
+	"ModBus_conf.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\external\regulators\regulators.c
+	"FilConfig.h"
+	"Regulators.h"
+
+1667472654 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\src\adc.c
+	"ADC.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\src\dma.c
+	"stm32f4xx.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\src\exti.c
+	"EXTI.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\src\i2c.c
+	"I2C.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\src\rcc.c
+	"RCC.h"
+
+1665465012 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\src\rtc.c
+	"RTC.h"
+
+1667472971 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\src\tim.c
+	"TIM.h"
+
+1666178591 source:c:\users\caska\desktop\projects\embitz\small_car\fil_lib\src\usart.c
+	"USART.h"
+
+1665465014 source:c:\users\user\desktop\small_car\src\startup_stm32f401xc.s
+
+1665465014 source:c:\users\user\desktop\small_car\external\matrix\matrix.c
+	"Matrix.h"
+
+1665465014 c:\users\user\desktop\small_car\external\matrix\matrix.h
+
+1667882568 source:c:\users\user\desktop\small_car\external\modbus\ascii\modbus_ascii.c
+	"ModBus_conf.h"
+
+1667882550 c:\users\user\desktop\small_car\external\modbus\modbus_conf.h
+	<stdlib.h>
+	"FilConfig.h"
+	"BoardSelection.h"
+	"ModBus_ASCII.h"
+
+1665841182 c:\users\user\desktop\small_car\fil_lib\filconfig.h
+	"main.h"
+	<stdbool.h>
+	"BoardSelection.h"
+	"FreeRTOS.h"
+	"FreeRTOSConfig.h"
+	"task.h"
+	"queue.h"
+	"semphr.h"
+	"croutine.h"
+	"timers.h"
+	"event_groups.h"
+	"stream_buffer.h"
+	"Robot_tasks.h"
+	"RCC.h"
+	"GPIO.h"
+	"TIM.h"
+	"USART.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+	"ADC.h"
+	"I2C.h"
+	"EXTI.h"
+	"RTC.h"
+
+1665739798 c:\users\user\desktop\small_car\inc\main.h
+	"stm32f4xx.h"
+	"FilConfig.h"
+	"External_Manager.h"
+
+1665465014 c:\users\user\desktop\small_car\inc\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1665465014 c:\users\user\desktop\small_car\cmsis\core_cm4.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+	"mpu_armv7.h"
+
+1665465014 c:\users\user\desktop\small_car\cmsis\cmsis_version.h
+
+1665465014 c:\users\user\desktop\small_car\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1665465014 c:\users\user\desktop\small_car\cmsis\cmsis_gcc.h
+
+1665465014 c:\users\user\desktop\small_car\cmsis\mpu_armv7.h
+
+1665465014 c:\users\user\desktop\small_car\inc\system_stm32f4xx.h
+
+1665746202 c:\users\user\desktop\small_car\external\external_manager.h
+	"BoardSelection.h"
+	"fonts.h"
+	"images.h"
+	"ssd1306_i2c.h"
+	"ssd1306.h"
+	"mpu9250.h"
+	"ModBus_conf.h"
+	"Matrix.h"
+	"Regulators.h"
+	"KINEMATICS.h"
+
+1667882388 c:\users\user\desktop\small_car\rcr\boardselection.h
+	"MinimalKit.h"
+	"MaxPins.h"
+	"MaxKit.h"
+	"MaxSetup.h"
+	"RCR_DevBoard_1_Setup.h"
+	"RCR_DevBoard_2_Setup.h"
+	"RCR_DevBoard_3_Setup.h"
+	"Pins.h"
+	"Setup.h"
+	"dev.h"
+	"dev_ws.h"
+
+1665465014 c:\users\user\desktop\small_car\rcr\minkit\minimalkit.h
+	"FilConfig.h"
+
+1665465014 c:\users\user\desktop\small_car\rcr\maxkit\maxpins.h
+
+1665465014 c:\users\user\desktop\small_car\rcr\maxkit\maxkit.h
+	"FilConfig.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1665465014 c:\users\user\desktop\small_car\rcr\maxkit\maxsetup.h
+	"MaxKit.h"
+	"MaxPins.h"
+	"FilConfig.h"
+
+1667915176 c:\users\user\desktop\small_car\rcr\devboard#2\rcr_devboard_2_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_2.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1667882696 c:\users\user\desktop\small_car\rcr\devboard#2\rcr_devboard_2.h
+
+1667472656 c:\users\user\desktop\small_car\rcr\devboard#3\rcr_devboard_3_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_3.h"
+
+1665997818 c:\users\user\desktop\small_car\rcr\devboard#3\rcr_devboard_3.h
+
+1665827798 c:\users\user\desktop\small_car\rcr\devboard#4\pins.h
+
+1666172836 c:\users\user\desktop\small_car\rcr\devboard#4\setup.h
+
+1665465014 c:\users\user\desktop\small_car\dev\dev.h
+	<stdbool.h>
+	"FilConfig.h"
+
+1665465014 c:\users\user\desktop\small_car\dev_examples\dev_ws.h
+
+1665465014 c:\users\user\desktop\small_car\external\ssd1306\fonts.h
+	"stm32f4xx.h"
+	"string.h"
+
+1665465014 c:\users\user\desktop\small_car\external\ssd1306\images.h
+	"FilConfig.h"
+	"stdint.h"
+
+1665465014 c:\users\user\desktop\small_car\external\ssd1306\ssd1306_i2c.h
+	"FilConfig.h"
+	"ssd1306.h"
+
+1665465014 c:\users\user\desktop\small_car\external\ssd1306\ssd1306.h
+	"FilConfig.h"
+	"stdlib.h"
+	"string.h"
+
+1665465014 c:\users\user\desktop\small_car\external\mpu9250\mpu9250.h
+	"FilConfig.h"
+	<math.h>
+	"stdbool.h"
+
+1665465014 c:\users\user\desktop\small_car\external\regulators\regulators.h
+	"BoardSelection.h"
+
+1665465014 c:\users\user\desktop\small_car\fil_lib\inc\rcc.h
+	"FilConfig.h"
+
+1665465014 c:\users\user\desktop\small_car\fil_lib\inc\gpio.h
+	"FilConfig.h"
+
+1666175780 c:\users\user\desktop\small_car\fil_lib\inc\tim.h
+	"FilConfig.h"
+
+1665835410 c:\users\user\desktop\small_car\fil_lib\inc\usart.h
+	"FilConfig.h"
+
+1665465014 c:\users\user\desktop\small_car\fil_lib\inc\dma.h
+	"FilConfig.h"
+
+1666157240 c:\users\user\desktop\small_car\fil_lib\inc\dma_fifobuffers.h
+	"FilConfig.h"
+
+1666157554 c:\users\user\desktop\small_car\fil_lib\inc\adc.h
+	"FilConfig.h"
+
+1665465014 c:\users\user\desktop\small_car\fil_lib\inc\i2c.h
+	"FilConfig.h"
+
+1665465014 c:\users\user\desktop\small_car\fil_lib\inc\exti.h
+	"FilConfig.h"
+
+1665465014 c:\users\user\desktop\small_car\fil_lib\inc\rtc.h
+	"FilConfig.h"
+
+1666341768 c:\users\user\desktop\small_car\external\modbus\ascii\modbus_ascii.h
+	"ModBus_conf.h"
+
+1665465014 source:c:\users\user\desktop\small_car\external\mpu9250\mpu9250.c
+	"mpu9250.h"
+
+1665465014 source:c:\users\user\desktop\small_car\external\regulators\regulators.c
+	"FilConfig.h"
+	"Regulators.h"
+
+1665465014 source:c:\users\user\desktop\small_car\external\ssd1306\fonts.c
+	"fonts.h"
+
+1665465014 source:c:\users\user\desktop\small_car\external\ssd1306\images.c
+	"images.h"
+
+1665465014 source:c:\users\user\desktop\small_car\external\ssd1306\ssd1306.c
+	"ssd1306.h"
+
+1665465014 source:c:\users\user\desktop\small_car\external\ssd1306\ssd1306_i2c.c
+	"ssd1306_i2c.h"
+
+1667472656 source:c:\users\user\desktop\small_car\fil_lib\src\adc.c
+	"ADC.h"
+
+1665465014 source:c:\users\user\desktop\small_car\fil_lib\src\dma.c
+	"stm32f4xx.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+
+1665465014 source:c:\users\user\desktop\small_car\fil_lib\src\exti.c
+	"EXTI.h"
+
+1665465014 source:c:\users\user\desktop\small_car\fil_lib\src\i2c.c
+	"I2C.h"
+
+1665465014 source:c:\users\user\desktop\small_car\fil_lib\src\rcc.c
+	"RCC.h"
+
+1665465014 source:c:\users\user\desktop\small_car\fil_lib\src\rtc.c
+	"RTC.h"
+
+1667882388 source:c:\users\user\desktop\small_car\fil_lib\src\tim.c
+	"TIM.h"
+
+1666178592 source:c:\users\user\desktop\small_car\fil_lib\src\usart.c
+	"USART.h"
+
+1665739410 source:c:\users\user\desktop\small_car\dev\dev.c
+	"dev.h"
+
+1665465014 source:c:\users\user\desktop\small_car\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1667915111 source:c:\users\user\desktop\small_car\src\main.c
+	"main.h"
+
+1665465014 source:e:\small_car\src\startup_stm32f401xc.s
+
+1665465014 source:e:\small_car\external\matrix\matrix.c
+	"Matrix.h"
+
+1665465014 e:\small_car\external\matrix\matrix.h
+
+1667882568 source:e:\small_car\external\modbus\ascii\modbus_ascii.c
+	"ModBus_conf.h"
+
+1667882550 e:\small_car\external\modbus\modbus_conf.h
+	<stdlib.h>
+	"FilConfig.h"
+	"BoardSelection.h"
+	"ModBus_ASCII.h"
+
+1665841182 e:\small_car\fil_lib\filconfig.h
+	"main.h"
+	<stdbool.h>
+	"BoardSelection.h"
+	"FreeRTOS.h"
+	"FreeRTOSConfig.h"
+	"task.h"
+	"queue.h"
+	"semphr.h"
+	"croutine.h"
+	"timers.h"
+	"event_groups.h"
+	"stream_buffer.h"
+	"Robot_tasks.h"
+	"RCC.h"
+	"GPIO.h"
+	"TIM.h"
+	"USART.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+	"ADC.h"
+	"I2C.h"
+	"EXTI.h"
+	"RTC.h"
+
+1665739798 e:\small_car\inc\main.h
+	"stm32f4xx.h"
+	"FilConfig.h"
+	"External_Manager.h"
+
+1665465014 e:\small_car\inc\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1665465014 e:\small_car\cmsis\core_cm4.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+	"mpu_armv7.h"
+
+1665465014 e:\small_car\cmsis\cmsis_version.h
+
+1665465014 e:\small_car\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1665465014 e:\small_car\cmsis\cmsis_gcc.h
+
+1665465014 e:\small_car\cmsis\mpu_armv7.h
+
+1665465014 e:\small_car\inc\system_stm32f4xx.h
+
+1665746202 e:\small_car\external\external_manager.h
+	"BoardSelection.h"
+	"fonts.h"
+	"images.h"
+	"ssd1306_i2c.h"
+	"ssd1306.h"
+	"mpu9250.h"
+	"ModBus_conf.h"
+	"Matrix.h"
+	"Regulators.h"
+	"KINEMATICS.h"
+
+1667882388 e:\small_car\rcr\boardselection.h
+	"MinimalKit.h"
+	"MaxPins.h"
+	"MaxKit.h"
+	"MaxSetup.h"
+	"RCR_DevBoard_1_Setup.h"
+	"RCR_DevBoard_2_Setup.h"
+	"RCR_DevBoard_3_Setup.h"
+	"Pins.h"
+	"Setup.h"
+	"dev.h"
+	"dev_ws.h"
+
+1665465014 e:\small_car\rcr\minkit\minimalkit.h
+	"FilConfig.h"
+
+1665465014 e:\small_car\rcr\maxkit\maxpins.h
+
+1665465014 e:\small_car\rcr\maxkit\maxkit.h
+	"FilConfig.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1665465014 e:\small_car\rcr\maxkit\maxsetup.h
+	"MaxKit.h"
+	"MaxPins.h"
+	"FilConfig.h"
+
+1668688348 e:\small_car\rcr\devboard#2\rcr_devboard_2_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_2.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1667882696 e:\small_car\rcr\devboard#2\rcr_devboard_2.h
+
+1667472656 e:\small_car\rcr\devboard#3\rcr_devboard_3_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_3.h"
+
+1665997818 e:\small_car\rcr\devboard#3\rcr_devboard_3.h
+
+1665827798 e:\small_car\rcr\devboard#4\pins.h
+
+1666172836 e:\small_car\rcr\devboard#4\setup.h
+
+1665465014 e:\small_car\dev\dev.h
+	<stdbool.h>
+	"FilConfig.h"
+
+1665465014 e:\small_car\dev_examples\dev_ws.h
+
+1665465014 e:\small_car\external\ssd1306\fonts.h
+	"stm32f4xx.h"
+	"string.h"
+
+1665465014 e:\small_car\external\ssd1306\images.h
+	"FilConfig.h"
+	"stdint.h"
+
+1665465014 e:\small_car\external\ssd1306\ssd1306_i2c.h
+	"FilConfig.h"
+	"ssd1306.h"
+
+1665465014 e:\small_car\external\ssd1306\ssd1306.h
+	"FilConfig.h"
+	"stdlib.h"
+	"string.h"
+
+1665465014 e:\small_car\external\mpu9250\mpu9250.h
+	"FilConfig.h"
+	<math.h>
+	"stdbool.h"
+
+1665465014 e:\small_car\external\regulators\regulators.h
+	"BoardSelection.h"
+
+1665465014 e:\small_car\fil_lib\inc\rcc.h
+	"FilConfig.h"
+
+1665465014 e:\small_car\fil_lib\inc\gpio.h
+	"FilConfig.h"
+
+1666175780 e:\small_car\fil_lib\inc\tim.h
+	"FilConfig.h"
+
+1665835410 e:\small_car\fil_lib\inc\usart.h
+	"FilConfig.h"
+
+1665465014 e:\small_car\fil_lib\inc\dma.h
+	"FilConfig.h"
+
+1666157240 e:\small_car\fil_lib\inc\dma_fifobuffers.h
+	"FilConfig.h"
+
+1666157554 e:\small_car\fil_lib\inc\adc.h
+	"FilConfig.h"
+
+1668253574 e:\small_car\fil_lib\inc\i2c.h
+	"FilConfig.h"
+
+1665465014 e:\small_car\fil_lib\inc\exti.h
+	"FilConfig.h"
+
+1665465014 e:\small_car\fil_lib\inc\rtc.h
+	"FilConfig.h"
+
+1666341768 e:\small_car\external\modbus\ascii\modbus_ascii.h
+	"ModBus_conf.h"
+
+1665465014 source:e:\small_car\external\mpu9250\mpu9250.c
+	"mpu9250.h"
+
+1665465014 source:e:\small_car\external\regulators\regulators.c
+	"FilConfig.h"
+	"Regulators.h"
+
+1665465014 source:e:\small_car\external\ssd1306\fonts.c
+	"fonts.h"
+
+1665465014 source:e:\small_car\external\ssd1306\images.c
+	"images.h"
+
+1665465014 source:e:\small_car\external\ssd1306\ssd1306.c
+	"ssd1306.h"
+
+1665465014 source:e:\small_car\external\ssd1306\ssd1306_i2c.c
+	"ssd1306_i2c.h"
+
+1668688164 source:e:\small_car\fil_lib\src\adc.c
+	"ADC.h"
+
+1665465014 source:e:\small_car\fil_lib\src\dma.c
+	"stm32f4xx.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+
+1665465014 source:e:\small_car\fil_lib\src\exti.c
+	"EXTI.h"
+
+1665465014 source:e:\small_car\fil_lib\src\i2c.c
+	"I2C.h"
+
+1665465014 source:e:\small_car\fil_lib\src\rcc.c
+	"RCC.h"
+
+1665465014 source:e:\small_car\fil_lib\src\rtc.c
+	"RTC.h"
+
+1668169466 source:e:\small_car\fil_lib\src\tim.c
+	"TIM.h"
+
+1666178592 source:e:\small_car\fil_lib\src\usart.c
+	"USART.h"
+
+1668688228 source:e:\small_car\src\main.c
+	"main.h"
+	"TCS3472.h"
+
+1665739410 source:e:\small_car\dev\dev.c
+	"dev.h"
+
+1665465014 source:e:\small_car\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1668685182 source:e:\small_car\external\colorsensor\tcs3472.c
+	"TCS3472.h"
+
+1668685184 e:\small_car\external\colorsensor\tcs3472.h
+	"main.h"
+
+1665465014 source:h:\lastcar\small_car\src\startup_stm32f401xc.s
+
+1668685182 source:h:\lastcar\small_car\external\colorsensor\tcs3472.c
+	"TCS3472.h"
+
+1668685184 h:\lastcar\small_car\external\colorsensor\tcs3472.h
+	"main.h"
+
+1665739798 h:\lastcar\small_car\inc\main.h
+	"stm32f4xx.h"
+	"FilConfig.h"
+	"External_Manager.h"
+
+1665465014 h:\lastcar\small_car\inc\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1665465014 h:\lastcar\small_car\cmsis\core_cm4.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+	"mpu_armv7.h"
+
+1665465014 h:\lastcar\small_car\cmsis\cmsis_version.h
+
+1665465014 h:\lastcar\small_car\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1665465014 h:\lastcar\small_car\cmsis\cmsis_gcc.h
+
+1665465014 h:\lastcar\small_car\cmsis\mpu_armv7.h
+
+1665465014 h:\lastcar\small_car\inc\system_stm32f4xx.h
+
+1665841182 h:\lastcar\small_car\fil_lib\filconfig.h
+	"main.h"
+	<stdbool.h>
+	"BoardSelection.h"
+	"FreeRTOS.h"
+	"FreeRTOSConfig.h"
+	"task.h"
+	"queue.h"
+	"semphr.h"
+	"croutine.h"
+	"timers.h"
+	"event_groups.h"
+	"stream_buffer.h"
+	"Robot_tasks.h"
+	"RCC.h"
+	"GPIO.h"
+	"TIM.h"
+	"USART.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+	"ADC.h"
+	"I2C.h"
+	"EXTI.h"
+	"RTC.h"
+
+1667882388 h:\lastcar\small_car\rcr\boardselection.h
+	"MinimalKit.h"
+	"MaxPins.h"
+	"MaxKit.h"
+	"MaxSetup.h"
+	"RCR_DevBoard_1_Setup.h"
+	"RCR_DevBoard_2_Setup.h"
+	"RCR_DevBoard_3_Setup.h"
+	"Pins.h"
+	"Setup.h"
+	"dev.h"
+	"dev_ws.h"
+
+1665465014 h:\lastcar\small_car\rcr\minkit\minimalkit.h
+	"FilConfig.h"
+
+1665465014 h:\lastcar\small_car\rcr\maxkit\maxpins.h
+
+1665465014 h:\lastcar\small_car\rcr\maxkit\maxkit.h
+	"FilConfig.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1667882550 h:\lastcar\small_car\external\modbus\modbus_conf.h
+	<stdlib.h>
+	"FilConfig.h"
+	"BoardSelection.h"
+	"ModBus_ASCII.h"
+
+1666341768 h:\lastcar\small_car\external\modbus\ascii\modbus_ascii.h
+	"ModBus_conf.h"
+
+1665465014 h:\lastcar\small_car\rcr\maxkit\maxsetup.h
+	"MaxKit.h"
+	"MaxPins.h"
+	"FilConfig.h"
+
+1668688348 h:\lastcar\small_car\rcr\devboard#2\rcr_devboard_2_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_2.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1667882696 h:\lastcar\small_car\rcr\devboard#2\rcr_devboard_2.h
+
+1667472656 h:\lastcar\small_car\rcr\devboard#3\rcr_devboard_3_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_3.h"
+
+1665997818 h:\lastcar\small_car\rcr\devboard#3\rcr_devboard_3.h
+
+1665827798 h:\lastcar\small_car\rcr\devboard#4\pins.h
+
+1666172836 h:\lastcar\small_car\rcr\devboard#4\setup.h
+
+1665465014 h:\lastcar\small_car\dev\dev.h
+	<stdbool.h>
+	"FilConfig.h"
+
+1665465014 h:\lastcar\small_car\dev_examples\dev_ws.h
+
+1665465014 h:\lastcar\small_car\fil_lib\inc\rcc.h
+	"FilConfig.h"
+
+1665465014 h:\lastcar\small_car\fil_lib\inc\gpio.h
+	"FilConfig.h"
+
+1666175780 h:\lastcar\small_car\fil_lib\inc\tim.h
+	"FilConfig.h"
+
+1665835410 h:\lastcar\small_car\fil_lib\inc\usart.h
+	"FilConfig.h"
+
+1665465014 h:\lastcar\small_car\fil_lib\inc\dma.h
+	"FilConfig.h"
+
+1666157240 h:\lastcar\small_car\fil_lib\inc\dma_fifobuffers.h
+	"FilConfig.h"
+
+1666157554 h:\lastcar\small_car\fil_lib\inc\adc.h
+	"FilConfig.h"
+
+1668253574 h:\lastcar\small_car\fil_lib\inc\i2c.h
+	"FilConfig.h"
+
+1665465014 h:\lastcar\small_car\fil_lib\inc\exti.h
+	"FilConfig.h"
+
+1665465014 h:\lastcar\small_car\fil_lib\inc\rtc.h
+	"FilConfig.h"
+
+1665746202 h:\lastcar\small_car\external\external_manager.h
+	"BoardSelection.h"
+	"fonts.h"
+	"images.h"
+	"ssd1306_i2c.h"
+	"ssd1306.h"
+	"mpu9250.h"
+	"ModBus_conf.h"
+	"Matrix.h"
+	"Regulators.h"
+	"KINEMATICS.h"
+
+1665465014 h:\lastcar\small_car\external\ssd1306\fonts.h
+	"stm32f4xx.h"
+	"string.h"
+
+1665465014 h:\lastcar\small_car\external\ssd1306\images.h
+	"FilConfig.h"
+	"stdint.h"
+
+1665465014 h:\lastcar\small_car\external\ssd1306\ssd1306_i2c.h
+	"FilConfig.h"
+	"ssd1306.h"
+
+1665465014 h:\lastcar\small_car\external\ssd1306\ssd1306.h
+	"FilConfig.h"
+	"stdlib.h"
+	"string.h"
+
+1665465014 h:\lastcar\small_car\external\mpu9250\mpu9250.h
+	"FilConfig.h"
+	<math.h>
+	"stdbool.h"
+
+1665465014 h:\lastcar\small_car\external\matrix\matrix.h
+
+1665465014 h:\lastcar\small_car\external\regulators\regulators.h
+	"BoardSelection.h"
+
+1665465014 source:h:\lastcar\small_car\external\matrix\matrix.c
+	"Matrix.h"
+
+1667882568 source:h:\lastcar\small_car\external\modbus\ascii\modbus_ascii.c
+	"ModBus_conf.h"
+
+1665465014 source:h:\lastcar\small_car\external\mpu9250\mpu9250.c
+	"mpu9250.h"
+
+1665465014 source:h:\lastcar\small_car\external\regulators\regulators.c
+	"FilConfig.h"
+	"Regulators.h"
+
+1665465014 source:h:\lastcar\small_car\external\ssd1306\fonts.c
+	"fonts.h"
+
+1665465014 source:h:\lastcar\small_car\external\ssd1306\images.c
+	"images.h"
+
+1665465014 source:h:\lastcar\small_car\external\ssd1306\ssd1306.c
+	"ssd1306.h"
+
+1665465014 source:h:\lastcar\small_car\external\ssd1306\ssd1306_i2c.c
+	"ssd1306_i2c.h"
+
+1668688164 source:h:\lastcar\small_car\fil_lib\src\adc.c
+	"ADC.h"
+
+1665465014 source:h:\lastcar\small_car\fil_lib\src\dma.c
+	"stm32f4xx.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+
+1665465014 source:h:\lastcar\small_car\fil_lib\src\exti.c
+	"EXTI.h"
+
+1665465014 source:h:\lastcar\small_car\fil_lib\src\i2c.c
+	"I2C.h"
+
+1665465014 source:h:\lastcar\small_car\fil_lib\src\rcc.c
+	"RCC.h"
+
+1665465014 source:h:\lastcar\small_car\fil_lib\src\rtc.c
+	"RTC.h"
+
+1668712250 source:h:\lastcar\small_car\fil_lib\src\tim.c
+	"TIM.h"
+
+1666178592 source:h:\lastcar\small_car\fil_lib\src\usart.c
+	"USART.h"
+
+1669047690 source:h:\lastcar\small_car\src\main.c
+	"main.h"
+	"TCS3472.h"
+	"main.h"
+	"ssd1306.h"
+	"read.h"
+
+1669047840 h:\lastcar\small_car\src\read.h
+
+1665465014 source:e:\lastcar\small_car\src\startup_stm32f401xc.s
+
+1668685182 source:e:\lastcar\small_car\external\colorsensor\tcs3472.c
+	"TCS3472.h"
+
+1668685184 e:\lastcar\small_car\external\colorsensor\tcs3472.h
+	"main.h"
+
+1669292090 e:\lastcar\small_car\inc\main.h
+	"stm32f4xx.h"
+	"FilConfig.h"
+	"External_Manager.h"
+
+1665465014 e:\lastcar\small_car\inc\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1665465014 e:\lastcar\small_car\cmsis\core_cm4.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+	"mpu_armv7.h"
+
+1665465014 e:\lastcar\small_car\cmsis\cmsis_version.h
+
+1665465014 e:\lastcar\small_car\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1665465014 e:\lastcar\small_car\cmsis\cmsis_gcc.h
+
+1665465014 e:\lastcar\small_car\cmsis\mpu_armv7.h
+
+1665465014 e:\lastcar\small_car\inc\system_stm32f4xx.h
+
+1665841182 e:\lastcar\small_car\fil_lib\filconfig.h
+	"main.h"
+	<stdbool.h>
+	"BoardSelection.h"
+	"FreeRTOS.h"
+	"FreeRTOSConfig.h"
+	"task.h"
+	"queue.h"
+	"semphr.h"
+	"croutine.h"
+	"timers.h"
+	"event_groups.h"
+	"stream_buffer.h"
+	"Robot_tasks.h"
+	"RCC.h"
+	"GPIO.h"
+	"TIM.h"
+	"USART.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+	"ADC.h"
+	"I2C.h"
+	"EXTI.h"
+	"RTC.h"
+
+1667882388 e:\lastcar\small_car\rcr\boardselection.h
+	"MinimalKit.h"
+	"MaxPins.h"
+	"MaxKit.h"
+	"MaxSetup.h"
+	"RCR_DevBoard_1_Setup.h"
+	"RCR_DevBoard_2_Setup.h"
+	"RCR_DevBoard_3_Setup.h"
+	"Pins.h"
+	"Setup.h"
+	"dev.h"
+	"dev_ws.h"
+
+1665465014 e:\lastcar\small_car\rcr\minkit\minimalkit.h
+	"FilConfig.h"
+
+1665465014 e:\lastcar\small_car\rcr\maxkit\maxpins.h
+
+1665465014 e:\lastcar\small_car\rcr\maxkit\maxkit.h
+	"FilConfig.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1667882550 e:\lastcar\small_car\external\modbus\modbus_conf.h
+	<stdlib.h>
+	"FilConfig.h"
+	"BoardSelection.h"
+	"ModBus_ASCII.h"
+
+1666341768 e:\lastcar\small_car\external\modbus\ascii\modbus_ascii.h
+	"ModBus_conf.h"
+
+1665465014 e:\lastcar\small_car\rcr\maxkit\maxsetup.h
+	"MaxKit.h"
+	"MaxPins.h"
+	"FilConfig.h"
+
+1669730288 e:\lastcar\small_car\rcr\devboard#2\rcr_devboard_2_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_2.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1667882696 e:\lastcar\small_car\rcr\devboard#2\rcr_devboard_2.h
+
+1667472656 e:\lastcar\small_car\rcr\devboard#3\rcr_devboard_3_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_3.h"
+
+1665997818 e:\lastcar\small_car\rcr\devboard#3\rcr_devboard_3.h
+
+1665827798 e:\lastcar\small_car\rcr\devboard#4\pins.h
+
+1666172836 e:\lastcar\small_car\rcr\devboard#4\setup.h
+
+1665465014 e:\lastcar\small_car\dev\dev.h
+	<stdbool.h>
+	"FilConfig.h"
+
+1665465014 e:\lastcar\small_car\dev_examples\dev_ws.h
+
+1665465014 e:\lastcar\small_car\fil_lib\inc\rcc.h
+	"FilConfig.h"
+
+1665465014 e:\lastcar\small_car\fil_lib\inc\gpio.h
+	"FilConfig.h"
+
+1666175780 e:\lastcar\small_car\fil_lib\inc\tim.h
+	"FilConfig.h"
+
+1665835410 e:\lastcar\small_car\fil_lib\inc\usart.h
+	"FilConfig.h"
+
+1665465014 e:\lastcar\small_car\fil_lib\inc\dma.h
+	"FilConfig.h"
+
+1666157240 e:\lastcar\small_car\fil_lib\inc\dma_fifobuffers.h
+	"FilConfig.h"
+
+1666157554 e:\lastcar\small_car\fil_lib\inc\adc.h
+	"FilConfig.h"
+
+1668253574 e:\lastcar\small_car\fil_lib\inc\i2c.h
+	"FilConfig.h"
+
+1665465014 e:\lastcar\small_car\fil_lib\inc\exti.h
+	"FilConfig.h"
+
+1665465014 e:\lastcar\small_car\fil_lib\inc\rtc.h
+	"FilConfig.h"
+
+1665746202 e:\lastcar\small_car\external\external_manager.h
+	"BoardSelection.h"
+	"fonts.h"
+	"images.h"
+	"ssd1306_i2c.h"
+	"ssd1306.h"
+	"mpu9250.h"
+	"ModBus_conf.h"
+	"Matrix.h"
+	"Regulators.h"
+	"KINEMATICS.h"
+
+1665465014 e:\lastcar\small_car\external\ssd1306\fonts.h
+	"stm32f4xx.h"
+	"string.h"
+
+1665465014 e:\lastcar\small_car\external\ssd1306\images.h
+	"FilConfig.h"
+	"stdint.h"
+
+1665465014 e:\lastcar\small_car\external\ssd1306\ssd1306_i2c.h
+	"FilConfig.h"
+	"ssd1306.h"
+
+1665465014 e:\lastcar\small_car\external\ssd1306\ssd1306.h
+	"FilConfig.h"
+	"stdlib.h"
+	"string.h"
+
+1665465014 e:\lastcar\small_car\external\mpu9250\mpu9250.h
+	"FilConfig.h"
+	<math.h>
+	"stdbool.h"
+
+1665465014 e:\lastcar\small_car\external\matrix\matrix.h
+
+1665465014 e:\lastcar\small_car\external\regulators\regulators.h
+	"BoardSelection.h"
+
+1665465014 source:e:\lastcar\small_car\external\matrix\matrix.c
+	"Matrix.h"
+
+1667882568 source:e:\lastcar\small_car\external\modbus\ascii\modbus_ascii.c
+	"ModBus_conf.h"
+
+1665465014 source:e:\lastcar\small_car\external\mpu9250\mpu9250.c
+	"mpu9250.h"
+
+1665465014 source:e:\lastcar\small_car\external\regulators\regulators.c
+	"FilConfig.h"
+	"Regulators.h"
+
+1665465014 source:e:\lastcar\small_car\external\ssd1306\fonts.c
+	"fonts.h"
+
+1665465014 source:e:\lastcar\small_car\external\ssd1306\images.c
+	"images.h"
+
+1665465014 source:e:\lastcar\small_car\external\ssd1306\ssd1306.c
+	"ssd1306.h"
+
+1669722668 source:e:\lastcar\small_car\external\ssd1306\ssd1306_i2c.c
+	"ssd1306_i2c.h"
+
+1668688164 source:e:\lastcar\small_car\fil_lib\src\adc.c
+	"ADC.h"
+
+1665465014 source:e:\lastcar\small_car\fil_lib\src\dma.c
+	"stm32f4xx.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+
+1669114948 source:e:\lastcar\small_car\fil_lib\src\exti.c
+	"EXTI.h"
+
+1665465014 source:e:\lastcar\small_car\fil_lib\src\i2c.c
+	"I2C.h"
+
+1665465014 source:e:\lastcar\small_car\fil_lib\src\rcc.c
+	"RCC.h"
+
+1665465014 source:e:\lastcar\small_car\fil_lib\src\rtc.c
+	"RTC.h"
+
+1669152890 source:e:\lastcar\small_car\fil_lib\src\tim.c
+	"TIM.h"
+
+1666178592 source:e:\lastcar\small_car\fil_lib\src\usart.c
+	"USART.h"
+
+1669806056 source:e:\lastcar\small_car\src\main.c
+	"main.h"
+	"TCS3472.h"
+	"ssd1306.h"
+	"functions.h"
+	"fonts.c"
+
+1669722398 e:\lastcar\small_car\src\functions.h
+	"main.h"
+	"ssd1306.h"
+
+1669806250 source:e:\lastcar\small_car\src\functions.c
+	"functions.h"
+
+1665739410 source:e:\lastcar\small_car\dev\dev.c
+	"dev.h"
+
+1665465014 source:e:\lastcar\small_car\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1665465014 e:\lastcar\small_car\external\ssd1306\fonts.c
+	"fonts.h"
+
+1665465014 source:f:\lastcar\small_car\src\startup_stm32f401xc.s
+
+1668685182 source:f:\lastcar\small_car\external\colorsensor\tcs3472.c
+	"TCS3472.h"
+
+1668685184 f:\lastcar\small_car\external\colorsensor\tcs3472.h
+	"main.h"
+
+1669292090 f:\lastcar\small_car\inc\main.h
+	"stm32f4xx.h"
+	"FilConfig.h"
+	"External_Manager.h"
+
+1665465014 f:\lastcar\small_car\inc\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1665465014 f:\lastcar\small_car\cmsis\core_cm4.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+	"mpu_armv7.h"
+
+1665465014 f:\lastcar\small_car\cmsis\cmsis_version.h
+
+1665465014 f:\lastcar\small_car\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1665465014 f:\lastcar\small_car\cmsis\cmsis_gcc.h
+
+1665465014 f:\lastcar\small_car\cmsis\mpu_armv7.h
+
+1665465014 f:\lastcar\small_car\inc\system_stm32f4xx.h
+
+1665841182 f:\lastcar\small_car\fil_lib\filconfig.h
+	"main.h"
+	<stdbool.h>
+	"BoardSelection.h"
+	"FreeRTOS.h"
+	"FreeRTOSConfig.h"
+	"task.h"
+	"queue.h"
+	"semphr.h"
+	"croutine.h"
+	"timers.h"
+	"event_groups.h"
+	"stream_buffer.h"
+	"Robot_tasks.h"
+	"RCC.h"
+	"GPIO.h"
+	"TIM.h"
+	"USART.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+	"ADC.h"
+	"I2C.h"
+	"EXTI.h"
+	"RTC.h"
+
+1667882388 f:\lastcar\small_car\rcr\boardselection.h
+	"MinimalKit.h"
+	"MaxPins.h"
+	"MaxKit.h"
+	"MaxSetup.h"
+	"RCR_DevBoard_1_Setup.h"
+	"RCR_DevBoard_2_Setup.h"
+	"RCR_DevBoard_3_Setup.h"
+	"Pins.h"
+	"Setup.h"
+	"dev.h"
+	"dev_ws.h"
+
+1665465014 f:\lastcar\small_car\rcr\minkit\minimalkit.h
+	"FilConfig.h"
+
+1665465014 f:\lastcar\small_car\rcr\maxkit\maxpins.h
+
+1665465014 f:\lastcar\small_car\rcr\maxkit\maxkit.h
+	"FilConfig.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1667882550 f:\lastcar\small_car\external\modbus\modbus_conf.h
+	<stdlib.h>
+	"FilConfig.h"
+	"BoardSelection.h"
+	"ModBus_ASCII.h"
+
+1666341768 f:\lastcar\small_car\external\modbus\ascii\modbus_ascii.h
+	"ModBus_conf.h"
+
+1665465014 f:\lastcar\small_car\rcr\maxkit\maxsetup.h
+	"MaxKit.h"
+	"MaxPins.h"
+	"FilConfig.h"
+
+1669210604 f:\lastcar\small_car\rcr\devboard#2\rcr_devboard_2_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_2.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1667882696 f:\lastcar\small_car\rcr\devboard#2\rcr_devboard_2.h
+
+1667472656 f:\lastcar\small_car\rcr\devboard#3\rcr_devboard_3_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_3.h"
+
+1665997818 f:\lastcar\small_car\rcr\devboard#3\rcr_devboard_3.h
+
+1665827798 f:\lastcar\small_car\rcr\devboard#4\pins.h
+
+1666172836 f:\lastcar\small_car\rcr\devboard#4\setup.h
+
+1665465014 f:\lastcar\small_car\dev\dev.h
+	<stdbool.h>
+	"FilConfig.h"
+
+1665465014 f:\lastcar\small_car\dev_examples\dev_ws.h
+
+1665465014 f:\lastcar\small_car\fil_lib\inc\rcc.h
+	"FilConfig.h"
+
+1665465014 f:\lastcar\small_car\fil_lib\inc\gpio.h
+	"FilConfig.h"
+
+1666175780 f:\lastcar\small_car\fil_lib\inc\tim.h
+	"FilConfig.h"
+
+1665835410 f:\lastcar\small_car\fil_lib\inc\usart.h
+	"FilConfig.h"
+
+1665465014 f:\lastcar\small_car\fil_lib\inc\dma.h
+	"FilConfig.h"
+
+1666157240 f:\lastcar\small_car\fil_lib\inc\dma_fifobuffers.h
+	"FilConfig.h"
+
+1666157554 f:\lastcar\small_car\fil_lib\inc\adc.h
+	"FilConfig.h"
+
+1668253574 f:\lastcar\small_car\fil_lib\inc\i2c.h
+	"FilConfig.h"
+
+1665465014 f:\lastcar\small_car\fil_lib\inc\exti.h
+	"FilConfig.h"
+
+1665465014 f:\lastcar\small_car\fil_lib\inc\rtc.h
+	"FilConfig.h"
+
+1665746202 f:\lastcar\small_car\external\external_manager.h
+	"BoardSelection.h"
+	"fonts.h"
+	"images.h"
+	"ssd1306_i2c.h"
+	"ssd1306.h"
+	"mpu9250.h"
+	"ModBus_conf.h"
+	"Matrix.h"
+	"Regulators.h"
+	"KINEMATICS.h"
+
+1665465014 f:\lastcar\small_car\external\ssd1306\fonts.h
+	"stm32f4xx.h"
+	"string.h"
+
+1665465014 f:\lastcar\small_car\external\ssd1306\images.h
+	"FilConfig.h"
+	"stdint.h"
+
+1665465014 f:\lastcar\small_car\external\ssd1306\ssd1306_i2c.h
+	"FilConfig.h"
+	"ssd1306.h"
+
+1665465014 f:\lastcar\small_car\external\ssd1306\ssd1306.h
+	"FilConfig.h"
+	"stdlib.h"
+	"string.h"
+
+1665465014 f:\lastcar\small_car\external\mpu9250\mpu9250.h
+	"FilConfig.h"
+	<math.h>
+	"stdbool.h"
+
+1665465014 f:\lastcar\small_car\external\matrix\matrix.h
+
+1665465014 f:\lastcar\small_car\external\regulators\regulators.h
+	"BoardSelection.h"
+
+1665465014 source:f:\lastcar\small_car\external\matrix\matrix.c
+	"Matrix.h"
+
+1667882568 source:f:\lastcar\small_car\external\modbus\ascii\modbus_ascii.c
+	"ModBus_conf.h"
+
+1665465014 source:f:\lastcar\small_car\external\mpu9250\mpu9250.c
+	"mpu9250.h"
+
+1665465014 source:f:\lastcar\small_car\external\regulators\regulators.c
+	"FilConfig.h"
+	"Regulators.h"
+
+1665465014 source:f:\lastcar\small_car\external\ssd1306\fonts.c
+	"fonts.h"
+
+1665465014 source:f:\lastcar\small_car\external\ssd1306\images.c
+	"images.h"
+
+1665465014 source:f:\lastcar\small_car\external\ssd1306\ssd1306.c
+	"ssd1306.h"
+
+1665465014 source:f:\lastcar\small_car\external\ssd1306\ssd1306_i2c.c
+	"ssd1306_i2c.h"
+
+1668688164 source:f:\lastcar\small_car\fil_lib\src\adc.c
+	"ADC.h"
+
+1665465014 source:f:\lastcar\small_car\fil_lib\src\dma.c
+	"stm32f4xx.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+
+1669114948 source:f:\lastcar\small_car\fil_lib\src\exti.c
+	"EXTI.h"
+
+1665465014 source:f:\lastcar\small_car\fil_lib\src\i2c.c
+	"I2C.h"
+
+1665465014 source:f:\lastcar\small_car\fil_lib\src\rcc.c
+	"RCC.h"
+
+1665465014 source:f:\lastcar\small_car\fil_lib\src\rtc.c
+	"RTC.h"
+
+1669152890 source:f:\lastcar\small_car\fil_lib\src\tim.c
+	"TIM.h"
+
+1666178592 source:f:\lastcar\small_car\fil_lib\src\usart.c
+	"USART.h"
+
+1669384568 source:f:\lastcar\small_car\src\main.c
+	"main.h"
+	"TCS3472.h"
+	"ssd1306.h"
+	"functions.h"
+	"fonts.c"
+
+1669301358 f:\lastcar\small_car\src\functions.h
+	"main.h"
+	"ssd1306.h"
+
+1665465014 f:\lastcar\small_car\external\ssd1306\fonts.c
+	"fonts.h"
+
+1665739410 source:f:\lastcar\small_car\dev\dev.c
+	"dev.h"
+
+1665465014 source:f:\lastcar\small_car\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1669384568 source:f:\lastcar\small_car\src\functions.c
+	"functions.h"
+
+1665465014 source:d:\lastcar\small_car\src\startup_stm32f401xc.s
+
+1668685182 source:d:\lastcar\small_car\external\colorsensor\tcs3472.c
+	"TCS3472.h"
+
+1670402276 d:\lastcar\small_car\external\colorsensor\tcs3472.h
+	"main.h"
+
+1669292090 d:\lastcar\small_car\inc\main.h
+	"stm32f4xx.h"
+	"FilConfig.h"
+	"External_Manager.h"
+
+1665465014 d:\lastcar\small_car\inc\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1665465014 d:\lastcar\small_car\cmsis\core_cm4.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+	"mpu_armv7.h"
+
+1665465014 d:\lastcar\small_car\cmsis\cmsis_version.h
+
+1665465014 d:\lastcar\small_car\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1665465014 d:\lastcar\small_car\cmsis\cmsis_gcc.h
+
+1665465014 d:\lastcar\small_car\cmsis\mpu_armv7.h
+
+1665465014 d:\lastcar\small_car\inc\system_stm32f4xx.h
+
+1665841182 d:\lastcar\small_car\fil_lib\filconfig.h
+	"main.h"
+	<stdbool.h>
+	"BoardSelection.h"
+	"FreeRTOS.h"
+	"FreeRTOSConfig.h"
+	"task.h"
+	"queue.h"
+	"semphr.h"
+	"croutine.h"
+	"timers.h"
+	"event_groups.h"
+	"stream_buffer.h"
+	"Robot_tasks.h"
+	"RCC.h"
+	"GPIO.h"
+	"TIM.h"
+	"USART.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+	"ADC.h"
+	"I2C.h"
+	"EXTI.h"
+	"RTC.h"
+
+1667882388 d:\lastcar\small_car\rcr\boardselection.h
+	"MinimalKit.h"
+	"MaxPins.h"
+	"MaxKit.h"
+	"MaxSetup.h"
+	"RCR_DevBoard_1_Setup.h"
+	"RCR_DevBoard_2_Setup.h"
+	"RCR_DevBoard_3_Setup.h"
+	"Pins.h"
+	"Setup.h"
+	"dev.h"
+	"dev_ws.h"
+
+1665465014 d:\lastcar\small_car\rcr\minkit\minimalkit.h
+	"FilConfig.h"
+
+1665465014 d:\lastcar\small_car\rcr\maxkit\maxpins.h
+
+1665465014 d:\lastcar\small_car\rcr\maxkit\maxkit.h
+	"FilConfig.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1667882550 d:\lastcar\small_car\external\modbus\modbus_conf.h
+	<stdlib.h>
+	"FilConfig.h"
+	"BoardSelection.h"
+	"ModBus_ASCII.h"
+
+1666341768 d:\lastcar\small_car\external\modbus\ascii\modbus_ascii.h
+	"ModBus_conf.h"
+
+1665465014 d:\lastcar\small_car\rcr\maxkit\maxsetup.h
+	"MaxKit.h"
+	"MaxPins.h"
+	"FilConfig.h"
+
+1669730288 d:\lastcar\small_car\rcr\devboard#2\rcr_devboard_2_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_2.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1667882696 d:\lastcar\small_car\rcr\devboard#2\rcr_devboard_2.h
+
+1667472656 d:\lastcar\small_car\rcr\devboard#3\rcr_devboard_3_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_3.h"
+
+1665997818 d:\lastcar\small_car\rcr\devboard#3\rcr_devboard_3.h
+
+1665827798 d:\lastcar\small_car\rcr\devboard#4\pins.h
+
+1666172836 d:\lastcar\small_car\rcr\devboard#4\setup.h
+
+1665465014 d:\lastcar\small_car\dev\dev.h
+	<stdbool.h>
+	"FilConfig.h"
+
+1665465014 d:\lastcar\small_car\dev_examples\dev_ws.h
+
+1665465014 d:\lastcar\small_car\fil_lib\inc\rcc.h
+	"FilConfig.h"
+
+1665465014 d:\lastcar\small_car\fil_lib\inc\gpio.h
+	"FilConfig.h"
+
+1666175780 d:\lastcar\small_car\fil_lib\inc\tim.h
+	"FilConfig.h"
+
+1665835410 d:\lastcar\small_car\fil_lib\inc\usart.h
+	"FilConfig.h"
+
+1665465014 d:\lastcar\small_car\fil_lib\inc\dma.h
+	"FilConfig.h"
+
+1666157240 d:\lastcar\small_car\fil_lib\inc\dma_fifobuffers.h
+	"FilConfig.h"
+
+1666157554 d:\lastcar\small_car\fil_lib\inc\adc.h
+	"FilConfig.h"
+
+1668253574 d:\lastcar\small_car\fil_lib\inc\i2c.h
+	"FilConfig.h"
+
+1665465014 d:\lastcar\small_car\fil_lib\inc\exti.h
+	"FilConfig.h"
+
+1665465014 d:\lastcar\small_car\fil_lib\inc\rtc.h
+	"FilConfig.h"
+
+1665746202 d:\lastcar\small_car\external\external_manager.h
+	"BoardSelection.h"
+	"fonts.h"
+	"images.h"
+	"ssd1306_i2c.h"
+	"ssd1306.h"
+	"mpu9250.h"
+	"ModBus_conf.h"
+	"Matrix.h"
+	"Regulators.h"
+	"KINEMATICS.h"
+
+1665465014 d:\lastcar\small_car\external\ssd1306\fonts.h
+	"stm32f4xx.h"
+	"string.h"
+
+1665465014 d:\lastcar\small_car\external\ssd1306\images.h
+	"FilConfig.h"
+	"stdint.h"
+
+1665465014 d:\lastcar\small_car\external\ssd1306\ssd1306_i2c.h
+	"FilConfig.h"
+	"ssd1306.h"
+
+1665465014 d:\lastcar\small_car\external\ssd1306\ssd1306.h
+	"FilConfig.h"
+	"stdlib.h"
+	"string.h"
+
+1665465014 d:\lastcar\small_car\external\mpu9250\mpu9250.h
+	"FilConfig.h"
+	<math.h>
+	"stdbool.h"
+
+1665465014 d:\lastcar\small_car\external\matrix\matrix.h
+
+1665465014 d:\lastcar\small_car\external\regulators\regulators.h
+	"BoardSelection.h"
+
+1665465014 source:d:\lastcar\small_car\external\matrix\matrix.c
+	"Matrix.h"
+
+1667882568 source:d:\lastcar\small_car\external\modbus\ascii\modbus_ascii.c
+	"ModBus_conf.h"
+
+1665465014 source:d:\lastcar\small_car\external\mpu9250\mpu9250.c
+	"mpu9250.h"
+
+1665465014 source:d:\lastcar\small_car\external\regulators\regulators.c
+	"FilConfig.h"
+	"Regulators.h"
+
+1665465014 source:d:\lastcar\small_car\external\ssd1306\fonts.c
+	"fonts.h"
+
+1665465014 source:d:\lastcar\small_car\external\ssd1306\images.c
+	"images.h"
+
+1665465014 source:d:\lastcar\small_car\external\ssd1306\ssd1306.c
+	"ssd1306.h"
+
+1669722668 source:d:\lastcar\small_car\external\ssd1306\ssd1306_i2c.c
+	"ssd1306_i2c.h"
+
+1668688164 source:d:\lastcar\small_car\fil_lib\src\adc.c
+	"ADC.h"
+
+1665465014 source:d:\lastcar\small_car\fil_lib\src\dma.c
+	"stm32f4xx.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+
+1670401284 source:d:\lastcar\small_car\fil_lib\src\exti.c
+	"EXTI.h"
+
+1665465014 source:d:\lastcar\small_car\fil_lib\src\i2c.c
+	"I2C.h"
+
+1665465014 source:d:\lastcar\small_car\fil_lib\src\rcc.c
+	"RCC.h"
+
+1665465014 source:d:\lastcar\small_car\fil_lib\src\rtc.c
+	"RTC.h"
+
+1669152890 source:d:\lastcar\small_car\fil_lib\src\tim.c
+	"TIM.h"
+
+1666178592 source:d:\lastcar\small_car\fil_lib\src\usart.c
+	"USART.h"
+
+1670402968 source:d:\lastcar\small_car\src\main.c
+	"main.h"
+	"TCS3472.h"
+	"ssd1306.h"
+	"functions.h"
+	"OLED.h"
+	"fonts.c"
+	<math.h>
+
+1670401490 d:\lastcar\small_car\src\functions.h
+	"main.h"
+	"ssd1306.h"
+
+1665465014 d:\lastcar\small_car\external\ssd1306\fonts.c
+	"fonts.h"
+
+1665739410 source:d:\lastcar\small_car\dev\dev.c
+	"dev.h"
+
+1665465014 source:d:\lastcar\small_car\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1670403246 source:d:\lastcar\small_car\src\functions.c
+	"TCS3472.h"
+	"functions.h"
+
+1669903098 d:\lastcar\small_car\src\oled.h
+	"main.h"
+	"ssd1306.h"
+
+1670402276 source:d:\lastcar\small_car\src\oled.c
+	"OLED.h"
+	"TCS3472.h"
+
