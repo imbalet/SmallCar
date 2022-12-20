@@ -312,7 +312,7 @@ void EXTI2_IRQHandler(void)
     EXTI->PR=0x4;
 }
 
-
+int NUMBER=0;
 void EXTI3_IRQHandler(void)
 {
     confirmK++;
@@ -322,6 +322,7 @@ void EXTI3_IRQHandler(void)
         NVIC_DisableIRQ(EXTI2_IRQn);
         NVIC_EnableIRQ(TIM2_IRQn);
         NVIC_EnableIRQ(TIM4_IRQn);
+        NUMBER=baseint;
 //        NVIC_DisableIRQ(EXTI2_IRQn);
     }
 
@@ -362,9 +363,9 @@ void TIM2_IRQHandler(void){
 /////////////////////////////////////////////////////////////////////////////
 void godistance(float dist){
 
-    while(rast[0]<dist){
-    PIDstruct[0].target = 0.03;
-    PIDstruct[1].target = 0.03;
+    while((rast[0]*(0.8))<(dist)){
+    PIDstruct[0].target = 0.06;
+    PIDstruct[1].target = 0.06;
 
     }
     PIDstruct[0].target = 0.0;
@@ -373,11 +374,11 @@ void godistance(float dist){
 }
 
 
-void rotatePlatform(float dec){
+void rotatePlatform(float deg){
     float RotateDistance=0;
     rast[0]=0;
     rast[1]=0;
-    RotateDistance=((float)(dec/360.0)*(LenCircle));
+    RotateDistance=((float)(deg/360.0)*(LenCircle));
     while ((rast[0])<RotateDistance){
         PIDstruct[0].target=0.03;
         PIDstruct[1].target=-0.03;

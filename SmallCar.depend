@@ -5480,7 +5480,7 @@
 
 1671535441 source:c:\users\user\desktop\новая папка\smallcar\src\startup_stm32f401xc.s
 
-1671537979 source:c:\users\user\desktop\новая папка\smallcar\src\functions.c
+1671545425 source:c:\users\user\desktop\новая папка\smallcar\src\functions.c
 	"TCS3472.h"
 	"functions.h"
 
@@ -5488,7 +5488,7 @@
 	"main.h"
 	"ssd1306.h"
 
-1671538023 source:c:\users\user\desktop\новая папка\smallcar\src\main.c
+1671545507 source:c:\users\user\desktop\новая папка\smallcar\src\main.c
 	"main.h"
 	"TCS3472.h"
 	"ssd1306.h"
