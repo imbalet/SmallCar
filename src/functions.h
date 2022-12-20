@@ -12,4 +12,5 @@ void PID_Calc(int number);
 void TIM4_IRQHandler(void);
 void godistance(float dist);
 void cube(void);
+void rotatePlatform(float dec);
 

@@ -2,6 +2,7 @@
 
 #define length             0.1256628
 #define baseDiscrets       3200.0//щелчков энкодкра на 360*
+#define LenCircle           0.4812388
 
 
 #include "TCS3472.h"
@@ -260,8 +261,8 @@ void TIM4_IRQHandler(void)
 {
 PIDstruct[0].current= -speed[0];
 PIDstruct[1].current= speed[1];
-PIDstruct[0].target = goal;
-PIDstruct[1].target = goal;
+//PIDstruct[0].target = goal;
+//PIDstruct[1].target = goal;
 PID_Calc(0);
 PID_Calc(1);
 SetSpeed((PIDstruct[0].output),0);
@@ -361,7 +362,27 @@ void TIM2_IRQHandler(void){
 /////////////////////////////////////////////////////////////////////////////
 void godistance(float dist){
 
-    while(rast[0]<dist) goal=0.03;
-    goal=0.0;
+    while(rast[0]<dist){
+    PIDstruct[0].target = 0.03;
+    PIDstruct[1].target = 0.03;
+
+    }
+    PIDstruct[0].target = 0.0;
+    PIDstruct[1].target = 0.0;
     rast[0]=0.0;
+}
+
+
+void rotatePlatform(float dec){
+    float RotateDistance=0;
+    rast[0]=0;
+    rast[1]=0;
+    RotateDistance=((float)(dec/360.0)*(LenCircle));
+    while ((rast[0])<RotateDistance){
+        PIDstruct[0].target=0.03;
+        PIDstruct[1].target=-0.03;
+    }
+    PIDstruct[0].target=0;
+    PIDstruct[1].target=0;
+
 }

@@ -67,6 +67,8 @@ int main(void){
     config();
 
 TCS3472_GetRGB();
+
+rotatePlatform(270.0);
     while(1){
         read(c);
         if(work)
