@@ -358,14 +358,16 @@ void TIM2_IRQHandler(void){
 
     TIM3->CNT = 0;
     TIM5->CNT= 0;
+
     ResetTimSR(TIM2);
+
 }
 /////////////////////////////////////////////////////////////////////////////
 void godistance(float dist){
 
     while((rast[0]*(0.8))<(dist)){
-    PIDstruct[0].target = 0.06;
-    PIDstruct[1].target = 0.06;
+    PIDstruct[0].target = 0.03;
+    PIDstruct[1].target = 0.03;
 
     }
     PIDstruct[0].target = 0.0;
@@ -378,12 +380,26 @@ void rotatePlatform(float deg){
     float RotateDistance=0;
     rast[0]=0;
     rast[1]=0;
-    RotateDistance=((float)(deg/360.0)*(LenCircle));
-    while ((rast[0])<RotateDistance){
-        PIDstruct[0].target=0.03;
-        PIDstruct[1].target=-0.03;
+
+    if (deg>=180){
+        deg=360-deg;
+        RotateDistance=((float)(deg/360.0)*(LenCircle));
+        while ((rast[1])<RotateDistance){
+            PIDstruct[1].target=0.03;
+            PIDstruct[0].target=-0.03;
+        }
+
+    }
+    else{
+        RotateDistance=((float)(deg/360.0)*(LenCircle));
+        while ((rast[0])<RotateDistance){
+            PIDstruct[0].target=0.03;
+            PIDstruct[1].target=-0.03;
+        }
     }
     PIDstruct[0].target=0;
     PIDstruct[1].target=0;
+    rast[0]=0;
+    rast[1]=0;
 
 }
