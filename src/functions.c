@@ -1,4 +1,4 @@
-#define R                  0.02//
+#define R                  0.02//радиус колеса
 
 #define length             0.1256628
 #define baseDiscrets       3200.0//щелчков энкодкра на 360*
@@ -7,10 +7,12 @@
 
 #include "TCS3472.h"
 #include "functions.h"
+#include "OLED.h"
 
 uint8_t work=0;
+
 struct{
-uint16_t top[3];
+uint16_t top[4];
 uint16_t bottom[8];
 }sens;
 
@@ -25,16 +27,19 @@ void read(int num){//0-7 sensors, 8-all
             delay_ms(2);
             sens.bottom[num]=ADC1_Data[1];
 
-                switch(num){
-                    case(0):
-                        sens.top[0]=ADC1_Data[0];
-                        break;
-                    case(2):
-                        sens.top[1]=(ADC1_Data[0]);
-                        break;
-                    case(6):
-                        sens.top[2]=(ADC1_Data[0]);
-                        break;
+            switch(num){
+                case(0):
+                    sens.top[0]=ADC1_Data[0];
+                    break;
+                case(2):
+                    sens.top[1]=(ADC1_Data[0]);
+                    break;
+                case(6):
+                    sens.top[2]=(ADC1_Data[0]);
+                    break;
+                case(4):
+                    sens.top[3]=(ADC1_Data[0]);
+                    break;
                 }
         }
         else{
@@ -42,25 +47,11 @@ void read(int num){//0-7 sensors, 8-all
                 read(i);
                 delay_ms(2);
                 }
-}
+        }
 }
 
 int16_t EncoderData[2];
 float uglS[2], linS[2], speed[2];
-uint32_t time=0;
-//
-//void TIM2_IRQHandler(void){
-//    EncoderData[0] = TIM5->CNT;
-//    EncoderData[1] = TIM3->CNT;
-//    uglS[0]=(360*(EncoderData[1])/(baseDiscrets)*10);
-//    uglS[1]=(360*(EncoderData[0])/(baseDiscrets)*10);
-//    linS[0]=((uglS[0]/360.0)*3.14 * d);
-//    linS[1]=((uglS[1]/360.0)*3.14 * d);
-//    TIM3->CNT = 0;
-//    TIM5->CNT= 0;
-//    ResetTimSR(TIM2);
-//}
-
 
 void config() {
     Board_Config;
@@ -72,10 +63,13 @@ void config() {
     ADCAddChannel(9,REGULAR,ADC_480_CYCLES);
     ConnectADCTODMA(HIGH_P, ADC1_Data, 0);
     ADC_Init();
+
     I2CSimpleConfigure(I2C1, I2C_Fast);
     TCS3472_Init();
     SSD1306_Init();
+
     PID();
+
     NVIC_EnableIRQ(TIM2_IRQn);
     NVIC_EnableIRQ(TIM4_IRQn);
 
@@ -85,15 +79,12 @@ void config() {
     NVIC_EnableIRQ(EXTI3_IRQn);
     AddEXTIInterrupt(EXTI3_PIN,EXTI_RISING_EDGE);
     NVIC_EnableIRQ(EXTI4_IRQn);
-    //Marker();
+
     SSD1306_GotoXY(0,44);
     SSD1306_Puts("Kiborg ubiyca", &Font_7x10, SSD1306_COLOR_WHITE);
     SSD1306_UpdateScreen();
-}
 
-void Marker(){
-
-
+    TCS3472_GetRGB();
 }
 
 void SetSpeed(float Dutyr, bool motor){
@@ -140,7 +131,7 @@ Regulator PIDstruct[2];
 
 void PID(void)
 {
-PIDstruct[0].Pk = 8;
+PIDstruct[0].Pk = 6;
 PIDstruct[0].Ik = 0.15;
 PIDstruct[0].Dk = 0.2;
 PIDstruct[0].current = 0.0;
@@ -255,14 +246,10 @@ void cube(){
 
 ////////////////////////////////////////////////////
 
-
-float goal = 0.0;
 void TIM4_IRQHandler(void)
 {
 PIDstruct[0].current= -speed[0];
 PIDstruct[1].current= speed[1];
-//PIDstruct[0].target = goal;
-//PIDstruct[1].target = goal;
 PID_Calc(0);
 PID_Calc(1);
 SetSpeed((PIDstruct[0].output),0);
@@ -323,19 +310,14 @@ void EXTI3_IRQHandler(void)
         NVIC_EnableIRQ(TIM2_IRQn);
         NVIC_EnableIRQ(TIM4_IRQn);
         NUMBER=baseint;
-//        NVIC_DisableIRQ(EXTI2_IRQn);
     }
-
-
-
   EXTI->PR=0x8;
 }
+
 bool cubeflag=0;
 void EXTI4_IRQHandler(void)
 {
     cubeflag=1;
-
-
     EXTI->PR=0x10;
 }
 
@@ -402,4 +384,35 @@ void rotatePlatform(float deg){
     rast[0]=0;
     rast[1]=0;
 
+}
+
+struct {
+    bool leftW;
+    bool rightW;
+    bool forwardW;
+    bool backW;
+} ways;
+
+void checkWays(){
+    read(0);
+    read(2);
+    read(6);
+
+    ways.backW=false;
+    ways.forwardW=false;
+    ways.leftW=false;
+    ways.rightW=false;
+
+    if (sens.top[1]<2000){ways.leftW=true;}
+    if (sens.top[2]<2000){ways.rightW=true;}
+    if (sens.top[0]<2000){ways.forwardW=true;}
+    if (sens.top[3]<2000){ways.backW=true;}
+}
+
+void leftHand(){
+    if (ways.leftW){rotatePlatform(270);}
+    else if (ways.forwardW){}
+    else if (ways.rightW){rotatePlatform(90);}
+    else if (ways.backW){rotatePlatform(180);}
+    godistance(0.1);
 }

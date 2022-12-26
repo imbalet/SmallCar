@@ -8,4 +8,5 @@ obj\debug\src\functions.o: src\functions.c External\ColorSensor/TCS3472.h \
  Fil_lib\inc/DMA_FIFOBuffers.h Fil_lib\inc/ADC.h Fil_lib\inc/I2C.h \
  Fil_lib\inc/EXTI.h External/External_Manager.h External\SSD1306/fonts.h \
  inc/stm32f4xx.h External\SSD1306/images.h External\SSD1306/ssd1306_i2c.h \
- External\SSD1306/ssd1306.h External\SSD1306/ssd1306.h src\functions.h
+ External\SSD1306/ssd1306.h External\SSD1306/ssd1306.h src\functions.h \
+ src\OLED.h

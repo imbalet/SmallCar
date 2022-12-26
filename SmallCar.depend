@@ -5763,15 +5763,16 @@
 
 1671878588 source:c:\repos\smallcar\src\startup_stm32f401xc.s
 
-1671881868 source:c:\repos\smallcar\src\functions.c
+1672057535 source:c:\repos\smallcar\src\functions.c
 	"TCS3472.h"
 	"functions.h"
+	"OLED.h"
 
-1671878588 c:\repos\smallcar\src\functions.h
+1672056566 c:\repos\smallcar\src\functions.h
 	"main.h"
 	"ssd1306.h"
 
-1671886528 source:c:\repos\smallcar\src\main.c
+1672054762 source:c:\repos\smallcar\src\main.c
 	"main.h"
 	"TCS3472.h"
 	"ssd1306.h"
