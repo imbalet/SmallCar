@@ -410,9 +410,41 @@ void checkWays(){
 }
 
 void leftHand(){
-    if (ways.leftW){rotatePlatform(270);}
+    if (ways.leftW){rotatePlatform(90);}
     else if (ways.forwardW){}
-    else if (ways.rightW){rotatePlatform(90);}
+    else if (ways.rightW){rotatePlatform(270);}
     else if (ways.backW){rotatePlatform(180);}
-    godistance(0.1);
+    godistance(0.3);
+}
+struct{
+int leftsens, rightsens, error, defaultValue;
+float pk, outputL,outputR, defaultspeed;
+}cubREGstruct;
+
+void cubREGinit(){
+    cubREGstruct.pk=0.000000000034625;
+    cubREGstruct.defaultValue=0;
+    cubREGstruct.defaultspeed=0.3;
+
+}
+
+
+void cubeREG(){
+    cubREGstruct.leftsens =((int)sens.bottom[1])*3;
+    if (cubREGstruct.leftsens>4095) cubREGstruct.leftsens=4095;
+    cubREGstruct.rightsens=(int)sens.bottom[3];
+    cubREGstruct.error=cubREGstruct.rightsens-cubREGstruct.leftsens + ((sens.bottom[4]-sens.bottom[0])*0.7);
+
+    cubREGstruct.outputR=cubREGstruct.defaultspeed+(cubREGstruct.pk)*cubREGstruct.error*cubREGstruct.error*cubREGstruct.error;
+    cubREGstruct.outputL=cubREGstruct.defaultspeed+(-cubREGstruct.pk)*cubREGstruct.error*cubREGstruct.error*cubREGstruct.error;
+    if (sens.bottom[2]<4096){
+        SetSpeed(cubREGstruct.outputL,1);
+        SetSpeed(cubREGstruct.outputR,0);
+
+    }
+    else {
+        SetSpeed(0,0);
+        SetSpeed(0,1);
+
+    }
 }

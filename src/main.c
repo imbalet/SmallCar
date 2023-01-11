@@ -46,18 +46,32 @@ float a;
 
 
 
+uint16_t b,g;
+int h;
+
+
 
 int main(void){
     float distance;
     uint32_t timer=0;
     config();
+    cubREGinit();
+
 
     while(1){
 
         read(8);
         if(work)
             {
+                NVIC_DisableIRQ(TIM2_IRQn);
+        NVIC_DisableIRQ(TIM4_IRQn);
             checkWays();
+            //leftHand();
+
+
+            cubeREG();
+
+
 
 
             SetPin(LED_PIN);

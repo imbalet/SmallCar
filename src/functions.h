@@ -14,3 +14,4 @@ void cube(void);
 void rotatePlatform(float dec);
 void checkWays(void);
 void leftHand(void);
+void cubeREG(void);

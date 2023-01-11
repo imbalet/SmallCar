@@ -2,25 +2,14 @@
 <EmBitz_debug_session>
 	<debuggerLastSession>
 		<watches>
-			<watch key="TCS3472" format="0" array="0" start="0" count="0" expanded="1" live="0" />
+			<watch key="TCS3472" format="0" array="0" start="0" count="0" expanded="0" live="0" />
 			<watch key="ADC1_Data" format="0" array="0" start="0" count="0" expanded="1" live="0" />
-			<watch key="Myint" format="0" array="0" start="0" count="0" expanded="0" live="0" />
-			<watch key="keyK" format="0" array="0" start="0" count="0" expanded="0" live="0" />
-			<watch key="myint" format="0" array="0" start="0" count="0" expanded="0" live="0" />
-			<watch key="baseint" format="0" array="0" start="0" count="0" expanded="0" live="0" />
-			<watch key="confirmK" format="0" array="0" start="0" count="0" expanded="0" live="0" />
-			<watch key="EncoderData" format="0" array="0" start="0" count="0" expanded="1" live="0" />
+			<watch key="EncoderData" format="0" array="0" start="0" count="0" expanded="0" live="0" />
 			<watch key="linS" format="0" array="0" start="0" count="0" expanded="1" live="0" />
 			<watch key="PIDstruct" format="0" array="0" start="0" count="0" expanded="1" live="0" />
-			<watch key="sens" format="0" array="0" start="0" count="0" expanded="1" live="0" />
-			<watch key="c" format="0" array="0" start="0" count="0" expanded="0" live="0" />
-			<watch key="goal" format="0" array="0" start="0" count="0" expanded="0" live="0" />
-			<watch key="distance" format="0" array="0" start="0" count="0" expanded="0" live="0" />
+			<watch key="sens" format="0" array="0" start="0" count="0" expanded="1" live="1" />
 			<watch key="a" format="0" array="0" start="0" count="0" expanded="0" live="0" />
 			<watch key="speed" format="0" array="0" start="0" count="0" expanded="1" live="0" />
-			<watch key="p" format="0" array="0" start="0" count="0" expanded="0" live="0" />
-			<watch key="i" format="0" array="0" start="0" count="0" expanded="0" live="0" />
-			<watch key="dp" format="0" array="0" start="0" count="0" expanded="0" live="0" />
 			<watch key="rast" format="0" array="0" start="0" count="0" expanded="1" live="0" />
 			<watch key="work" format="0" array="0" start="0" count="0" expanded="0" live="0" />
 			<watch key="ways" format="0" array="0" start="0" count="0" expanded="1" live="1" />
