@@ -15,3 +15,5 @@ void rotatePlatform(float dec);
 void checkWays(void);
 void leftHand(void);
 void cubeREG(void);
+void preg(void);
+void wallREG(float disance);

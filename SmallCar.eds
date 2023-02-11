@@ -8,11 +8,16 @@
 			<watch key="linS" format="0" array="0" start="0" count="0" expanded="1" live="0" />
 			<watch key="PIDstruct" format="0" array="0" start="0" count="0" expanded="1" live="0" />
 			<watch key="sens" format="0" array="0" start="0" count="0" expanded="1" live="1" />
-			<watch key="a" format="0" array="0" start="0" count="0" expanded="0" live="0" />
+			<watch key="a" format="0" array="0" start="0" count="0" expanded="0" live="1" />
 			<watch key="speed" format="0" array="0" start="0" count="0" expanded="1" live="0" />
 			<watch key="rast" format="0" array="0" start="0" count="0" expanded="1" live="0" />
 			<watch key="work" format="0" array="0" start="0" count="0" expanded="0" live="0" />
-			<watch key="ways" format="0" array="0" start="0" count="0" expanded="1" live="1" />
+			<watch key="ways" format="0" array="0" start="0" count="0" expanded="1" live="0" />
+			<watch key="I2CStatus" format="0" array="0" start="0" count="0" expanded="1" live="0" />
+			<watch key="ic" format="0" array="0" start="0" count="0" expanded="0" live="0" />
+			<watch key="result" format="0" array="0" start="0" count="0" expanded="0" live="0" />
+			<watch key="range" format="0" array="0" start="0" count="0" expanded="0" live="0" />
+			<watch key="jjj" format="0" array="0" start="0" count="0" expanded="0" live="0" />
 		</watches>
 		<memory_view address="0x200001a0" locked="1" live="0" options="292" />
 	</debuggerLastSession>

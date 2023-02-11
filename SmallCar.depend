@@ -5795,3 +5795,1139 @@
 1671878588 source:c:\repos\smallcar\src\system_stm32f4xx.c
 	"stm32f4xx.h"
 
+1673609170 source:c:\repos\folder\новая папка\smallcar\external\colorsensor\tcs3472.c
+	"TCS3472.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\external\colorsensor\tcs3472.h
+	"main.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\inc\main.h
+	"stm32f4xx.h"
+	"FilConfig.h"
+	"External_Manager.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\inc\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\cmsis\core_cm4.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+	"mpu_armv7.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\cmsis\cmsis_version.h
+
+1673609170 c:\repos\folder\новая папка\smallcar\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1673609170 c:\repos\folder\новая папка\smallcar\cmsis\cmsis_gcc.h
+
+1673609170 c:\repos\folder\новая папка\smallcar\cmsis\mpu_armv7.h
+
+1673609170 c:\repos\folder\новая папка\smallcar\inc\system_stm32f4xx.h
+
+1673609170 c:\repos\folder\новая папка\smallcar\fil_lib\filconfig.h
+	"main.h"
+	<stdbool.h>
+	"BoardSelection.h"
+	"FreeRTOS.h"
+	"FreeRTOSConfig.h"
+	"task.h"
+	"queue.h"
+	"semphr.h"
+	"croutine.h"
+	"timers.h"
+	"event_groups.h"
+	"stream_buffer.h"
+	"Robot_tasks.h"
+	"RCC.h"
+	"GPIO.h"
+	"TIM.h"
+	"USART.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+	"ADC.h"
+	"I2C.h"
+	"EXTI.h"
+	"RTC.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\rcr\boardselection.h
+	"MinimalKit.h"
+	"MaxPins.h"
+	"MaxKit.h"
+	"MaxSetup.h"
+	"RCR_DevBoard_1_Setup.h"
+	"RCR_DevBoard_2_Setup.h"
+	"RCR_DevBoard_3_Setup.h"
+	"Pins.h"
+	"Setup.h"
+	"dev.h"
+	"dev_ws.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\rcr\minkit\minimalkit.h
+	"FilConfig.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\rcr\maxkit\maxpins.h
+
+1673609170 c:\repos\folder\новая папка\smallcar\rcr\maxkit\maxkit.h
+	"FilConfig.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\external\modbus\modbus_conf.h
+	<stdlib.h>
+	"FilConfig.h"
+	"BoardSelection.h"
+	"ModBus_ASCII.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\external\modbus\ascii\modbus_ascii.h
+	"ModBus_conf.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\rcr\maxkit\maxsetup.h
+	"MaxKit.h"
+	"MaxPins.h"
+	"FilConfig.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\rcr\devboard#2\rcr_devboard_2_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_2.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\rcr\devboard#2\rcr_devboard_2.h
+
+1673609170 c:\repos\folder\новая папка\smallcar\rcr\devboard#3\rcr_devboard_3_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_3.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\rcr\devboard#3\rcr_devboard_3.h
+
+1673609170 c:\repos\folder\новая папка\smallcar\rcr\devboard#4\pins.h
+
+1673609170 c:\repos\folder\новая папка\smallcar\rcr\devboard#4\setup.h
+
+1673609170 c:\repos\folder\новая папка\smallcar\dev\dev.h
+	<stdbool.h>
+	"FilConfig.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\dev_examples\dev_ws.h
+
+1673609170 c:\repos\folder\новая папка\smallcar\fil_lib\inc\rcc.h
+	"FilConfig.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\fil_lib\inc\gpio.h
+	"FilConfig.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\fil_lib\inc\tim.h
+	"FilConfig.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\fil_lib\inc\usart.h
+	"FilConfig.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\fil_lib\inc\dma.h
+	"FilConfig.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\fil_lib\inc\dma_fifobuffers.h
+	"FilConfig.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\fil_lib\inc\adc.h
+	"FilConfig.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\fil_lib\inc\i2c.h
+	"FilConfig.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\fil_lib\inc\exti.h
+	"FilConfig.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\fil_lib\inc\rtc.h
+	"FilConfig.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\external\external_manager.h
+	"BoardSelection.h"
+	"fonts.h"
+	"images.h"
+	"ssd1306_i2c.h"
+	"ssd1306.h"
+	"mpu9250.h"
+	"ModBus_conf.h"
+	"Matrix.h"
+	"Regulators.h"
+	"KINEMATICS.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\external\ssd1306\fonts.h
+	"stm32f4xx.h"
+	"string.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\external\ssd1306\images.h
+	"FilConfig.h"
+	"stdint.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\external\ssd1306\ssd1306_i2c.h
+	"FilConfig.h"
+	"ssd1306.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\external\ssd1306\ssd1306.h
+	"FilConfig.h"
+	"stdlib.h"
+	"string.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\external\mpu9250\mpu9250.h
+	"FilConfig.h"
+	<math.h>
+	"stdbool.h"
+
+1673609170 c:\repos\folder\новая папка\smallcar\external\matrix\matrix.h
+
+1673609170 c:\repos\folder\новая папка\smallcar\external\regulators\regulators.h
+	"BoardSelection.h"
+
+1673609170 source:c:\repos\folder\новая папка\smallcar\external\matrix\matrix.c
+	"Matrix.h"
+
+1673609170 source:c:\repos\folder\новая папка\smallcar\external\modbus\ascii\modbus_ascii.c
+	"ModBus_conf.h"
+
+1673609170 source:c:\repos\folder\новая папка\smallcar\external\mpu9250\mpu9250.c
+	"mpu9250.h"
+
+1673609170 source:c:\repos\folder\новая папка\smallcar\external\regulators\regulators.c
+	"FilConfig.h"
+	"Regulators.h"
+
+1673609170 source:c:\repos\folder\новая папка\smallcar\external\ssd1306\fonts.c
+	"fonts.h"
+
+1673609170 source:c:\repos\folder\новая папка\smallcar\external\ssd1306\images.c
+	"images.h"
+
+1673609170 source:c:\repos\folder\новая папка\smallcar\external\ssd1306\ssd1306.c
+	"ssd1306.h"
+
+1673609170 source:c:\repos\folder\новая папка\smallcar\external\ssd1306\ssd1306_i2c.c
+	"ssd1306_i2c.h"
+
+1673609170 source:c:\repos\folder\новая папка\smallcar\fil_lib\src\adc.c
+	"ADC.h"
+
+1673609170 source:c:\repos\folder\новая папка\smallcar\fil_lib\src\dma.c
+	"stm32f4xx.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+
+1673609170 source:c:\repos\folder\новая папка\smallcar\fil_lib\src\exti.c
+	"EXTI.h"
+
+1673609170 source:c:\repos\folder\новая папка\smallcar\fil_lib\src\i2c.c
+	"I2C.h"
+
+1673609170 source:c:\repos\folder\новая папка\smallcar\fil_lib\src\rcc.c
+	"RCC.h"
+
+1673609170 source:c:\repos\folder\новая папка\smallcar\fil_lib\src\rtc.c
+	"RTC.h"
+
+1673609170 source:c:\repos\folder\новая папка\smallcar\fil_lib\src\tim.c
+	"TIM.h"
+
+1673609170 source:c:\repos\folder\новая папка\smallcar\fil_lib\src\usart.c
+	"USART.h"
+
+1673609170 source:c:\repos\folder\новая папка\smallcar\dev\dev.c
+	"dev.h"
+
+1673609171 source:c:\repos\folder\новая папка\smallcar\src\startup_stm32f401xc.s
+
+1673616771 source:c:\repos\folder\новая папка\smallcar\src\functions.c
+	"TCS3472.h"
+	"functions.h"
+	"OLED.h"
+
+1673609370 c:\repos\folder\новая папка\smallcar\src\functions.h
+	"main.h"
+	"ssd1306.h"
+
+1673609171 c:\repos\folder\новая папка\smallcar\src\oled.h
+	"main.h"
+	"ssd1306.h"
+
+1673616118 source:c:\repos\folder\новая папка\smallcar\src\main.c
+	"main.h"
+	"TCS3472.h"
+	"ssd1306.h"
+	"functions.h"
+	"OLED.h"
+	"fonts.c"
+	<math.h>
+
+1673609170 c:\repos\folder\новая папка\smallcar\external\ssd1306\fonts.c
+	"fonts.h"
+
+1673609171 source:c:\repos\folder\новая папка\smallcar\src\oled.c
+	"OLED.h"
+	"TCS3472.h"
+
+1673609171 source:c:\repos\folder\новая папка\smallcar\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1673961520 source:c:\repos\smallcar-main\external\colorsensor\tcs3472.c
+	"TCS3472.h"
+
+1673961520 c:\repos\smallcar-main\external\colorsensor\tcs3472.h
+	"main.h"
+
+1673961524 c:\repos\smallcar-main\inc\main.h
+	"stm32f4xx.h"
+	"FilConfig.h"
+	"External_Manager.h"
+
+1673961524 c:\repos\smallcar-main\inc\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1673961524 c:\repos\smallcar-main\cmsis\core_cm4.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+	"mpu_armv7.h"
+
+1673961524 c:\repos\smallcar-main\cmsis\cmsis_version.h
+
+1673961524 c:\repos\smallcar-main\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1673961524 c:\repos\smallcar-main\cmsis\cmsis_gcc.h
+
+1673961524 c:\repos\smallcar-main\cmsis\mpu_armv7.h
+
+1673961524 c:\repos\smallcar-main\inc\system_stm32f4xx.h
+
+1673961522 c:\repos\smallcar-main\fil_lib\filconfig.h
+	"main.h"
+	<stdbool.h>
+	"BoardSelection.h"
+	"FreeRTOS.h"
+	"FreeRTOSConfig.h"
+	"task.h"
+	"queue.h"
+	"semphr.h"
+	"croutine.h"
+	"timers.h"
+	"event_groups.h"
+	"stream_buffer.h"
+	"Robot_tasks.h"
+	"RCC.h"
+	"GPIO.h"
+	"TIM.h"
+	"USART.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+	"ADC.h"
+	"I2C.h"
+	"EXTI.h"
+	"RTC.h"
+
+1673961523 c:\repos\smallcar-main\rcr\boardselection.h
+	"MinimalKit.h"
+	"MaxPins.h"
+	"MaxKit.h"
+	"MaxSetup.h"
+	"RCR_DevBoard_1_Setup.h"
+	"RCR_DevBoard_2_Setup.h"
+	"RCR_DevBoard_3_Setup.h"
+	"Pins.h"
+	"Setup.h"
+	"dev.h"
+	"dev_ws.h"
+
+1673961523 c:\repos\smallcar-main\rcr\minkit\minimalkit.h
+	"FilConfig.h"
+
+1673961523 c:\repos\smallcar-main\rcr\maxkit\maxpins.h
+
+1673961523 c:\repos\smallcar-main\rcr\maxkit\maxkit.h
+	"FilConfig.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1673961521 c:\repos\smallcar-main\external\modbus\modbus_conf.h
+	<stdlib.h>
+	"FilConfig.h"
+	"BoardSelection.h"
+	"ModBus_ASCII.h"
+
+1673961521 c:\repos\smallcar-main\external\modbus\ascii\modbus_ascii.h
+	"ModBus_conf.h"
+
+1673961523 c:\repos\smallcar-main\rcr\maxkit\maxsetup.h
+	"MaxKit.h"
+	"MaxPins.h"
+	"FilConfig.h"
+
+1673961523 c:\repos\smallcar-main\rcr\devboard#2\rcr_devboard_2_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_2.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1673961523 c:\repos\smallcar-main\rcr\devboard#2\rcr_devboard_2.h
+
+1673961523 c:\repos\smallcar-main\rcr\devboard#3\rcr_devboard_3_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_3.h"
+
+1673961523 c:\repos\smallcar-main\rcr\devboard#3\rcr_devboard_3.h
+
+1673961523 c:\repos\smallcar-main\rcr\devboard#4\pins.h
+
+1673961523 c:\repos\smallcar-main\rcr\devboard#4\setup.h
+
+1673961524 c:\repos\smallcar-main\dev\dev.h
+	<stdbool.h>
+	"FilConfig.h"
+
+1673961524 c:\repos\smallcar-main\dev_examples\dev_ws.h
+
+1673961523 c:\repos\smallcar-main\fil_lib\inc\rcc.h
+	"FilConfig.h"
+
+1673961523 c:\repos\smallcar-main\fil_lib\inc\gpio.h
+	"FilConfig.h"
+
+1673961523 c:\repos\smallcar-main\fil_lib\inc\tim.h
+	"FilConfig.h"
+
+1673961523 c:\repos\smallcar-main\fil_lib\inc\usart.h
+	"FilConfig.h"
+
+1673961522 c:\repos\smallcar-main\fil_lib\inc\dma.h
+	"FilConfig.h"
+
+1673961522 c:\repos\smallcar-main\fil_lib\inc\dma_fifobuffers.h
+	"FilConfig.h"
+
+1673961522 c:\repos\smallcar-main\fil_lib\inc\adc.h
+	"FilConfig.h"
+
+1673961523 c:\repos\smallcar-main\fil_lib\inc\i2c.h
+	"FilConfig.h"
+
+1673961523 c:\repos\smallcar-main\fil_lib\inc\exti.h
+	"FilConfig.h"
+
+1673961523 c:\repos\smallcar-main\fil_lib\inc\rtc.h
+	"FilConfig.h"
+
+1673961520 c:\repos\smallcar-main\external\external_manager.h
+	"BoardSelection.h"
+	"fonts.h"
+	"images.h"
+	"ssd1306_i2c.h"
+	"ssd1306.h"
+	"mpu9250.h"
+	"ModBus_conf.h"
+	"Matrix.h"
+	"Regulators.h"
+	"KINEMATICS.h"
+
+1673961522 c:\repos\smallcar-main\external\ssd1306\fonts.h
+	"stm32f4xx.h"
+	"string.h"
+
+1673961522 c:\repos\smallcar-main\external\ssd1306\images.h
+	"FilConfig.h"
+	"stdint.h"
+
+1673961522 c:\repos\smallcar-main\external\ssd1306\ssd1306_i2c.h
+	"FilConfig.h"
+	"ssd1306.h"
+
+1673961522 c:\repos\smallcar-main\external\ssd1306\ssd1306.h
+	"FilConfig.h"
+	"stdlib.h"
+	"string.h"
+
+1673961521 c:\repos\smallcar-main\external\mpu9250\mpu9250.h
+	"FilConfig.h"
+	<math.h>
+	"stdbool.h"
+
+1673961521 c:\repos\smallcar-main\external\matrix\matrix.h
+
+1673961522 c:\repos\smallcar-main\external\regulators\regulators.h
+	"BoardSelection.h"
+
+1673961521 source:c:\repos\smallcar-main\external\matrix\matrix.c
+	"Matrix.h"
+
+1673961521 source:c:\repos\smallcar-main\external\modbus\ascii\modbus_ascii.c
+	"ModBus_conf.h"
+
+1673961520 source:c:\repos\smallcar-main\external\mpu9250\mpu9250.c
+	"mpu9250.h"
+
+1673961522 source:c:\repos\smallcar-main\external\regulators\regulators.c
+	"FilConfig.h"
+	"Regulators.h"
+
+1673961522 source:c:\repos\smallcar-main\external\ssd1306\fonts.c
+	"fonts.h"
+
+1673961522 source:c:\repos\smallcar-main\external\ssd1306\images.c
+	"images.h"
+
+1673961522 source:c:\repos\smallcar-main\external\ssd1306\ssd1306.c
+	"ssd1306.h"
+
+1673961522 source:c:\repos\smallcar-main\external\ssd1306\ssd1306_i2c.c
+	"ssd1306_i2c.h"
+
+1673961523 source:c:\repos\smallcar-main\fil_lib\src\adc.c
+	"ADC.h"
+
+1673961523 source:c:\repos\smallcar-main\fil_lib\src\dma.c
+	"stm32f4xx.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+
+1673961523 source:c:\repos\smallcar-main\fil_lib\src\exti.c
+	"EXTI.h"
+
+1673961523 source:c:\repos\smallcar-main\fil_lib\src\i2c.c
+	"I2C.h"
+
+1673961523 source:c:\repos\smallcar-main\fil_lib\src\rcc.c
+	"RCC.h"
+
+1673961523 source:c:\repos\smallcar-main\fil_lib\src\rtc.c
+	"RTC.h"
+
+1673961523 source:c:\repos\smallcar-main\fil_lib\src\tim.c
+	"TIM.h"
+
+1673961523 source:c:\repos\smallcar-main\fil_lib\src\usart.c
+	"USART.h"
+
+1673961524 source:c:\repos\smallcar-main\dev\dev.c
+	"dev.h"
+
+1673961566 source:c:\repos\smallcar-main\src\startup_stm32f401xc.s
+
+1673968653 source:c:\repos\smallcar-main\src\functions.c
+	"TCS3472.h"
+	"functions.h"
+	"OLED.h"
+
+1673961566 c:\repos\smallcar-main\src\functions.h
+	"main.h"
+	"ssd1306.h"
+
+1673961566 c:\repos\smallcar-main\src\oled.h
+	"main.h"
+	"ssd1306.h"
+
+1673961565 source:c:\repos\smallcar-main\src\oled.c
+	"OLED.h"
+	"TCS3472.h"
+
+1673961567 source:c:\repos\smallcar-main\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1673968791 source:c:\repos\smallcar-main\src\main.c
+	"main.h"
+	"TCS3472.h"
+	"ssd1306.h"
+	"functions.h"
+	"OLED.h"
+	"fonts.c"
+	<math.h>
+
+1673961522 c:\repos\smallcar-main\external\ssd1306\fonts.c
+	"fonts.h"
+
+1674052971 source:c:\repos\blblblbl\smallcar-main\external\colorsensor\tcs3472.c
+	"TCS3472.h"
+
+1674052971 c:\repos\blblblbl\smallcar-main\external\colorsensor\tcs3472.h
+	"main.h"
+
+1674052973 c:\repos\blblblbl\smallcar-main\inc\main.h
+	"stm32f4xx.h"
+	"FilConfig.h"
+	"External_Manager.h"
+
+1674052973 c:\repos\blblblbl\smallcar-main\inc\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1674052970 c:\repos\blblblbl\smallcar-main\cmsis\core_cm4.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+	"mpu_armv7.h"
+
+1674052970 c:\repos\blblblbl\smallcar-main\cmsis\cmsis_version.h
+
+1674052970 c:\repos\blblblbl\smallcar-main\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1674052970 c:\repos\blblblbl\smallcar-main\cmsis\cmsis_gcc.h
+
+1674052970 c:\repos\blblblbl\smallcar-main\cmsis\mpu_armv7.h
+
+1674052973 c:\repos\blblblbl\smallcar-main\inc\system_stm32f4xx.h
+
+1674052973 c:\repos\blblblbl\smallcar-main\fil_lib\filconfig.h
+	"main.h"
+	<stdbool.h>
+	"BoardSelection.h"
+	"FreeRTOS.h"
+	"FreeRTOSConfig.h"
+	"task.h"
+	"queue.h"
+	"semphr.h"
+	"croutine.h"
+	"timers.h"
+	"event_groups.h"
+	"stream_buffer.h"
+	"Robot_tasks.h"
+	"RCC.h"
+	"GPIO.h"
+	"TIM.h"
+	"USART.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+	"ADC.h"
+	"I2C.h"
+	"EXTI.h"
+	"RTC.h"
+
+1674053009 c:\repos\blblblbl\smallcar-main\rcr\boardselection.h
+	"MinimalKit.h"
+	"MaxPins.h"
+	"MaxKit.h"
+	"MaxSetup.h"
+	"RCR_DevBoard_1_Setup.h"
+	"RCR_DevBoard_2_Setup.h"
+	"RCR_DevBoard_3_Setup.h"
+	"Pins.h"
+	"Setup.h"
+	"dev.h"
+	"dev_ws.h"
+
+1674053009 c:\repos\blblblbl\smallcar-main\rcr\minkit\minimalkit.h
+	"FilConfig.h"
+
+1674053009 c:\repos\blblblbl\smallcar-main\rcr\maxkit\maxpins.h
+
+1674053009 c:\repos\blblblbl\smallcar-main\rcr\maxkit\maxkit.h
+	"FilConfig.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1674052971 c:\repos\blblblbl\smallcar-main\external\modbus\modbus_conf.h
+	<stdlib.h>
+	"FilConfig.h"
+	"BoardSelection.h"
+	"ModBus_ASCII.h"
+
+1674052971 c:\repos\blblblbl\smallcar-main\external\modbus\ascii\modbus_ascii.h
+	"ModBus_conf.h"
+
+1674053009 c:\repos\blblblbl\smallcar-main\rcr\maxkit\maxsetup.h
+	"MaxKit.h"
+	"MaxPins.h"
+	"FilConfig.h"
+
+1674053009 c:\repos\blblblbl\smallcar-main\rcr\devboard#2\rcr_devboard_2_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_2.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1674053009 c:\repos\blblblbl\smallcar-main\rcr\devboard#2\rcr_devboard_2.h
+
+1674053009 c:\repos\blblblbl\smallcar-main\rcr\devboard#3\rcr_devboard_3_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_3.h"
+
+1674053009 c:\repos\blblblbl\smallcar-main\rcr\devboard#3\rcr_devboard_3.h
+
+1674053009 c:\repos\blblblbl\smallcar-main\rcr\devboard#4\pins.h
+
+1674053009 c:\repos\blblblbl\smallcar-main\rcr\devboard#4\setup.h
+
+1674052971 c:\repos\blblblbl\smallcar-main\dev\dev.h
+	<stdbool.h>
+	"FilConfig.h"
+
+1674052971 c:\repos\blblblbl\smallcar-main\dev_examples\dev_ws.h
+
+1674052973 c:\repos\blblblbl\smallcar-main\fil_lib\inc\rcc.h
+	"FilConfig.h"
+
+1674052973 c:\repos\blblblbl\smallcar-main\fil_lib\inc\gpio.h
+	"FilConfig.h"
+
+1674052973 c:\repos\blblblbl\smallcar-main\fil_lib\inc\tim.h
+	"FilConfig.h"
+
+1674052973 c:\repos\blblblbl\smallcar-main\fil_lib\inc\usart.h
+	"FilConfig.h"
+
+1674052973 c:\repos\blblblbl\smallcar-main\fil_lib\inc\dma.h
+	"FilConfig.h"
+
+1674052973 c:\repos\blblblbl\smallcar-main\fil_lib\inc\dma_fifobuffers.h
+	"FilConfig.h"
+
+1674052973 c:\repos\blblblbl\smallcar-main\fil_lib\inc\adc.h
+	"FilConfig.h"
+
+1674052973 c:\repos\blblblbl\smallcar-main\fil_lib\inc\i2c.h
+	"FilConfig.h"
+
+1674052973 c:\repos\blblblbl\smallcar-main\fil_lib\inc\exti.h
+	"FilConfig.h"
+
+1674052973 c:\repos\blblblbl\smallcar-main\fil_lib\inc\rtc.h
+	"FilConfig.h"
+
+1674052971 c:\repos\blblblbl\smallcar-main\external\external_manager.h
+	"BoardSelection.h"
+	"fonts.h"
+	"images.h"
+	"ssd1306_i2c.h"
+	"ssd1306.h"
+	"mpu9250.h"
+	"ModBus_conf.h"
+	"Matrix.h"
+	"Regulators.h"
+	"KINEMATICS.h"
+
+1674052972 c:\repos\blblblbl\smallcar-main\external\ssd1306\fonts.h
+	"stm32f4xx.h"
+	"string.h"
+
+1674052972 c:\repos\blblblbl\smallcar-main\external\ssd1306\images.h
+	"FilConfig.h"
+	"stdint.h"
+
+1674052972 c:\repos\blblblbl\smallcar-main\external\ssd1306\ssd1306_i2c.h
+	"FilConfig.h"
+	"ssd1306.h"
+
+1674052972 c:\repos\blblblbl\smallcar-main\external\ssd1306\ssd1306.h
+	"FilConfig.h"
+	"stdlib.h"
+	"string.h"
+
+1674052971 c:\repos\blblblbl\smallcar-main\external\mpu9250\mpu9250.h
+	"FilConfig.h"
+	<math.h>
+	"stdbool.h"
+
+1674052971 c:\repos\blblblbl\smallcar-main\external\matrix\matrix.h
+
+1674052972 c:\repos\blblblbl\smallcar-main\external\regulators\regulators.h
+	"BoardSelection.h"
+
+1674052971 source:c:\repos\blblblbl\smallcar-main\external\matrix\matrix.c
+	"Matrix.h"
+
+1674052971 source:c:\repos\blblblbl\smallcar-main\external\modbus\ascii\modbus_ascii.c
+	"ModBus_conf.h"
+
+1674052971 source:c:\repos\blblblbl\smallcar-main\external\mpu9250\mpu9250.c
+	"mpu9250.h"
+
+1674052972 source:c:\repos\blblblbl\smallcar-main\external\regulators\regulators.c
+	"FilConfig.h"
+	"Regulators.h"
+
+1674052972 source:c:\repos\blblblbl\smallcar-main\external\ssd1306\fonts.c
+	"fonts.h"
+
+1674052972 source:c:\repos\blblblbl\smallcar-main\external\ssd1306\images.c
+	"images.h"
+
+1674052972 source:c:\repos\blblblbl\smallcar-main\external\ssd1306\ssd1306.c
+	"ssd1306.h"
+
+1674052972 source:c:\repos\blblblbl\smallcar-main\external\ssd1306\ssd1306_i2c.c
+	"ssd1306_i2c.h"
+
+1674052973 source:c:\repos\blblblbl\smallcar-main\fil_lib\src\adc.c
+	"ADC.h"
+
+1674052973 source:c:\repos\blblblbl\smallcar-main\fil_lib\src\dma.c
+	"stm32f4xx.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+
+1674052973 source:c:\repos\blblblbl\smallcar-main\fil_lib\src\exti.c
+	"EXTI.h"
+
+1674052973 source:c:\repos\blblblbl\smallcar-main\fil_lib\src\i2c.c
+	"I2C.h"
+
+1674052973 source:c:\repos\blblblbl\smallcar-main\fil_lib\src\rcc.c
+	"RCC.h"
+
+1674052973 source:c:\repos\blblblbl\smallcar-main\fil_lib\src\rtc.c
+	"RTC.h"
+
+1674052973 source:c:\repos\blblblbl\smallcar-main\fil_lib\src\tim.c
+	"TIM.h"
+
+1674052973 source:c:\repos\blblblbl\smallcar-main\fil_lib\src\usart.c
+	"USART.h"
+
+1674052971 source:c:\repos\blblblbl\smallcar-main\dev\dev.c
+	"dev.h"
+
+1674053010 source:c:\repos\blblblbl\smallcar-main\src\startup_stm32f401xc.s
+
+1674143505 source:c:\repos\blblblbl\smallcar-main\src\functions.c
+	"TCS3472.h"
+	"functions.h"
+	"OLED.h"
+
+1674131508 c:\repos\blblblbl\smallcar-main\src\functions.h
+	"main.h"
+	"ssd1306.h"
+
+1674053010 c:\repos\blblblbl\smallcar-main\src\oled.h
+	"main.h"
+	"ssd1306.h"
+
+1674053010 source:c:\repos\blblblbl\smallcar-main\src\oled.c
+	"OLED.h"
+	"TCS3472.h"
+
+1674053010 source:c:\repos\blblblbl\smallcar-main\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1674139895 source:c:\repos\blblblbl\smallcar-main\src\main.c
+	"main.h"
+	"TCS3472.h"
+	"ssd1306.h"
+	"functions.h"
+	"OLED.h"
+	"fonts.c"
+	<math.h>
+
+1674052972 c:\repos\blblblbl\smallcar-main\external\ssd1306\fonts.c
+	"fonts.h"
+
+1674053012 source:c:\repos\folder\новая папка\smallcar-main\src\startup_stm32f401xc.s
+
+1674052972 source:c:\repos\folder\новая папка\smallcar-main\external\colorsensor\tcs3472.c
+	"TCS3472.h"
+
+1674052972 c:\repos\folder\новая папка\smallcar-main\external\colorsensor\tcs3472.h
+	"main.h"
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\inc\main.h
+	"stm32f4xx.h"
+	"FilConfig.h"
+	"External_Manager.h"
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\inc\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1674052972 c:\repos\folder\новая папка\smallcar-main\cmsis\core_cm4.h
+	<stdint.h>
+	"cmsis_version.h"
+	"cmsis_compiler.h"
+	"mpu_armv7.h"
+
+1674052972 c:\repos\folder\новая папка\smallcar-main\cmsis\cmsis_version.h
+
+1674052972 c:\repos\folder\новая папка\smallcar-main\cmsis\cmsis_compiler.h
+	<stdint.h>
+	"cmsis_armcc.h"
+	"cmsis_armclang_ltm.h"
+	"cmsis_armclang.h"
+	"cmsis_gcc.h"
+	<cmsis_iccarm.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1674052972 c:\repos\folder\новая папка\smallcar-main\cmsis\cmsis_gcc.h
+
+1674052972 c:\repos\folder\новая папка\smallcar-main\cmsis\mpu_armv7.h
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\inc\system_stm32f4xx.h
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\fil_lib\filconfig.h
+	"main.h"
+	<stdbool.h>
+	"BoardSelection.h"
+	"FreeRTOS.h"
+	"FreeRTOSConfig.h"
+	"task.h"
+	"queue.h"
+	"semphr.h"
+	"croutine.h"
+	"timers.h"
+	"event_groups.h"
+	"stream_buffer.h"
+	"Robot_tasks.h"
+	"RCC.h"
+	"GPIO.h"
+	"TIM.h"
+	"USART.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+	"ADC.h"
+	"I2C.h"
+	"EXTI.h"
+	"RTC.h"
+
+1674053010 c:\repos\folder\новая папка\smallcar-main\rcr\boardselection.h
+	"MinimalKit.h"
+	"MaxPins.h"
+	"MaxKit.h"
+	"MaxSetup.h"
+	"RCR_DevBoard_1_Setup.h"
+	"RCR_DevBoard_2_Setup.h"
+	"RCR_DevBoard_3_Setup.h"
+	"Pins.h"
+	"Setup.h"
+	"dev.h"
+	"dev_ws.h"
+
+1674053010 c:\repos\folder\новая папка\smallcar-main\rcr\minkit\minimalkit.h
+	"FilConfig.h"
+
+1674053010 c:\repos\folder\новая папка\smallcar-main\rcr\maxkit\maxpins.h
+
+1674053010 c:\repos\folder\новая папка\smallcar-main\rcr\maxkit\maxkit.h
+	"FilConfig.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1674052972 c:\repos\folder\новая папка\smallcar-main\external\modbus\modbus_conf.h
+	<stdlib.h>
+	"FilConfig.h"
+	"BoardSelection.h"
+	"ModBus_ASCII.h"
+
+1674052972 c:\repos\folder\новая папка\smallcar-main\external\modbus\ascii\modbus_ascii.h
+	"ModBus_conf.h"
+
+1674053010 c:\repos\folder\новая папка\smallcar-main\rcr\maxkit\maxsetup.h
+	"MaxKit.h"
+	"MaxPins.h"
+	"FilConfig.h"
+
+1674053010 c:\repos\folder\новая папка\smallcar-main\rcr\devboard#2\rcr_devboard_2_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_2.h"
+	"ModBus_conf.h"
+	"ModBus.h"
+
+1674053010 c:\repos\folder\новая папка\smallcar-main\rcr\devboard#2\rcr_devboard_2.h
+
+1674053010 c:\repos\folder\новая папка\smallcar-main\rcr\devboard#3\rcr_devboard_3_setup.h
+	"FilConfig.h"
+	"RCR_DevBoard_3.h"
+
+1674053010 c:\repos\folder\новая папка\smallcar-main\rcr\devboard#3\rcr_devboard_3.h
+
+1674053010 c:\repos\folder\новая папка\smallcar-main\rcr\devboard#4\pins.h
+
+1674053010 c:\repos\folder\новая папка\smallcar-main\rcr\devboard#4\setup.h
+
+1674052972 c:\repos\folder\новая папка\smallcar-main\dev\dev.h
+	<stdbool.h>
+	"FilConfig.h"
+
+1674052972 c:\repos\folder\новая папка\smallcar-main\dev_examples\dev_ws.h
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\fil_lib\inc\rcc.h
+	"FilConfig.h"
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\fil_lib\inc\gpio.h
+	"FilConfig.h"
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\fil_lib\inc\tim.h
+	"FilConfig.h"
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\fil_lib\inc\usart.h
+	"FilConfig.h"
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\fil_lib\inc\dma.h
+	"FilConfig.h"
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\fil_lib\inc\dma_fifobuffers.h
+	"FilConfig.h"
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\fil_lib\inc\adc.h
+	"FilConfig.h"
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\fil_lib\inc\i2c.h
+	"FilConfig.h"
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\fil_lib\inc\exti.h
+	"FilConfig.h"
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\fil_lib\inc\rtc.h
+	"FilConfig.h"
+
+1674052972 c:\repos\folder\новая папка\smallcar-main\external\external_manager.h
+	"BoardSelection.h"
+	"fonts.h"
+	"images.h"
+	"ssd1306_i2c.h"
+	"ssd1306.h"
+	"mpu9250.h"
+	"ModBus_conf.h"
+	"Matrix.h"
+	"Regulators.h"
+	"KINEMATICS.h"
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\external\ssd1306\fonts.h
+	"stm32f4xx.h"
+	"string.h"
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\external\ssd1306\images.h
+	"FilConfig.h"
+	"stdint.h"
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\external\ssd1306\ssd1306_i2c.h
+	"FilConfig.h"
+	"ssd1306.h"
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\external\ssd1306\ssd1306.h
+	"FilConfig.h"
+	"stdlib.h"
+	"string.h"
+
+1674052972 c:\repos\folder\новая папка\smallcar-main\external\mpu9250\mpu9250.h
+	"FilConfig.h"
+	<math.h>
+	"stdbool.h"
+
+1674052972 c:\repos\folder\новая папка\smallcar-main\external\matrix\matrix.h
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\external\regulators\regulators.h
+	"BoardSelection.h"
+
+1674052972 source:c:\repos\folder\новая папка\smallcar-main\external\matrix\matrix.c
+	"Matrix.h"
+
+1674052972 source:c:\repos\folder\новая папка\smallcar-main\external\modbus\ascii\modbus_ascii.c
+	"ModBus_conf.h"
+
+1674052972 source:c:\repos\folder\новая папка\smallcar-main\external\mpu9250\mpu9250.c
+	"mpu9250.h"
+
+1674052974 source:c:\repos\folder\новая папка\smallcar-main\external\regulators\regulators.c
+	"FilConfig.h"
+	"Regulators.h"
+
+1674052974 source:c:\repos\folder\новая папка\smallcar-main\external\ssd1306\fonts.c
+	"fonts.h"
+
+1674052974 source:c:\repos\folder\новая папка\smallcar-main\external\ssd1306\images.c
+	"images.h"
+
+1674052974 source:c:\repos\folder\новая папка\smallcar-main\external\ssd1306\ssd1306.c
+	"ssd1306.h"
+
+1674052974 source:c:\repos\folder\новая папка\smallcar-main\external\ssd1306\ssd1306_i2c.c
+	"ssd1306_i2c.h"
+
+1674052974 source:c:\repos\folder\новая папка\smallcar-main\fil_lib\src\adc.c
+	"ADC.h"
+
+1674052974 source:c:\repos\folder\новая папка\smallcar-main\fil_lib\src\dma.c
+	"stm32f4xx.h"
+	"DMA.h"
+	"DMA_FIFOBuffers.h"
+
+1674052974 source:c:\repos\folder\новая папка\smallcar-main\fil_lib\src\exti.c
+	"EXTI.h"
+
+1674052974 source:c:\repos\folder\новая папка\smallcar-main\fil_lib\src\i2c.c
+	"I2C.h"
+
+1674052974 source:c:\repos\folder\новая папка\smallcar-main\fil_lib\src\rcc.c
+	"RCC.h"
+
+1674052974 source:c:\repos\folder\новая папка\smallcar-main\fil_lib\src\rtc.c
+	"RTC.h"
+
+1674052974 source:c:\repos\folder\новая папка\smallcar-main\fil_lib\src\tim.c
+	"TIM.h"
+
+1674052974 source:c:\repos\folder\новая папка\smallcar-main\fil_lib\src\usart.c
+	"USART.h"
+
+1674143506 source:c:\repos\folder\новая папка\smallcar-main\src\functions.c
+	"TCS3472.h"
+	"functions.h"
+	"OLED.h"
+
+1674131510 c:\repos\folder\новая папка\smallcar-main\src\functions.h
+	"main.h"
+	"ssd1306.h"
+
+1674053012 c:\repos\folder\новая папка\smallcar-main\src\oled.h
+	"main.h"
+	"ssd1306.h"
+
+1674144924 source:c:\repos\folder\новая папка\smallcar-main\src\main.c
+	"main.h"
+	"TCS3472.h"
+	"ssd1306.h"
+	"functions.h"
+	"OLED.h"
+	"fonts.c"
+	<math.h>
+
+1674052974 c:\repos\folder\новая папка\smallcar-main\external\ssd1306\fonts.c
+	"fonts.h"
+
+1674053012 source:c:\repos\folder\новая папка\smallcar-main\src\oled.c
+	"OLED.h"
+	"TCS3472.h"
+
+1674052972 source:c:\repos\folder\новая папка\smallcar-main\dev\dev.c
+	"dev.h"
+
+1674053012 source:c:\repos\folder\новая папка\smallcar-main\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+

@@ -1,5 +1,5 @@
-cscope 15 E:\Lastcar\Small_Car"               0001302357
-	@E:\Lastcar\Small_Car\External\ColorSensor\TCS3472.c
+cscope 15 C:\repos\SmallCar-main"               0001308544
+	@C:\repos\SmallCar-main\External\ColorSensor\TCS3472.c
 
 1 
 	~"TCS3472.h
@@ -1065,7 +1065,7 @@ Sour˚
 	}
 }
 
-	@E:\Lastcar\Small_Car\External\ColorSensor\TCS3472.h
+	@C:\repos\SmallCar-main\External\ColorSensor\TCS3472.h
 
 1 
 	~"maö.h
@@ -1237,17 +1237,23 @@ boﬁ
 	mIsI¡îru±
 ;
 
-37 }
+37 
+uöt8_t
+ 
+	mcﬁ‹
+;
+
+38 }
 	gTCS3472
 ;
 
-39 
+40 
 boﬁ
  
 TCS3472_Inô
 ();
 
-41 
+42 
 boﬁ
  
 TCS3472_SëPr›îtõs
@@ -1261,7 +1267,7 @@ I¡egøti⁄Time
 WaôTime
 );
 
-43 
+44 
 boﬁ
  
 TCS3472_SëGaö
@@ -1271,7 +1277,7 @@ uöt8_t
 Gaö
 );
 
-45 
+46 
 boﬁ
  
 TCS3472_SëI¡egøti⁄Time
@@ -1281,7 +1287,7 @@ uöt8_t
 I¡egøti⁄Time
 );
 
-47 
+48 
 boﬁ
  
 TCS3472_SëWaôTime
@@ -1291,37 +1297,37 @@ uöt8_t
 WaôTime
 );
 
-49 
+50 
 boﬁ
  
 TCS3472_C⁄√˘
 ();
 
-51 
+52 
 boﬁ
  
 TCS3472_CÆcuœãLux
 ();
 
-53 
+54 
 boﬁ
  
 TCS3472_CÆcuœãCﬁ‹Tem≥øtuªKñvö
 ();
 
-55 
+56 
 boﬁ
  
 TCS3472_GëRGB
 ();
 
-57 
+58 
 boﬁ
  
 TCS3472_GëRawD©a
 ();
 
-	@E:\Lastcar\Small_Car\External\External_Manager.h
+	@C:\repos\SmallCar-main\External\External_Manager.h
 
 1 #¥agm®
 ⁄˚
@@ -1533,7 +1539,7 @@ InvÆid
 EXTERNAL_KINEMATICS
 
 
-	@E:\Lastcar\Small_Car\External\MPU9250\mpu9250.c
+	@C:\repos\SmallCar-main\External\MPU9250\mpu9250.c
 
 10 
 	~"mpu9250.h
@@ -2821,7 +2827,7 @@ Mag√tomëîSˇÀFa˘‹
 	}
 }
 
-	@E:\Lastcar\Small_Car\External\MPU9250\mpu9250.h
+	@C:\repos\SmallCar-main\External\MPU9250\mpu9250.h
 
 10 #¥agm®
 ⁄˚
@@ -3299,7 +3305,7 @@ uöt8_t
 MPU_Inô
 ();
 
-	@E:\Lastcar\Small_Car\External\Matrix\Matrix.c
+	@C:\repos\SmallCar-main\External\Matrix\Matrix.c
 
 1 
 	~"M©rix.h
@@ -4463,7 +4469,7 @@ y
 	}
 }
 
-	@E:\Lastcar\Small_Car\External\Matrix\Matrix.h
+	@C:\repos\SmallCar-main\External\Matrix\Matrix.h
 
 1 #¥agm®
 ⁄˚
@@ -4661,7 +4667,7 @@ a
 k
 );
 
-	@E:\Lastcar\Small_Car\External\ModBus\ASCII\ModBus_ASCII.c
+	@C:\repos\SmallCar-main\External\ModBus\ASCII\ModBus_ASCII.c
 
 9 
 	~"ModBus_c⁄f.h
@@ -5513,7 +5519,7 @@ VÆue
 	}
 }
 
-	@E:\Lastcar\Small_Car\External\ModBus\ASCII\ModBus_ASCII.h
+	@C:\repos\SmallCar-main\External\ModBus\ASCII\ModBus_ASCII.h
 
 9 #¥agm®
 ⁄˚
@@ -5631,7 +5637,7 @@ uöt8_t
 Byãs
 );
 
-	@E:\Lastcar\Small_Car\External\ModBus\ModBus_conf.h
+	@C:\repos\SmallCar-main\External\ModBus\ModBus_conf.h
 
 9 #¥agm®
 ⁄˚
@@ -5783,7 +5789,7 @@ uöt32_t
 ModBus_MAXREGS
 ];
 
-	@E:\Lastcar\Small_Car\External\Regulators\Regulators.c
+	@C:\repos\SmallCar-main\External\Regulators\Regulators.c
 
 10 
 	~"FûC⁄fig.h
@@ -6477,7 +6483,7 @@ pid_föish
 	}
 }
 
-	@E:\Lastcar\Small_Car\External\Regulators\Regulators.h
+	@C:\repos\SmallCar-main\External\Regulators\Regulators.h
 
 10 #¥agm®
 ⁄˚
@@ -6853,7 +6859,7 @@ PID_Reguœt‹
 pid_c⁄åﬁ
 );
 
-	@E:\Lastcar\Small_Car\External\SSD1306\fonts.c
+	@C:\repos\SmallCar-main\External\SSD1306\fonts.c
 
 23 
 	~"f⁄ts.h
@@ -6957,7 +6963,7 @@ F⁄tWidth
 	}
 }
 
-	@E:\Lastcar\Small_Car\External\SSD1306\fonts.h
+	@C:\repos\SmallCar-main\External\SSD1306\fonts.h
 
 24 #i‚de‡
 FONTS_H
@@ -7059,7 +7065,7 @@ F⁄t
 __˝lu•lus
 
 
-	@E:\Lastcar\Small_Car\External\SSD1306\images.c
+	@C:\repos\SmallCar-main\External\SSD1306\images.c
 
 1 
 	~"images.h
@@ -7105,7 +7111,7 @@ uöt8_t
 	gHóπ_50x50
 [350] =
 
-	@E:\Lastcar\Small_Car\External\SSD1306\images.h
+	@C:\repos\SmallCar-main\External\SSD1306\images.h
 
 1 #i‚de‡
 IMAGES_H_INCLUDED
@@ -7171,7 +7177,7 @@ uöt8_t
 	gHóπ_50x50
 [350];
 
-	@E:\Lastcar\Small_Car\External\SSD1306\ssd1306.c
+	@C:\repos\SmallCar-main\External\SSD1306\ssd1306.c
 
 23 
 	~"ssd1306.h
@@ -9343,7 +9349,7 @@ c
 	}
 }
 
-	@E:\Lastcar\Small_Car\External\SSD1306\ssd1306.h
+	@C:\repos\SmallCar-main\External\SSD1306\ssd1306.h
 
 23 #i‚de‡
 SSD1306_H
@@ -9635,7 +9641,7 @@ y
 __˝lu•lus
 
 
-	@E:\Lastcar\Small_Car\External\SSD1306\ssd1306_i2c.c
+	@C:\repos\SmallCar-main\External\SSD1306\ssd1306_i2c.c
 
 23 
 	~"ssd1306_i2c.h
@@ -10083,7 +10089,7 @@ c⁄√˘ed
 	}
 }
 
-	@E:\Lastcar\Small_Car\External\SSD1306\ssd1306_i2c.h
+	@C:\repos\SmallCar-main\External\SSD1306\ssd1306_i2c.h
 
 23 #i‚de‡
 ssd1306_I2C_H
@@ -10199,7 +10205,7 @@ I2Cx
 addªss
 );
 
-	@E:\Lastcar\Small_Car\Fil_lib\FilConfig.h
+	@C:\repos\SmallCar-main\Fil_lib\FilConfig.h
 
 25 #¥agm®
 ⁄˚
@@ -10657,7 +10663,7 @@ InvÆid
 FIL_RTC
 
 
-	@E:\Lastcar\Small_Car\Fil_lib\inc\ADC.h
+	@C:\repos\SmallCar-main\Fil_lib\inc\ADC.h
 
 10 #¥agm®
 ⁄˚
@@ -11675,7 +11681,7 @@ ADC_Ty≥Def
 ADCx
 );
 
-	@E:\Lastcar\Small_Car\Fil_lib\inc\DMA.h
+	@C:\repos\SmallCar-main\Fil_lib\inc\DMA.h
 
 10 #¥agm®
 ⁄˚
@@ -13599,7 +13605,7 @@ DMA_SxCR_PINC
 
 	)
 
-	@E:\Lastcar\Small_Car\Fil_lib\inc\DMA_FIFOBuffers.h
+	@C:\repos\SmallCar-main\Fil_lib\inc\DMA_FIFOBuffers.h
 
 10 #¥agm®
 ⁄˚
@@ -13839,7 +13845,7 @@ USART6TX_D©a
 USART6TX_NUMB
 ];
 
-	@E:\Lastcar\Small_Car\Fil_lib\inc\EXTI.h
+	@C:\repos\SmallCar-main\Fil_lib\inc\EXTI.h
 
 10 
 	~"FûC⁄fig.h
@@ -13959,7 +13965,7 @@ PIN
 
 	)
 
-	@E:\Lastcar\Small_Car\Fil_lib\inc\GPIO.h
+	@C:\repos\SmallCar-main\Fil_lib\inc\GPIO.h
 
 10 #¥agm®
 ⁄˚
@@ -14723,7 +14729,7 @@ uöt32_t
 
 	)
 
-	@E:\Lastcar\Small_Car\Fil_lib\inc\I2C.h
+	@C:\repos\SmallCar-main\Fil_lib\inc\I2C.h
 
 10 #i‚de‡
 INCLUDED_I2C
@@ -15473,7 +15479,7 @@ I2C_Ty≥Def
 I2Cx
 );
 
-	@E:\Lastcar\Small_Car\Fil_lib\inc\RCC.h
+	@C:\repos\SmallCar-main\Fil_lib\inc\RCC.h
 
 10 #¥agm®
 ⁄˚
@@ -16371,7 +16377,7 @@ uöt32_t
 CÆcRCCClocks
 ();
 
-	@E:\Lastcar\Small_Car\Fil_lib\inc\RTC.h
+	@C:\repos\SmallCar-main\Fil_lib\inc\RTC.h
 
 10 #¥agm®
 ⁄˚
@@ -18061,7 +18067,7 @@ RTC
 
 	)
 
-	@E:\Lastcar\Small_Car\Fil_lib\inc\TIM.h
+	@C:\repos\SmallCar-main\Fil_lib\inc\TIM.h
 
 10 #¥agm®
 ⁄˚
@@ -19621,7 +19627,7 @@ InvÆid
 FIL_CALC_TIM
 
 
-	@E:\Lastcar\Small_Car\Fil_lib\inc\USART.h
+	@C:\repos\SmallCar-main\Fil_lib\inc\USART.h
 
 10 #¥agm®
 ⁄˚
@@ -20079,7 +20085,7 @@ uöt32_t
 BaudR©e
 );
 
-	@E:\Lastcar\Small_Car\Fil_lib\src\ADC.c
+	@C:\repos\SmallCar-main\Fil_lib\src\ADC.c
 
 10 
 	~"ADC.h
@@ -20317,7 +20323,7 @@ ADC1
 	}
 }
 
-	@E:\Lastcar\Small_Car\Fil_lib\src\DMA.c
+	@C:\repos\SmallCar-main\Fil_lib\src\DMA.c
 
 11 
 	~"°m32f4xx.h
@@ -20447,7 +20453,7 @@ c⁄figUSE_DMA
 	}
 }
 
-	@E:\Lastcar\Small_Car\Fil_lib\src\EXTI.c
+	@C:\repos\SmallCar-main\Fil_lib\src\EXTI.c
 
 1 
 	~"EXTI.h
@@ -20482,20 +20488,6 @@ PR
 =0x2;
 
 15 
-	}
-}
-
-27 
-	$EXTI4_IRQH™dÀr
-()
-
-29 
-EXTI
-->
-PR
-=0x10;
-
-30 
 	}
 }
 
@@ -20575,7 +20567,7 @@ PR
 	}
 }
 
-	@E:\Lastcar\Small_Car\Fil_lib\src\I2C.c
+	@C:\repos\SmallCar-main\Fil_lib\src\I2C.c
 
 10 
 	~"I2C.h
@@ -22077,7 +22069,7 @@ IsFöd
 	}
 }
 
-	@E:\Lastcar\Small_Car\Fil_lib\src\RCC.c
+	@C:\repos\SmallCar-main\Fil_lib\src\RCC.c
 
 10 
 	~"RCC.h
@@ -22207,7 +22199,7 @@ GëPPRE2
 	}
 }
 
-	@E:\Lastcar\Small_Car\Fil_lib\src\RTC.c
+	@C:\repos\SmallCar-main\Fil_lib\src\RTC.c
 
 1 
 	~"RTC.h
@@ -22253,7 +22245,7 @@ CÀ¨RTCAœrms
 	}
 }
 
-	@E:\Lastcar\Small_Car\Fil_lib\src\TIM.c
+	@C:\repos\SmallCar-main\Fil_lib\src\TIM.c
 
 10 
 	~"TIM.h
@@ -23069,7 +23061,7 @@ globÆTime
 	}
 }
 
-	@E:\Lastcar\Small_Car\Fil_lib\src\USART.c
+	@C:\repos\SmallCar-main\Fil_lib\src\USART.c
 
 1 
 	~"USART.h
@@ -23215,7 +23207,7 @@ REGISTER
 	}
 }
 
-	@E:\Lastcar\Small_Car\RCR\BoardSelection.h
+	@C:\repos\SmallCar-main\RCR\BoardSelection.h
 
 1 #¥agm®
 ⁄˚
@@ -23315,7 +23307,7 @@ Bﬂrd
 	~"dev_ws.h
 "
 
-	@E:\Lastcar\Small_Car\RCR\DevBoard#2\RCR_DevBoard_2.h
+	@C:\repos\SmallCar-main\RCR\DevBoard#2\RCR_DevBoard_2.h
 
 1 #¥agm®
 ⁄˚
@@ -23639,7 +23631,7 @@ PORTA
 
 	)
 
-	@E:\Lastcar\Small_Car\RCR\DevBoard#2\RCR_DevBoard_2_Setup.h
+	@C:\repos\SmallCar-main\RCR\DevBoard#2\RCR_DevBoard_2_Setup.h
 
 11 #¥agm®
 ⁄˚
@@ -24919,7 +24911,7 @@ __c⁄fig_USART6_Baudøã
 
 	)
 
-	@E:\Lastcar\Small_Car\RCR\DevBoard#3\RCR_DevBoard_3.h
+	@C:\repos\SmallCar-main\RCR\DevBoard#3\RCR_DevBoard_3.h
 
 1 #¥agm®
 ⁄˚
@@ -25253,7 +25245,7 @@ PORTC
 
 	)
 
-	@E:\Lastcar\Small_Car\RCR\DevBoard#3\RCR_DevBoard_3_Setup.h
+	@C:\repos\SmallCar-main\RCR\DevBoard#3\RCR_DevBoard_3_Setup.h
 
 11 #¥agm®
 ⁄˚
@@ -26263,7 +26255,7 @@ TIM4_IRQn
 
 	)
 
-	@E:\Lastcar\Small_Car\RCR\DevBoard#4\Pins.h
+	@C:\repos\SmallCar-main\RCR\DevBoard#4\Pins.h
 
 1 #¥agm®
 ⁄˚
@@ -26383,7 +26375,7 @@ PORTA
 
 	)
 
-	@E:\Lastcar\Small_Car\RCR\DevBoard#4\Setup.h
+	@C:\repos\SmallCar-main\RCR\DevBoard#4\Setup.h
 
 1 #¥agm®
 ⁄˚
@@ -26693,7 +26685,7 @@ TIM1
 
 	)
 
-	@E:\Lastcar\Small_Car\RCR\MaxKit\MaxKit.h
+	@C:\repos\SmallCar-main\RCR\MaxKit\MaxKit.h
 
 11 #¥agm®
 ⁄˚
@@ -27669,7 +27661,7 @@ __c⁄figIS_AD0
 
 	)
 
-	@E:\Lastcar\Small_Car\RCR\MaxKit\MaxPins.h
+	@C:\repos\SmallCar-main\RCR\MaxKit\MaxPins.h
 
 1 #¥agm®
 ⁄˚
@@ -29733,7 +29725,7 @@ CCR1
 
 	)
 
-	@E:\Lastcar\Small_Car\RCR\MaxKit\MaxSetup.h
+	@C:\repos\SmallCar-main\RCR\MaxKit\MaxSetup.h
 
 1 #¥agm®
 ⁄˚
@@ -29787,7 +29779,7 @@ CCR1
 
 	)
 
-	@E:\Lastcar\Small_Car\RCR\MinKit\MinimalKit.h
+	@C:\repos\SmallCar-main\RCR\MinKit\MinimalKit.h
 
 1 #¥agm®
 ⁄˚
@@ -30433,7 +30425,7 @@ TIM1_IRQn
 
 	)
 
-	@E:\Lastcar\Small_Car\STM32F401.svd
+	@C:\repos\SmallCar-main\STM32F401.svd
 
 1 <?
 xml
@@ -38415,7 +38407,7 @@ DISOOFP
 devi˚
 >
 
-	@E:\Lastcar\Small_Car\cmsis\cmsis_compiler.h
+	@C:\repos\SmallCar-main\cmsis\cmsis_compiler.h
 
 25 #i‚de‡
 __CMSIS_COMPILER_H
@@ -39507,7 +39499,7 @@ Unknown
 compûî
 .
 
-	@E:\Lastcar\Small_Car\cmsis\cmsis_gcc.h
+	@C:\repos\SmallCar-main\cmsis\cmsis_gcc.h
 
 25 #i‚de‡
 __CMSIS_GCC_H
@@ -45865,7 +45857,7 @@ dügno°ic
 p›
 
 
-	@E:\Lastcar\Small_Car\cmsis\cmsis_version.h
+	@C:\repos\SmallCar-main\cmsis\cmsis_version.h
 
 25 #i‡ 
 deföed
@@ -45923,7 +45915,7 @@ __CM_CMSIS_VERSION_SUB
 
 	)
 
-	@E:\Lastcar\Small_Car\cmsis\core_cm4.h
+	@C:\repos\SmallCar-main\cmsis\core_cm4.h
 
 25 #i‡ 
 deföed
@@ -52643,7 +52635,7 @@ ITM_RXBUFFER_EMPTY
 __˝lu•lus
 
 
-	@E:\Lastcar\Small_Car\cmsis\mpu_armv7.h
+	@C:\repos\SmallCar-main\cmsis\mpu_armv7.h
 
 25 #i‡ 
 deföed
@@ -53421,7 +53413,7 @@ rowW‹dSize
 	}
 }
 
-	@E:\Lastcar\Small_Car\cmsis\mpu_armv8.h
+	@C:\repos\SmallCar-main\cmsis\mpu_armv8.h
 
 25 #i‡ 
 deföed
@@ -54435,7 +54427,7 @@ MPU_NS
 	}
 }
 
-	@E:\Lastcar\Small_Car\cmsis\tz_context.h
+	@C:\repos\SmallCar-main\cmsis\tz_context.h
 
 25 #i‡ 
 deföed
@@ -54541,7 +54533,7 @@ TZ_Mem‹yId_t
 id
 );
 
-	@E:\Lastcar\Small_Car\dev\dev.c
+	@C:\repos\SmallCar-main\dev\dev.c
 
 6 
 	~"dev.h
@@ -54809,7 +54801,7 @@ maxAngÀ
 	}
 }
 
-	@E:\Lastcar\Small_Car\dev\dev.h
+	@C:\repos\SmallCar-main\dev\dev.h
 
 1 #¥agm®
 ⁄˚
@@ -54995,13 +54987,13 @@ Duty
 Reguœt‹PIDLowLevñ
 ();
 
-	@E:\Lastcar\Small_Car\dev_examples\dev_ws.h
+	@C:\repos\SmallCar-main\dev_examples\dev_ws.h
 
 1 #¥agm®
 ⁄˚
 
 
-	@E:\Lastcar\Small_Car\inc\main.h
+	@C:\repos\SmallCar-main\inc\main.h
 
 1 #i‚de‡
 MAIN_H_INCLUDED
@@ -55033,7 +55025,7 @@ __˝lu•lus
 __˝lu•lus
 
 
-	@E:\Lastcar\Small_Car\inc\stm32f4xx.h
+	@C:\repos\SmallCar-main\inc\stm32f4xx.h
 
 53 #i‚de‡
 __STM32F4xx_H
@@ -126045,7 +126037,7 @@ __˝lu•lus
 	}
 }
 
-	@E:\Lastcar\Small_Car\inc\system_stm32f4xx.h
+	@C:\repos\SmallCar-main\inc\system_stm32f4xx.h
 
 39 #i‚de‡
 __SYSTEM_STM32F4XX_H
@@ -126079,441 +126071,159 @@ Sy°emC‹eClockUpd©e
 __˝lu•lus
 
 
-	@E:\Lastcar\Small_Car\src\functions.c
+	@C:\repos\SmallCar-main\src\OLED.c
 
-1 
-	#d
- 0.04
-
-2 
-	#ba£Dis¸ës
- 3200
-
-3 
-
-	)
-
-6 
-	~"fun˘i⁄s.h
+1 
+	~"OLED.h
 "
 
-8 
-uöt8_t
- 
-	gw‹k
-=0;
+2 
+	~"TCS3472.h
+"
 
-10 
+4 
+	$öt°oﬁed
+(
 uöt16_t
  
-	mt›
-[3];
+d©a
+[],
+Àn
+){
+
+5 
+	`SSD1306_Fûl
+(
+SSD1306_COLOR_BLACK
+);
+
+6 
+y
+=20;
+
+7 
+i
+=0; i<
+Àn
+; i++){
+
+8 
+Ànöt
+=0;
+
+9 
+ãmp
+=
+d©a
+[
+i
+];
+
+10 
+ãmp
+!=0){
 
 11 
-uöt16_t
- 
-	mbŸtom
-[8];
+ãmp
+=temp/10;
 
-12 }
-	g£ns
+12 
+Ànöt
+++;
+
+14 
+ch
+[
+Ànöt
+];
+
+15 
+ãmp
+=
+d©a
+[
+i
+];
+
+16 
+j
+=0; j<
+Ànöt
+; j++){
+
+17 
+vÆ
+=
+ãmp
+%10+48;
+
+18 
+ch
+[
+Ànöt
+-1-
+j
+]=
+vÆ
 ;
-
-14 
-	$ªad
-(
-num
-){
-
-18 if(
-num
-<=7){
 
 19 
-	`Re£tPö
-(
-MULPLXA_PIN
+ãmp
+=temp/10;
+
+22 
+	`SSD1306_GŸoXY
+(0,
+y
 );
 
-20 
-	`Re£tPö
+23 
+	`SSD1306_Puts
 (
-MULPLXB_PIN
+ch
+, &
+F⁄t_7x10
+ , 
+SSD1306_COLOR_WHITE
 );
 
-21 
-	`Re£tPö
-(
-MULPLXC_PIN
-);
-
-22 if(((
-num
- >> 2)&(0x1)Ë=1Ë
-	`SëPö
-(
-MULPLXC_PIN
-);
-
-23 if(((
-num
- >> 1)&(0x1)Ë=1Ë
-	`SëPö
-(
-MULPLXB_PIN
-);
-
-24 if(
-num
-&0x1Ë
-	`SëPö
-(
-MULPLXA_PIN
-);
-
-25 
-	`dñay_ms
-(2);
+24 
+y
++=12;
 
 26 
-£ns
-.
-bŸtom
-[
-num
-]=
-ADC1_D©a
-[1];
+	`SSD1306_Upd©eS¸ìn
+();
 
-28 
-num
-){
-
-30 
-£ns
-.
-t›
-[0]=
-ADC1_D©a
-[0];
-
-33 
-£ns
-.
-t›
-[1]=(
-ADC1_D©a
-[0]);
-
-36 
-£ns
-.
-t›
-[2]=(
-ADC1_D©a
-[0]);
-
-44 
-i
-=0;i<=7;i++){
-
-45 
-	`ªad
-(
-i
-);
-
-46 
-	`dñay_ms
-(2);
-
-49 
+27 
 	}
 }
 
-51 
-öt16_t
- 
-	gEncodîD©a
-[2];
-
-52 
-	guglS
-[2], 
-	glöS
-[2];
-
-53 
-uöt32_t
- 
-	gtime
-=0;
-
-54 
-	$TIM2_IRQH™dÀr
-(){
-
-56 
-EncodîD©a
-[0] = 
-TIM5
-->
-CNT
-;
-
-57 
-EncodîD©a
-[1] = 
-TIM3
-->
-CNT
-;
-
-58 
-uglS
-[0]=(360*(
-EncodîD©a
-[1])/(
-ba£Dis¸ës
-)*10);
-
-59 
-uglS
-[1]=(360*(
-EncodîD©a
-[0])/(
-ba£Dis¸ës
-)*10);
-
-60 
-löS
-[0]=((
-uglS
-[0]/360.0)*3.14 * 
-d
-);
-
-61 
-löS
-[1]=((
-uglS
-[1]/360.0)*3.14 * 
-d
-);
-
-62 
-TIM3
-->
-CNT
- = 0;
-
-63 
-TIM5
-->
-CNT
-= 0;
-
-64 
-	`Re£tTimSR
-(
-TIM2
-);
-
-65 
-	}
-}
-
-68 
-	$c⁄fig
-() {
-
-69 
-Bﬂrd_C⁄fig
-;
-
-71 
-	`ADCAddCh™√l
-(8,
-REGULAR
-,
-ADC_480_CYCLES
-);
-
-72 
-	`ADCAddCh™√l
-(9,
-REGULAR
-,
-ADC_480_CYCLES
-);
-
-73 
-	`C⁄√˘ADCTODMA
-(
-HIGH_P
-, 
-ADC1_D©a
-, 0);
-
-74 
-	`ADC_Inô
-();
-
-75 
-	`I2CSim∂eC⁄figuª
-(
-I2C1
-, 
-I2C_Fa°
-);
-
-76 
-	`TCS3472_Inô
-();
-
-77 
-	`PID
-();
-
-81 
-	`AddEXTII¡îru±
-(
-EXTI1_PIN
-,
-EXTI_RISING_EDGE
-);
-
-82 
-	`NVIC_E«bÀIRQ
-(
-EXTI2_IRQn
-);
-
-83 
-	`AddEXTII¡îru±
-(
-EXTI2_PIN
-,
-EXTI_RISING_EDGE
-);
-
-84 
-	`NVIC_E«bÀIRQ
-(
-EXTI3_IRQn
-);
-
-91 
-	}
-}
-
-93 
-	$M¨kî
+28 
+	$døw
 (){
 
-96 
+30 
+	`SSD1306_Fûl
+(
+SSD1306_COLOR_BLACK
+);
+
+31 
+	`ssd1306_image
+(
+Sad_50x50
+, 50,50,0, 0);
+
+32 
+	`SSD1306_Upd©eS¸ìn
+();
+
+33 
 	}
 }
 
-99 
-	$SëS≥ed
-(
-Dutyr
-, 
-boﬁ
- 
-mŸ‹
-){
-
-100 i‡(
-mŸ‹
-){
-
-101 i‡(
-Dutyr
->=0){
-
-102 
-	`SëPö
-(
-BTN1_DIR_PIN
-);
-
-103 *
-BTN1_CCR
-=((
-öt32_t
-)(
-Dutyr
-*
-TIM1
-->
-ARR
-));
-
-106 
-	`Re£tPö
-(
-BTN1_DIR_PIN
-);
-
-107 *
-BTN1_CCR
-=((
-öt32_t
-)(
-TIM1
-->
-ARR
- + (
-Dutyr
-*TIM1->ARR)));
-
-111 i‡(
-Dutyr
->=0){
-
-112 
-	`SëPö
-(
-BTN2_DIR_PIN
-);
-
-113 *
-BTN2_CCR
-=((
-öt32_t
-)(
-Dutyr
-*
-TIM1
-->
-ARR
-));
-
-116 
-	`Re£tPö
-(
-BTN2_DIR_PIN
-);
-
-117 *
-BTN2_CCR
-=((
-öt32_t
-)(
-TIM1
-->
-ARR
- + (
-Dutyr
-*TIM1->ARR)));
-
-120 
-	}
-}
-
-125 
+35 
 	$wrôeöt
 (
 y
@@ -126521,39 +126231,39 @@ y
 d©a
 ){
 
-126 
+36 
 Àn
 =0;
 
-127 
+37 
 d©a1
 =
 d©a
 ;
 
-128 
+38 
 cd©a
 [
 Àn
 ];
 
-129 
+39 
 d©a
 !=0){
 
-130 
+40 
 d©a
 =data/10;
 
-131 
+41 
 Àn
 ++;
 
-133 
+43 
 i
 =0;i<4;i++){
 
-134 
+44 
 cd©a
 [
 Àn
@@ -126563,23 +126273,23 @@ i
 d©a1
 %10);
 
-135 
+45 
 d©a1
 =data1/10;
 
-137 
+47 
 	`SSD1306_Fûl
 (
 SSD1306_COLOR_BLACK
 );
 
-139 
+49 
 	`SSD1306_GŸoXY
 (0,
 y
 );
 
-140 
+50 
 	`SSD1306_Puts
 (
 cd©a
@@ -126589,447 +126299,685 @@ F⁄t_11x18
 SSD1306_COLOR_WHITE
 );
 
-141 
+51 
 	`SSD1306_Upd©eS¸ìn
 ();
 
-142 
+52 
 	}
 }
 
-143 
-	$wrôeöts
-(
-°r
-, 
+	@C:\repos\SmallCar-main\src\OLED.h
+
+1 
+	~"maö.h
+"
+
+2 
+	~"ssd1306.h
+"
+
+5 
+öt°oﬁed
+(
 uöt16_t
  
 d©a
-[]){
-
-144 
-y
-=0;
-
-146 
-	`SSD1306_Fûl
-(
-SSD1306_COLOR_BLACK
-);
-
-147 
-i
-=0; i<=
-°r
-;i++){
-
-148 
-y
-=y+10;
-
-149 
+[], 
 Àn
-=0;
-
-150 
-d©a1
-=
-d©a
-[
-i
-];
-
-156 
-i
-=0;i<4;i++){
-
-166 
-	`SSD1306_Upd©eS¸ìn
-();
-
-167 
-	}
-}
-
-169 
-	$døw
-(){
-
-171 
-	`SSD1306_Fûl
-(
-SSD1306_COLOR_BLACK
 );
 
-172 
-	`ssd1306_image
-(
-Sad_50x50
-, 50,50,0, 0);
-
-173 
-	`SSD1306_Upd©eS¸ìn
+6 
+døw
 ();
 
-174 
-	}
-}
+7 
+wrôeöt
+(
+Àn
+, 
+d©a
+);
 
-176 
-	$•ìd
-(){
+8 
+cﬁ‹
+();
 
-178 
-	}
-}
+	@C:\repos\SmallCar-main\src\functions.c
 
-179 
-	gmyöt
-;
+1 
+	#R
+ 0.02
 
-180 
-	gba£öt
-=0;
+2 
 
-181 
+	)
+
+3 
+	#Àngth
+ 0.1256628
+
+	)
+
+4 
+	#ba£Dis¸ës
+ 3200.0
+
+5 
+	#LíCú˛e
+ 0.4612388
+
+	)
+
+8 
+	~"TCS3472.h
+"
+
+9 
+	~"fun˘i⁄s.h
+"
+
+10 
+	~"OLED.h
+"
+
+12 
 uöt8_t
  
-	gc⁄fúmK
+	gw‹k
+=0;
+
+15 
+uöt16_t
+ 
+	mt›
+[4];
+
+16 
+uöt16_t
+ 
+	mbŸtom
+[8];
+
+17 }
+	g£ns
 ;
 
-182 
-	$EXTI2_IRQH™dÀr
-()
-
-184 
-c⁄fúmK
-=0;
-
-185 
-myöt
-++;
-
-186 
-ba£öt
-=0;
-
-187 
-myöt
+19 
+	$ªad
+(
+num
 ){
 
-189 
-ba£öt
-=123;
+20 if(
+num
+<=7){
 
-192 
-ba£öt
-=213;
-
-195 
-ba£öt
-=214;
-
-198 
-ba£öt
-=234;
-
-201 
-ba£öt
-=341;
-
-204 
-ba£öt
-=342;
-
-207 
-ba£öt
-=412;
-
-210 
-ba£öt
-=413;
-
-211 
-myöt
-=0;
-
-215 
-	`wrôeöt
-(0, 
-ba£öt
+21 
+	`Re£tPö
+(
+MULPLXA_PIN
 );
 
-216 
-EXTI
-->
-PR
-=0x4;
+22 
+	`Re£tPö
+(
+MULPLXB_PIN
+);
 
-217 
+23 
+	`Re£tPö
+(
+MULPLXC_PIN
+);
+
+24 if(((
+num
+ >> 2)&(0x1)Ë=1Ë
+	`SëPö
+(
+MULPLXC_PIN
+);
+
+25 if(((
+num
+ >> 1)&(0x1)Ë=1Ë
+	`SëPö
+(
+MULPLXB_PIN
+);
+
+26 if(
+num
+&0x1Ë
+	`SëPö
+(
+MULPLXA_PIN
+);
+
+27 
+	`dñay_ms
+(2);
+
+28 
+£ns
+.
+bŸtom
+[
+num
+]=
+ADC1_D©a
+[1];
+
+30 
+num
+){
+
+32 
+£ns
+.
+t›
+[0]=
+ADC1_D©a
+[0];
+
+35 
+£ns
+.
+t›
+[1]=(
+ADC1_D©a
+[0]);
+
+38 
+£ns
+.
+t›
+[2]=(
+ADC1_D©a
+[0]);
+
+41 
+£ns
+.
+t›
+[3]=(
+ADC1_D©a
+[0]);
+
+46 
+i
+=0;i<=7;i++){
+
+47 
+	`ªad
+(
+i
+);
+
+48 
+	`dñay_ms
+(2);
+
+51 
 	}
 }
 
-220 
-	$EXTI3_IRQH™dÀr
-()
+53 
+öt16_t
+ 
+	gEncodîD©a
+[2];
 
-222 
-c⁄fúmK
-++;
+54 
+	guglS
+[2], 
+	glöS
+[2], 
+	g•ìd
+[2];
 
-223 i‡(
-c⁄fúmK
-==3) {
+56 
+	$c⁄fig
+() {
 
-224 
-w‹k
-=1;
+57 
+Bﬂrd_C⁄fig
+;
 
-225 
-c⁄fúmK
-=0;
+59 
+TIM3
+->
+CNT
+ = 0;
 
-226 
-	`NVIC_DißbÀIRQ
-(
-EXTI2_IRQn
+60 
+TIM5
+->
+CNT
+ = 0;
+
+62 
+	`ADCAddCh™√l
+(8,
+REGULAR
+,
+ADC_480_CYCLES
 );
 
-227 
+63 
+	`ADCAddCh™√l
+(9,
+REGULAR
+,
+ADC_480_CYCLES
+);
+
+64 
+	`C⁄√˘ADCTODMA
+(
+HIGH_P
+, 
+ADC1_D©a
+, 0);
+
+65 
+	`ADC_Inô
+();
+
+67 
+	`I2CSim∂eC⁄figuª
+(
+I2C1
+, 
+I2C_Fa°
+);
+
+68 
+	`TCS3472_Inô
+();
+
+69 
+	`SSD1306_Inô
+();
+
+71 
+	`PID
+();
+
+73 
 	`NVIC_E«bÀIRQ
 (
 TIM2_IRQn
 );
 
-228 
+74 
 	`NVIC_E«bÀIRQ
 (
 TIM4_IRQn
 );
 
-234 
-EXTI
-->
-PR
-=0x8;
+76 
+	`AddEXTII¡îru±
+(
+EXTI1_PIN
+,
+EXTI_RISING_EDGE
+);
 
-235 
+77 
+	`NVIC_E«bÀIRQ
+(
+EXTI2_IRQn
+);
+
+78 
+	`AddEXTII¡îru±
+(
+EXTI2_PIN
+,
+EXTI_RISING_EDGE
+);
+
+79 
+	`NVIC_E«bÀIRQ
+(
+EXTI3_IRQn
+);
+
+80 
+	`AddEXTII¡îru±
+(
+EXTI3_PIN
+,
+EXTI_RISING_EDGE
+);
+
+81 
+	`NVIC_E«bÀIRQ
+(
+EXTI4_IRQn
+);
+
+83 
+	`SSD1306_GŸoXY
+(0,44);
+
+84 
+	`SSD1306_Puts
+("Kib‹g ubiyˇ", &
+F⁄t_7x10
+, 
+SSD1306_COLOR_WHITE
+);
+
+85 
+	`SSD1306_Upd©eS¸ìn
+();
+
+87 
+	`TCS3472_GëRGB
+();
+
+88 
 	}
 }
 
-239 
+90 
+	$SëS≥ed
+(
+Dutyr
+, 
+boﬁ
+ 
+mŸ‹
+){
+
+91 i‡(
+mŸ‹
+){
+
+92 i‡(
+Dutyr
+>=0){
+
+93 
+	`Re£tPö
+(
+BTN2_DIR_PIN
+);
+
+94 
+	`SëPWM
+(
+TIM1
+,2,
+Dutyr
+);
+
+97 
+	`SëPö
+(
+BTN2_DIR_PIN
+);
+
+98 
+	`SëPWM
+(
+TIM1
+,2,
+Dutyr
+);
+
+102 i‡(
+Dutyr
+>=0){
+
+103 
+	`Re£tPö
+(
+BTN1_DIR_PIN
+);
+
+104 
+	`SëPWM
+(
+TIM1
+,1,
+Dutyr
+);
+
+107 
+	`SëPö
+(
+BTN1_DIR_PIN
+);
+
+108 
+	`SëPWM
+(
+TIM1
+,1,
+Dutyr
+);
+
+111 
+	}
+}
+
+116 
 	mPk
 ;
 
-240 
+117 
 	mIk
 ;
 
-241 
+118 
 	mDk
 ;
 
-242 
+119 
 	mMax_ouçut
 ;
 
-243 
+120 
 	mMö_ouçut
 ;
 
-244 
+121 
 	mMax_sum_îr‹
 ;
 
-245 
+122 
 	mouçut
 ;
 
-246 
+123 
 	mcuºít
 ;
 
-247 
+124 
 	mèrgë
 ;
 
-248 
+125 
 	mîr‹
 ;
 
-249 
+126 
 	m¥ev_îr‹
 ;
 
-250 
+127 
 	msum_îr‹
 ;
 
-251 }
+128 }
 	tReguœt‹
 ;
 
-253 
+130 
 Reguœt‹
  
 	gPID°ru˘
 [2];
 
-255 
+132 
 	$PID
 ()
 
-257 
+134 
 PID°ru˘
 [0].
 Pk
  = 6;
 
-258 
+135 
 PID°ru˘
 [0].
 Ik
  = 0.15;
 
-259 
+136 
 PID°ru˘
 [0].
 Dk
  = 0.2;
 
-260 
+137 
 PID°ru˘
 [0].
 cuºít
  = 0.0;
 
-261 
+138 
 PID°ru˘
 [0].
 èrgë
  = 0.0;
 
-262 
+139 
 PID°ru˘
 [0].
 îr‹
  = 0.0;
 
-263 
+140 
 PID°ru˘
 [0].
 Max_ouçut
  = 1.0;
 
-264 
+141 
 PID°ru˘
 [0].
 Mö_ouçut
- = 0.01;
+ = 0.18;
 
-265 
+142 
 PID°ru˘
 [0].
 Max_sum_îr‹
  = 5.0;
 
-266 
+143 
 PID°ru˘
 [0].
 ¥ev_îr‹
  = 0.0;
 
-267 
+144 
 PID°ru˘
 [0].
 sum_îr‹
  = 0.0;
 
-269 
+146 
 PID°ru˘
 [1].
 Pk
  = 6;
 
-270 
+147 
 PID°ru˘
 [1].
 Ik
  = 0.15;
 
-271 
+148 
 PID°ru˘
 [1].
 Dk
  = 0.2;
 
-272 
+149 
 PID°ru˘
 [1].
 cuºít
  = 0.0;
 
-273 
+150 
 PID°ru˘
 [1].
 èrgë
  = 0.0;
 
-274 
+151 
 PID°ru˘
 [1].
 îr‹
  = 0.0;
 
-275 
+152 
 PID°ru˘
 [1].
 Max_ouçut
  = 1.0;
 
-276 
+153 
 PID°ru˘
 [1].
 Mö_ouçut
- = 0.01;
+ = 0.18;
 
-277 
+154 
 PID°ru˘
 [1].
 Max_sum_îr‹
  = 5.0;
 
-278 
+155 
 PID°ru˘
 [1].
 ¥ev_îr‹
  = 0.0;
 
-279 
+156 
 PID°ru˘
 [1].
 sum_îr‹
  = 0.0;
 
-280 
+157 
 	}
 }
 
-282 
-	gp
-,
-	gi
-,
-	gdp
-;
-
-283 
+160 
 	$PID_CÆc
 (
 numbî
 )
 
-285 
+162 
+p
+=0.0,
+i
+=0.0,
+dp
+ = 0.0;
+
+163 
 PID°ru˘
 [
 numbî
@@ -127041,7 +126989,7 @@ numbî
 cuºít
 ;
 
-286 
+164 
 PID°ru˘
 [
 numbî
@@ -127051,7 +126999,7 @@ sum_îr‹
 îr‹
 ;
 
-287 if(
+165 if(
 PID°ru˘
 [
 numbî
@@ -127061,7 +127009,7 @@ sum_îr‹
 Max_sum_îr‹
 ) PIDstruct[number].sum_error = PIDstruct[number].Max_sum_error;
 
-288 if(
+166 if(
 PID°ru˘
 [
 numbî
@@ -127071,7 +127019,7 @@ sum_îr‹
 Max_sum_îr‹
 ) PIDstruct[number].sum_error = -PIDstruct[number].Max_sum_error;
 
-289 
+167 
 p
 =
 PID°ru˘
@@ -127083,7 +127031,7 @@ Pk
 îr‹
 ;
 
-290 
+168 
 i
 =
 PID°ru˘
@@ -127095,7 +127043,7 @@ Ik
 sum_îr‹
 ;
 
-291 
+169 
 dp
 =
 PID°ru˘
@@ -127107,7 +127055,7 @@ Dk
 ¥ev_îr‹
 ;
 
-292 
+170 
 PID°ru˘
 [
 numbî
@@ -127121,7 +127069,27 @@ i
 dp
 );
 
-293 if(
+171 if(
+PID°ru˘
+[
+numbî
+].
+ouçut
+ < PID°ru˘[numbî].
+Mö_ouçut
+ &&
+
+172 
+PID°ru˘
+[
+numbî
+].
+ouçut
+ > -PID°ru˘[numbî].
+Mö_ouçut
+) PIDstruct[number].output = 0.0000;
+
+174 if(
 PID°ru˘
 [
 numbî
@@ -127131,7 +127099,7 @@ ouçut
 Max_ouçut
 ) PIDstruct[number].output = -1.0;
 
-294 if(
+175 if(
 PID°ru˘
 [
 numbî
@@ -127141,7 +127109,7 @@ ouçut
 Max_ouçut
 ) PIDstruct[number].output = 1.0;
 
-295 
+176 
 PID°ru˘
 [
 numbî
@@ -127151,191 +127119,1173 @@ numbî
 îr‹
 ;
 
-296 
+177 
 	}
 }
 
-303 
-	$TIM4_IRQH™dÀr
-()
+180 
+	$checkcﬁ‹
+(){
 
-305 
-PID°ru˘
-[0].
-cuºít
-=(-
-löS
-[0]);
+181 i‡((
+TCS3472
+.
+RGB
+[2])>100){
 
-306 
-PID°ru˘
-[1].
-cuºít
-=(
-löS
-[1]);
-
-307 
-	`PID_CÆc
-(0);
-
-308 
-	`PID_CÆc
-(1);
-
-309 
-	`SëS≥ed
-(1-(
-PID°ru˘
-[0].
-ouçut
-),0);
-
-310 
-	`SëS≥ed
-(1-(
-PID°ru˘
-[1].
-ouçut
-),1);
-
-312 
-	`Re£tTimSR
-(
-TIM4
-);
-
-313 
-	}
-}
-
-314 
-	gÀns
-;
-
-315 
-	$öt°oﬁed
-(
-uöt16_t
- 
-d©a
-[],
-Àn
-){
-
-316 
+182 
 	`SSD1306_Fûl
 (
 SSD1306_COLOR_BLACK
 );
 
-317 
-y
-=20;
-
-318 
-posôi⁄
-;
-
-319 
-i
-=0; i<
-Àn
-; i++){
-
-320 
-Ànöt
-=0;
-
-321 
-ãmp
-=
-d©a
-[
-i
-];
-
-322 
-ãmp
-!=0){
-
-323 
-ãmp
-=temp/10;
-
-324 
-Ànöt
-++;
-
-326 
-ch
-[
-Ànöt
-];
-
-327 
-ãmp
-=
-d©a
-[
-i
-];
-
-328 
-j
-=0; j<
-Ànöt
-; j++){
-
-329 
-vÆ
-=
-ãmp
-%10+48;
-
-330 
-ch
-[
-Ànöt
--1-
-j
-]=
-vÆ
-;
-
-331 
-ãmp
-=temp/10;
-
-334 
+183 
 	`SSD1306_GŸoXY
-(0,
-y
-);
+(0,22);
 
-335 
+184 
 	`SSD1306_Puts
-(
-ch
-, &
-F⁄t_7x10
- , 
+("blue", &
+F⁄t_11x18
+, 
 SSD1306_COLOR_WHITE
 );
 
-336 
-y
-+=12;
-
-346 
+185 
 	`SSD1306_Upd©eS¸ìn
 ();
 
-347 
+186 
+TCS3472
+.
+cﬁ‹
+=1;
+
+188 i‡((
+TCS3472
+.
+RGB
+[1])>88){
+
+189 i‡((
+TCS3472
+.
+RGB
+[0])>90){
+
+190 
+	`SSD1306_Fûl
+(
+SSD1306_COLOR_BLACK
+);
+
+191 
+	`SSD1306_GŸoXY
+(0,22);
+
+192 
+	`SSD1306_Puts
+("yñlow", &
+F⁄t_11x18
+, 
+SSD1306_COLOR_WHITE
+);
+
+193 
+	`SSD1306_Upd©eS¸ìn
+();
+
+194 
+TCS3472
+.
+cﬁ‹
+=2;
+
+197 
+	`SSD1306_Fûl
+(
+SSD1306_COLOR_BLACK
+);
+
+198 
+	`SSD1306_GŸoXY
+(0,22);
+
+199 
+	`SSD1306_Puts
+("gªí", &
+F⁄t_11x18
+, 
+SSD1306_COLOR_WHITE
+);
+
+200 
+	`SSD1306_Upd©eS¸ìn
+();
+
+201 
+TCS3472
+.
+cﬁ‹
+=2;
+
+205 i‡((
+TCS3472
+.
+RGB
+[0])>100){
+
+206 
+	`SSD1306_Fûl
+(
+SSD1306_COLOR_BLACK
+);
+
+207 
+	`SSD1306_GŸoXY
+(0,22);
+
+208 
+	`SSD1306_Puts
+("ªd", &
+F⁄t_11x18
+, 
+SSD1306_COLOR_WHITE
+);
+
+209 
+	`SSD1306_Upd©eS¸ìn
+();
+
+210 
+TCS3472
+.
+cﬁ‹
+=4;
+
+212 i‡(((
+TCS3472
+.
+RGB
+[0])>100) || ((TCS3472.RGB[1])>100) || ((TCS3472.RGB[2])>100) ){
+
+213 
+	`SSD1306_Fûl
+(
+SSD1306_COLOR_BLACK
+);
+
+214 
+	`SSD1306_GŸoXY
+(0,22);
+
+215 
+	`SSD1306_Puts
+("whôe", &
+F⁄t_11x18
+, 
+SSD1306_COLOR_WHITE
+);
+
+216 
+	`SSD1306_Upd©eS¸ìn
+();
+
+220 
 	}
 }
 
-	@E:\Lastcar\Small_Car\src\functions.h
+225 
+	$cube
+(){
+
+226 
+	`checkcﬁ‹
+();
+
+227 
+TCS3472
+.
+cﬁ‹
+){
+
+229 
+	`godi°™˚
+(0.25);
+
+232 
+	`godi°™˚
+(0.15);
+
+235 
+	`godi°™˚
+(0);
+
+238 
+	`godi°™˚
+(0.4);
+
+241 
+	`rŸ©ePœtf‹m
+(180);
+
+242 
+	}
+}
+
+250 
+	$TIM4_IRQH™dÀr
+()
+
+252 
+PID°ru˘
+[0].
+cuºít
+-
+•ìd
+[0];
+
+253 
+PID°ru˘
+[1].
+cuºít
+
+•ìd
+[1];
+
+254 
+	`PID_CÆc
+(0);
+
+255 
+	`PID_CÆc
+(1);
+
+256 
+	`SëS≥ed
+((
+PID°ru˘
+[0].
+ouçut
+),0);
+
+257 
+	`SëS≥ed
+((
+PID°ru˘
+[1].
+ouçut
+),1);
+
+260 
+	`Re£tTimSR
+(
+TIM4
+);
+
+261 
+	}
+}
+
+262 
+	gÀns
+;
+
+264 
+	gmyöt
+;
+
+265 
+	gba£öt
+=0;
+
+266 
+uöt8_t
+ 
+	gc⁄fúmK
+;
+
+267 
+	$EXTI2_IRQH™dÀr
+()
+
+269 
+c⁄fúmK
+=0;
+
+270 
+myöt
+++;
+
+271 
+ba£öt
+=0;
+
+272 
+myöt
+){
+
+274 
+ba£öt
+=123;
+
+277 
+ba£öt
+=213;
+
+280 
+ba£öt
+=214;
+
+283 
+ba£öt
+=234;
+
+286 
+ba£öt
+=341;
+
+289 
+ba£öt
+=342;
+
+292 
+ba£öt
+=412;
+
+295 
+ba£öt
+=413;
+
+296 
+myöt
+=0;
+
+300 
+	`wrôeöt
+(0, 
+ba£öt
+);
+
+301 
+EXTI
+->
+PR
+=0x4;
+
+302 
+	}
+}
+
+304 
+	gNUMBER
+=0;
+
+305 
+	$EXTI3_IRQH™dÀr
+()
+
+307 
+c⁄fúmK
+++;
+
+308 i‡(
+c⁄fúmK
+==3) {
+
+309 
+w‹k
+=1;
+
+310 
+c⁄fúmK
+=0;
+
+311 
+	`NVIC_DißbÀIRQ
+(
+EXTI2_IRQn
+);
+
+312 
+	`NVIC_E«bÀIRQ
+(
+TIM2_IRQn
+);
+
+313 
+	`NVIC_E«bÀIRQ
+(
+TIM4_IRQn
+);
+
+314 
+NUMBER
+=
+ba£öt
+;
+
+316 
+EXTI
+->
+PR
+=0x8;
+
+317 
+	}
+}
+
+319 
+boﬁ
+ 
+	gcubeÊag
+=0;
+
+320 
+	$EXTI4_IRQH™dÀr
+()
+
+322 
+cubeÊag
+=1;
+
+323 
+EXTI
+->
+PR
+=0x10;
+
+324 
+	}
+}
+
+328 
+	gø°
+[2];
+
+330 
+	$TIM2_IRQH™dÀr
+(){
+
+331 
+EncodîD©a
+[0] = 
+TIM5
+->
+CNT
+;
+
+332 
+EncodîD©a
+[1] = 
+TIM3
+->
+CNT
+;
+
+334 
+uglS
+[0] = (()
+EncodîD©a
+[0] * 360.0Ë/ 
+ba£Dis¸ës
+;
+
+335 
+uglS
+[1] = (()
+EncodîD©a
+[1] * 360.0Ë/ 
+ba£Dis¸ës
+;
+
+336 
+löS
+[0] = (
+uglS
+[0] * ()
+Àngth
+) / 360.0;
+
+337 
+löS
+[1] = (
+uglS
+[1] * ()
+Àngth
+) / 360.0;
+
+338 
+•ìd
+[0] = 
+löS
+[0] * 10;
+
+339 
+•ìd
+[1] = 
+löS
+[1] * 10;
+
+340 
+ø°
+[0]=-
+löS
+[0]*1.1+rast[0];
+
+341 
+ø°
+[1]=
+löS
+[1]*1.1+rast[1];
+
+343 
+TIM3
+->
+CNT
+ = 0;
+
+344 
+TIM5
+->
+CNT
+= 0;
+
+346 
+	`Re£tTimSR
+(
+TIM2
+);
+
+348 
+	}
+}
+
+350 
+	$godi°™˚
+(
+di°
+){
+
+351 
+ø°
+[0]=0.0;
+
+352 
+ø°
+[1]=0.0;
+
+354 (
+ø°
+[0]*(0.8))<(
+di°
+)){
+
+355 
+PID°ru˘
+[0].
+èrgë
+ = 0.03;
+
+356 
+PID°ru˘
+[1].
+èrgë
+ = 0.03;
+
+359 
+PID°ru˘
+[0].
+èrgë
+ = 0.0;
+
+360 
+PID°ru˘
+[1].
+èrgë
+ = 0.0;
+
+361 
+ø°
+[0]=0.0;
+
+362 
+	}
+}
+
+365 
+	$rŸ©ePœtf‹m
+(
+deg
+){
+
+366 
+RŸ©eDi°™˚
+=0;
+
+367 
+ø°
+[0]=0;
+
+368 
+ø°
+[1]=0;
+
+370 i‡(
+deg
+>=180){
+
+371 
+deg
+=360-deg;
+
+372 
+RŸ©eDi°™˚
+=(()(
+deg
+/360.0)*(
+LíCú˛e
+));
+
+373 (
+ø°
+[1])<
+RŸ©eDi°™˚
+){
+
+374 
+PID°ru˘
+[1].
+èrgë
+=0.03;
+
+375 
+PID°ru˘
+[0].
+èrgë
+=-0.03;
+
+380 
+RŸ©eDi°™˚
+=(()(
+deg
+/360.0)*(
+LíCú˛e
+));
+
+381 (
+ø°
+[0])<
+RŸ©eDi°™˚
+){
+
+382 
+PID°ru˘
+[0].
+èrgë
+=0.03;
+
+383 
+PID°ru˘
+[1].
+èrgë
+=-0.03;
+
+386 
+PID°ru˘
+[0].
+èrgë
+=0;
+
+387 
+PID°ru˘
+[1].
+èrgë
+=0;
+
+388 
+ø°
+[0]=0;
+
+389 
+ø°
+[1]=0;
+
+391 
+	}
+}
+
+394 
+boﬁ
+ 
+	mÀ·W
+;
+
+395 
+boﬁ
+ 
+	mrightW
+;
+
+396 
+boﬁ
+ 
+	mf‹w¨dW
+;
+
+397 
+boﬁ
+ 
+	mbackW
+;
+
+398 } 
+	gways
+;
+
+400 
+	$checkWays
+(){
+
+401 
+	`ªad
+(0);
+
+402 
+	`ªad
+(2);
+
+403 
+	`ªad
+(6);
+
+405 
+ways
+.
+backW
+=
+Ál£
+;
+
+406 
+ways
+.
+f‹w¨dW
+=
+Ál£
+;
+
+407 
+ways
+.
+À·W
+=
+Ál£
+;
+
+408 
+ways
+.
+rightW
+=
+Ál£
+;
+
+410 i‡(
+£ns
+.
+t›
+[1]<2000){
+ways
+.
+À·W
+=
+åue
+;}
+
+411 i‡(
+£ns
+.
+t›
+[2]<2000){
+ways
+.
+rightW
+=
+åue
+;}
+
+412 i‡(
+£ns
+.
+t›
+[0]<2000){
+ways
+.
+f‹w¨dW
+=
+åue
+;}
+
+413 i‡(
+£ns
+.
+t›
+[3]<2000){
+ways
+.
+backW
+=
+åue
+;}
+
+414 
+	}
+}
+
+416 
+	$À·H™d
+(){
+
+417 i‡(
+ways
+.
+À·W
+){
+	`rŸ©ePœtf‹m
+(90);}
+
+418 i‡(
+ways
+.
+f‹w¨dW
+){}
+
+419 i‡(
+ways
+.
+rightW
+){
+	`rŸ©ePœtf‹m
+(270);}
+
+420 i‡(
+ways
+.
+backW
+){
+	`rŸ©ePœtf‹m
+(180);}
+
+421 
+	`godi°™˚
+(0.3);
+
+422 
+	}
+}
+
+424 
+	mÀ·£ns
+, 
+	mright£ns
+, 
+	mîr‹
+, 
+	mdeÁu…VÆue
+;
+
+425 
+	mpk
+, 
+	mouçutL
+,
+	mouçutR
+, 
+	mdeÁu…•ìd
+;
+
+426 }
+	gcubREG°ru˘
+;
+
+428 
+	$cubREGöô
+(){
+
+429 
+cubREG°ru˘
+.
+pk
+=0.000000000034625;
+
+430 
+cubREG°ru˘
+.
+deÁu…VÆue
+=0;
+
+431 
+cubREG°ru˘
+.
+deÁu…•ìd
+=0.3;
+
+433 
+	}
+}
+
+436 
+	$cubeREG
+(){
+
+437 
+cubREG°ru˘
+.
+À·£ns
+ =(()
+£ns
+.
+bŸtom
+[1]);
+
+438 i‡(
+cubREG°ru˘
+.
+À·£ns
+>4095) cubREGstruct.leftsens=4095;
+
+439 
+cubREG°ru˘
+.
+right£ns
+=()
+£ns
+.
+bŸtom
+[3];
+
+440 
+cubREG°ru˘
+.
+îr‹
+=cubREG°ru˘.
+right£ns
+-cubREG°ru˘.
+À·£ns
+ + ((
+£ns
+.
+bŸtom
+[4]-sens.bottom[0])*0.7);
+
+442 
+cubREG°ru˘
+.
+ouçutR
+=cubREG°ru˘.
+deÁu…•ìd
++(cubREG°ru˘.
+pk
+)*cubREG°ru˘.
+îr‹
+*cubREGstruct.error*cubREGstruct.error;
+
+443 
+cubREG°ru˘
+.
+ouçutL
+=cubREG°ru˘.
+deÁu…•ìd
++(-cubREG°ru˘.
+pk
+)*cubREG°ru˘.
+îr‹
+*cubREGstruct.error*cubREGstruct.error;
+
+444 i‡(
+£ns
+.
+bŸtom
+[2]<4096){
+
+445 
+	`SëS≥ed
+(
+cubREG°ru˘
+.
+ouçutL
+,1);
+
+446 
+	`SëS≥ed
+(
+cubREG°ru˘
+.
+ouçutR
+,0);
+
+450 
+	`SëS≥ed
+(0,0);
+
+451 
+	`SëS≥ed
+(0,1);
+
+454 
+	}
+}
+
+457 
+	mîr‹
+;
+
+458 
+	mkp
+;
+
+459 
+	ml•ìd
+;
+
+460 
+	mr•ìd
+;
+
+461 }
+	g¥egSåu˘
+;
+
+463 
+boﬁ
+ 
+	gmazeÊag
+=0;
+
+464 
+	$¥eg
+(){
+
+466 
+¥egSåu˘
+.
+kp
+=0.0000025;
+
+467 
+¥egSåu˘
+.
+îr‹
+ = 
+£ns
+.
+bŸtom
+[1] - sens.bottom[3];
+
+468 
+¥egSåu˘
+.
+l•ìd
+ =ÖªgSåu˘.
+îr‹
+*¥egSåu˘.
+kp
+ + 0.03;
+
+469 
+¥egSåu˘
+.
+r•ìd
+ =ÖªgSåu˘.
+îr‹
+*(-¥egSåu˘.
+kp
+) + 0.03;
+
+473 
+PID°ru˘
+[1].
+èrgë
+=
+¥egSåu˘
+.
+l•ìd
+;
+
+474 
+PID°ru˘
+[0].
+èrgë
+=
+¥egSåu˘
+.
+r•ìd
+;
+
+478 i‡(
+£ns
+.
+bŸtom
+[0]<3500 ){
+
+479 
+	`godi°™˚
+(0.05);
+
+480 
+	`rŸ©ePœtf‹m
+(90);
+
+482 if(
+£ns
+.
+bŸtom
+[0]<3500 && sens.bottom[4]<3500|| sens.bottom[4]<3500){
+
+483 
+	`godi°™˚
+(0.2);
+
+484 
+	`ªad
+(8);
+
+486 i‡(
+£ns
+.
+bŸtom
+[2]==4095 && sens.bottom[1]==4095 && sens.bottom[3]==4095){
+
+488 
+	`rŸ©ePœtf‹m
+(180);
+
+492 
+	`ªad
+(8);
+
+493 i‡(
+£ns
+.
+bŸtom
+[0]==4095 && sens.bottom[1]==4095 && sens.bottom[2]==4095 && sens.bottom[3]==4095 && sens.bottom[4]==4095){
+
+494 i‡(
+£ns
+.
+t›
+[0]>1600 || sens.top[1]>1600 || sens.top[2]>1600){
+
+495 
+mazeÊag
+=1;
+
+514 
+	}
+}
+
+	@C:\repos\SmallCar-main\src\functions.h
 
 1 
 	~"maö.h
@@ -127360,10 +128310,6 @@ c⁄fig
 ();
 
 7 
-M¨kî
-();
-
-8 
 SëS≥ed
 (
 Dutyr
@@ -127373,51 +128319,57 @@ boﬁ
 mŸ‹
 );
 
-9 
-wrôeöt
-(
-Àn
-, 
-d©a
-);
-
-10 
-døw
-();
-
-11 
-•ìd
-();
-
-12 
+8 
 EXTI2_IRQH™dÀr
 ();
 
-13 
+9 
 PID
 ();
 
-14 
+10 
 PID_CÆc
 (
 numbî
 );
 
-15 
+11 
 TIM4_IRQH™dÀr
 ();
 
-16 
-öt°oﬁed
-(
-uöt16_t
- 
-d©a
-[], 
-Àn
+12 
+godi°™˚
+(
+di°
 );
 
-	@E:\Lastcar\Small_Car\src\main.c
+13 
+cube
+();
+
+14 
+rŸ©ePœtf‹m
+(
+dec
+);
+
+15 
+checkWays
+();
+
+16 
+À·H™d
+();
+
+17 
+cubeREG
+();
+
+18 
+¥eg
+();
+
+	@C:\repos\SmallCar-main\src\main.c
 
 1 
 	~"maö.h
@@ -127436,152 +128388,254 @@ d©a
 "
 
 5 
+	~"OLED.h
+"
+
+6 
 	~"f⁄ts.c
 "
 
-7 
-time
-;
+7 
+	~<m©h.h
+>
 
-8 
+9 
+uöt8_t
+ 
 w‹k
 ;
 
-10 
+10 
+ø°
+[];
+
+11 
+boﬁ
+ 
+cubeÊag
+, 
+mazeÊag
+;
+
+12 
+löS
+;
+
+15 
 uöt16_t
  
 t›
 [3];
 
-12 
+16 
 uöt16_t
  
 bŸtom
 [8];
 
-13 }
+17 }
 £ns
 ;
 
-16 
-Pk
-;
-
-17 
-Ik
-;
-
-18 
-Dk
-;
-
-19 
-Max_ouçut
-;
-
-20 
-Mö_ouçut
-;
-
 21 
-Max_sum_îr‹
+	mPk
 ;
 
 22 
-ouçut
+	mIk
 ;
 
 23 
-cuºít
+	mDk
 ;
 
 24 
-èrgë
+	mMax_ouçut
 ;
 
 25 
-îr‹
+	mMö_ouçut
 ;
 
 26 
-¥ev_îr‹
+	mMax_sum_îr‹
 ;
 
 27 
-sum_îr‹
+	mouçut
 ;
 
-28 }
-PID°ru˘
+28 
+	mcuºít
 ;
 
-29 
-löS
+29 
+	mèrgë
 ;
 
-54 
-uöt8_t
+30 
+	mîr‹
+;
+
+31 
+	m¥ev_îr‹
+;
+
+32 
+	msum_îr‹
+;
+
+33 }
+	tReguœt‹
+;
+
+34 
+Reguœt‹
  
-	gd©a
- = 0;
+PID°ru˘
+[2];
 
-55 
-	gc
-=8;
+37 
+boﬁ
+ 
+À·W
+;
 
-56 
-	gŒ
-=0.0;
+38 
+boﬁ
+ 
+rightW
+;
 
-57 
+39 
+boﬁ
+ 
+f‹w¨dW
+;
+
+40 
+boﬁ
+ 
+backW
+;
+
+41 } 
+ways
+;
+
+45 
+	ga
+;
+
+49 
+uöt16_t
+ 
+	gb
+,
+	gg
+;
+
+50 
+	gh
+;
+
+54 
 	$maö
 (){
 
-58 
+55 
+di°™˚
+;
+
+56 
 uöt32_t
  
 timî
 =0;
 
-59 
+57 
 	`c⁄fig
-();
-
-62 
-	`TCS3472_GëRGB
 ();
 
 64 
 	`ªad
-(
-c
-);
+(8);
 
-65 if(
+65 
+	`checkWays
+();
+
+67 if(
 w‹k
 )
 
-70 i‡(
+69 
+	`checkWays
+();
+
+74 i‡(
+mazeÊag
+){
+
+75 
+	`checkWays
+();
+
+85 
+	`SëPö
+(
+LED_PIN
+);
+
+88 
+di°™˚
+ = ()
+£ns
+.
+t›
+[0] * 0.0008058608;
+
+89 
+a
+ = 29.988*
+	`powf
+(
+di°™˚
+, -1.173);
+
+92 i‡(
 globÆTime
 -
 timî
 >=500){
 
-71 
+93 
 timî
 =
 globÆTime
 ;
 
-72 
+94 
 	`TCS3472_GëRGB
 ();
 
-109 
+101 if(
+cubeÊag
+){
+
+102 
+	`cube
+();
+
+103 
+cubeÊag
+=0;
+
+107 
 	}
 }
 
-	@E:\Lastcar\Small_Car\src\startup_stm32f401xc.S
+	@C:\repos\SmallCar-main\src\startup_stm32f401xc.S
 
 44 .
 sy¡ax
@@ -129375,7 +130429,7 @@ thumb_£t
 	gDeÁu…_H™dÀr
 
 
-	@E:\Lastcar\Small_Car\src\system_stm32f4xx.c
+	@C:\repos\SmallCar-main\src\system_stm32f4xx.c
 
 317 
 	~"°m32f4xx.h
@@ -132013,7 +133067,7 @@ tm¥eg
 	}
 }
 
-	@E:\Lastcar\Small_Car\stm32f401cc_flash.ld
+	@C:\repos\SmallCar-main\stm32f401cc_flash.ld
 
 48 
 	$ENTRY
@@ -132473,7 +133527,7 @@ __SèckLimô
 __HópLimô
 , "Region RAM overflowed with stack")
 
-	@E:\Lastcar\Small_Car\stm32f401cc_sram.ld
+	@C:\repos\SmallCar-main\stm32f401cc_sram.ld
 
 48 
 	$ENTRY
@@ -132933,76 +133987,78 @@ __HópLimô
 1
 .
 0
-71
-3103
-E:\Lastcar\Small_Car\External\ColorSensor\TCS3472.c
-E:\Lastcar\Small_Car\External\ColorSensor\TCS3472.h
-E:\Lastcar\Small_Car\External\External_Manager.h
-E:\Lastcar\Small_Car\External\MPU9250\mpu9250.c
-E:\Lastcar\Small_Car\External\MPU9250\mpu9250.h
-E:\Lastcar\Small_Car\External\Matrix\Matrix.c
-E:\Lastcar\Small_Car\External\Matrix\Matrix.h
-E:\Lastcar\Small_Car\External\ModBus\ASCII\ModBus_ASCII.c
-E:\Lastcar\Small_Car\External\ModBus\ASCII\ModBus_ASCII.h
-E:\Lastcar\Small_Car\External\ModBus\ModBus_conf.h
-E:\Lastcar\Small_Car\External\Regulators\Regulators.c
-E:\Lastcar\Small_Car\External\Regulators\Regulators.h
-E:\Lastcar\Small_Car\External\SSD1306\fonts.c
-E:\Lastcar\Small_Car\External\SSD1306\fonts.h
-E:\Lastcar\Small_Car\External\SSD1306\images.c
-E:\Lastcar\Small_Car\External\SSD1306\images.h
-E:\Lastcar\Small_Car\External\SSD1306\ssd1306.c
-E:\Lastcar\Small_Car\External\SSD1306\ssd1306.h
-E:\Lastcar\Small_Car\External\SSD1306\ssd1306_i2c.c
-E:\Lastcar\Small_Car\External\SSD1306\ssd1306_i2c.h
-E:\Lastcar\Small_Car\Fil_lib\FilConfig.h
-E:\Lastcar\Small_Car\Fil_lib\inc\ADC.h
-E:\Lastcar\Small_Car\Fil_lib\inc\DMA.h
-E:\Lastcar\Small_Car\Fil_lib\inc\DMA_FIFOBuffers.h
-E:\Lastcar\Small_Car\Fil_lib\inc\EXTI.h
-E:\Lastcar\Small_Car\Fil_lib\inc\GPIO.h
-E:\Lastcar\Small_Car\Fil_lib\inc\I2C.h
-E:\Lastcar\Small_Car\Fil_lib\inc\RCC.h
-E:\Lastcar\Small_Car\Fil_lib\inc\RTC.h
-E:\Lastcar\Small_Car\Fil_lib\inc\TIM.h
-E:\Lastcar\Small_Car\Fil_lib\inc\USART.h
-E:\Lastcar\Small_Car\Fil_lib\src\ADC.c
-E:\Lastcar\Small_Car\Fil_lib\src\DMA.c
-E:\Lastcar\Small_Car\Fil_lib\src\EXTI.c
-E:\Lastcar\Small_Car\Fil_lib\src\I2C.c
-E:\Lastcar\Small_Car\Fil_lib\src\RCC.c
-E:\Lastcar\Small_Car\Fil_lib\src\RTC.c
-E:\Lastcar\Small_Car\Fil_lib\src\TIM.c
-E:\Lastcar\Small_Car\Fil_lib\src\USART.c
-E:\Lastcar\Small_Car\RCR\BoardSelection.h
-E:\Lastcar\Small_Car\RCR\DevBoard#2\RCR_DevBoard_2.h
-E:\Lastcar\Small_Car\RCR\DevBoard#2\RCR_DevBoard_2_Setup.h
-E:\Lastcar\Small_Car\RCR\DevBoard#3\RCR_DevBoard_3.h
-E:\Lastcar\Small_Car\RCR\DevBoard#3\RCR_DevBoard_3_Setup.h
-E:\Lastcar\Small_Car\RCR\DevBoard#4\Pins.h
-E:\Lastcar\Small_Car\RCR\DevBoard#4\Setup.h
-E:\Lastcar\Small_Car\RCR\MaxKit\MaxKit.h
-E:\Lastcar\Small_Car\RCR\MaxKit\MaxPins.h
-E:\Lastcar\Small_Car\RCR\MaxKit\MaxSetup.h
-E:\Lastcar\Small_Car\RCR\MinKit\MinimalKit.h
-E:\Lastcar\Small_Car\STM32F401.svd
-E:\Lastcar\Small_Car\cmsis\cmsis_compiler.h
-E:\Lastcar\Small_Car\cmsis\cmsis_gcc.h
-E:\Lastcar\Small_Car\cmsis\cmsis_version.h
-E:\Lastcar\Small_Car\cmsis\core_cm4.h
-E:\Lastcar\Small_Car\cmsis\mpu_armv7.h
-E:\Lastcar\Small_Car\cmsis\mpu_armv8.h
-E:\Lastcar\Small_Car\cmsis\tz_context.h
-E:\Lastcar\Small_Car\dev\dev.c
-E:\Lastcar\Small_Car\dev\dev.h
-E:\Lastcar\Small_Car\dev_examples\dev_ws.h
-E:\Lastcar\Small_Car\inc\main.h
-E:\Lastcar\Small_Car\inc\stm32f4xx.h
-E:\Lastcar\Small_Car\inc\system_stm32f4xx.h
-E:\Lastcar\Small_Car\src\functions.c
-E:\Lastcar\Small_Car\src\functions.h
-E:\Lastcar\Small_Car\src\main.c
-E:\Lastcar\Small_Car\src\startup_stm32f401xc.S
-E:\Lastcar\Small_Car\src\system_stm32f4xx.c
-E:\Lastcar\Small_Car\stm32f401cc_flash.ld
-E:\Lastcar\Small_Car\stm32f401cc_sram.ld
+73
+3313
+C:\repos\SmallCar-main\External\ColorSensor\TCS3472.c
+C:\repos\SmallCar-main\External\ColorSensor\TCS3472.h
+C:\repos\SmallCar-main\External\External_Manager.h
+C:\repos\SmallCar-main\External\MPU9250\mpu9250.c
+C:\repos\SmallCar-main\External\MPU9250\mpu9250.h
+C:\repos\SmallCar-main\External\Matrix\Matrix.c
+C:\repos\SmallCar-main\External\Matrix\Matrix.h
+C:\repos\SmallCar-main\External\ModBus\ASCII\ModBus_ASCII.c
+C:\repos\SmallCar-main\External\ModBus\ASCII\ModBus_ASCII.h
+C:\repos\SmallCar-main\External\ModBus\ModBus_conf.h
+C:\repos\SmallCar-main\External\Regulators\Regulators.c
+C:\repos\SmallCar-main\External\Regulators\Regulators.h
+C:\repos\SmallCar-main\External\SSD1306\fonts.c
+C:\repos\SmallCar-main\External\SSD1306\fonts.h
+C:\repos\SmallCar-main\External\SSD1306\images.c
+C:\repos\SmallCar-main\External\SSD1306\images.h
+C:\repos\SmallCar-main\External\SSD1306\ssd1306.c
+C:\repos\SmallCar-main\External\SSD1306\ssd1306.h
+C:\repos\SmallCar-main\External\SSD1306\ssd1306_i2c.c
+C:\repos\SmallCar-main\External\SSD1306\ssd1306_i2c.h
+C:\repos\SmallCar-main\Fil_lib\FilConfig.h
+C:\repos\SmallCar-main\Fil_lib\inc\ADC.h
+C:\repos\SmallCar-main\Fil_lib\inc\DMA.h
+C:\repos\SmallCar-main\Fil_lib\inc\DMA_FIFOBuffers.h
+C:\repos\SmallCar-main\Fil_lib\inc\EXTI.h
+C:\repos\SmallCar-main\Fil_lib\inc\GPIO.h
+C:\repos\SmallCar-main\Fil_lib\inc\I2C.h
+C:\repos\SmallCar-main\Fil_lib\inc\RCC.h
+C:\repos\SmallCar-main\Fil_lib\inc\RTC.h
+C:\repos\SmallCar-main\Fil_lib\inc\TIM.h
+C:\repos\SmallCar-main\Fil_lib\inc\USART.h
+C:\repos\SmallCar-main\Fil_lib\src\ADC.c
+C:\repos\SmallCar-main\Fil_lib\src\DMA.c
+C:\repos\SmallCar-main\Fil_lib\src\EXTI.c
+C:\repos\SmallCar-main\Fil_lib\src\I2C.c
+C:\repos\SmallCar-main\Fil_lib\src\RCC.c
+C:\repos\SmallCar-main\Fil_lib\src\RTC.c
+C:\repos\SmallCar-main\Fil_lib\src\TIM.c
+C:\repos\SmallCar-main\Fil_lib\src\USART.c
+C:\repos\SmallCar-main\RCR\BoardSelection.h
+C:\repos\SmallCar-main\RCR\DevBoard#2\RCR_DevBoard_2.h
+C:\repos\SmallCar-main\RCR\DevBoard#2\RCR_DevBoard_2_Setup.h
+C:\repos\SmallCar-main\RCR\DevBoard#3\RCR_DevBoard_3.h
+C:\repos\SmallCar-main\RCR\DevBoard#3\RCR_DevBoard_3_Setup.h
+C:\repos\SmallCar-main\RCR\DevBoard#4\Pins.h
+C:\repos\SmallCar-main\RCR\DevBoard#4\Setup.h
+C:\repos\SmallCar-main\RCR\MaxKit\MaxKit.h
+C:\repos\SmallCar-main\RCR\MaxKit\MaxPins.h
+C:\repos\SmallCar-main\RCR\MaxKit\MaxSetup.h
+C:\repos\SmallCar-main\RCR\MinKit\MinimalKit.h
+C:\repos\SmallCar-main\STM32F401.svd
+C:\repos\SmallCar-main\cmsis\cmsis_compiler.h
+C:\repos\SmallCar-main\cmsis\cmsis_gcc.h
+C:\repos\SmallCar-main\cmsis\cmsis_version.h
+C:\repos\SmallCar-main\cmsis\core_cm4.h
+C:\repos\SmallCar-main\cmsis\mpu_armv7.h
+C:\repos\SmallCar-main\cmsis\mpu_armv8.h
+C:\repos\SmallCar-main\cmsis\tz_context.h
+C:\repos\SmallCar-main\dev\dev.c
+C:\repos\SmallCar-main\dev\dev.h
+C:\repos\SmallCar-main\dev_examples\dev_ws.h
+C:\repos\SmallCar-main\inc\main.h
+C:\repos\SmallCar-main\inc\stm32f4xx.h
+C:\repos\SmallCar-main\inc\system_stm32f4xx.h
+C:\repos\SmallCar-main\src\OLED.c
+C:\repos\SmallCar-main\src\OLED.h
+C:\repos\SmallCar-main\src\functions.c
+C:\repos\SmallCar-main\src\functions.h
+C:\repos\SmallCar-main\src\main.c
+C:\repos\SmallCar-main\src\startup_stm32f401xc.S
+C:\repos\SmallCar-main\src\system_stm32f4xx.c
+C:\repos\SmallCar-main\stm32f401cc_flash.ld
+C:\repos\SmallCar-main\stm32f401cc_sram.ld

@@ -28,12 +28,12 @@
 	</File>
 	<File name="External\ColorSensor\TCS3472.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="173" topLine="0" />
+			<Cursor1 position="6793" topLine="186" />
 		</Cursor>
 	</File>
 	<File name="External\ColorSensor\TCS3472.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="820" topLine="5" />
+			<Cursor1 position="669" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="External\External_Manager.h" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -98,7 +98,7 @@
 	</File>
 	<File name="External\SSD1306\ssd1306_i2c.c" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3257" topLine="92" />
+			<Cursor1 position="1393" topLine="127" />
 		</Cursor>
 	</File>
 	<File name="Fil_lib\FilConfig.h" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -131,9 +131,9 @@
 			<Cursor1 position="5352" topLine="160" />
 		</Cursor>
 	</File>
-	<File name="Fil_lib\inc\I2C.h" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Fil_lib\inc\I2C.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="5275" topLine="120" />
+			<Cursor1 position="6596" topLine="101" />
 		</Cursor>
 	</File>
 	<File name="Fil_lib\inc\RCC.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -161,9 +161,9 @@
 			<Cursor1 position="533" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Fil_lib\src\I2C.c" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Fil_lib\src\I2C.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="622" topLine="2" />
+			<Cursor1 position="6994" topLine="168" />
 		</Cursor>
 	</File>
 	<File name="Fil_lib\src\TIM.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -183,7 +183,7 @@
 	</File>
 	<File name="inc\stm32f4xx.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="12200" topLine="201" />
+			<Cursor1 position="118539" topLine="1509" />
 		</Cursor>
 	</File>
 	<File name="inc\system_stm32f4xx.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -201,9 +201,9 @@
 			<Cursor1 position="3085" topLine="27" />
 		</Cursor>
 	</File>
-	<File name="RCR\DevBoard#2\RCR_DevBoard_2_Setup.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="RCR\DevBoard#2\RCR_DevBoard_2_Setup.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="7163" topLine="188" />
+			<Cursor1 position="5935" topLine="155" />
 		</Cursor>
 	</File>
 	<File name="RCR\DevBoard#3\RCR_DevBoard_3.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -246,34 +246,34 @@
 			<Cursor1 position="2788" topLine="15" />
 		</Cursor>
 	</File>
-	<File name="src\functions.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\functions.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="8015" topLine="309" />
+			<Cursor1 position="888" topLine="25" />
 		</Cursor>
 	</File>
-	<File name="src\functions.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+	<File name="src\functions.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="382" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\main.c" open="1" top="1" tabpos="5" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+	<File name="src\main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1151" topLine="54" />
+			<Cursor1 position="5117" topLine="260" />
 		</Cursor>
 	</File>
-	<File name="src\OLED.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\OLED.c" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="124" topLine="36" />
 		</Cursor>
 	</File>
-	<File name="src\OLED.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\OLED.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="136" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\startup_stm32f401xc.S" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\startup_stm32f401xc.S" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3595" topLine="77" />
+			<Cursor1 position="3518" topLine="77" />
 		</Cursor>
 	</File>
 	<File name="src\system_stm32f4xx.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">

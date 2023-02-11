@@ -5,10 +5,14 @@
 #include "OLED.h"
 #include "fonts.c"
 #include <math.h>
+
+
+
+
 ////////////////////////////////////////////////////////
 extern uint8_t work;
-extern float rast[];
-extern bool cubeflag;
+//extern float rast[];
+extern bool cubeflag, mazeflag;
 extern float linS;
 
 extern struct{
@@ -42,34 +46,56 @@ extern struct {
 
 
 
-float a;
+float dist[2];
 
 
 
 uint16_t b,g;
 int h;
 
+#define ADDRESS     0x29
+#define RESULT_RANGE_STATUS     0x1E
+uint8_t VL53L0_Connect(void);
+
+
+static uint32_t timeout;
+
+
+void writeReg(uint8_t reg, uint8_t value){
+    I2C_MemoryWriteSingle(I2C1,ADDRESS, reg, value);
+}
+
 
 
 int main(void){
     float distance;
-    uint32_t timer=0;
+      uint32_t timer=0;
     config();
-    cubREGinit();
 
 
     while(1){
 
-        read(8);
+        checkWays();
+
         if(work)
             {
-                NVIC_DisableIRQ(TIM2_IRQn);
-        NVIC_DisableIRQ(TIM4_IRQn);
+                read(8);
             checkWays();
-            //leftHand();
 
 
-            cubeREG();
+
+            leftHand();
+
+
+
+            //cubeREG();
+            if (mazeflag){
+                checkWays();
+                //leftHand();
+            }
+            else{
+                //preg();
+            }
 
 
 
@@ -77,8 +103,6 @@ int main(void){
             SetPin(LED_PIN);
 
 
-            distance = (float)sens.top[0] * 0.0008058608;
-            a = 29.988*powf(distance, -1.173);
 
 
             if (globalTime-timer>=500){
@@ -87,12 +111,15 @@ int main(void){
                 }
 
 
+
+
+
             if(cubeflag){
                 cube();
                 cubeflag=0;
                 }
         }
-    }
-}
+}    }
+
 
 
